@@ -1,0 +1,13 @@
+{
+  "source": "Telecom Regulatory Authority of India, Quarterly Performance Indicators Report, June 2024, Table 1.33.",
+  "source_url": "https://www.trai.gov.in/sites/default/files/2024-11/QPIR_09102024_0.pdf",
+  "raw_file": "data/raw/trai/trai_qpir_june_2024.pdf",
+  "raw_file_sha256": "1bbf14667e4e9bb3330346ecf9b55330d6e065390438ae07436ebeac0c2ba67e",
+  "snapshot_date": "2024-06-30",
+  "rows_written": 36,
+  "geography_match_to_phonepe": "passed: 36 states/UTs",
+  "published_national_total_subscribers_mn": 969.6,
+  "sum_of_rounded_state_ut_totals_mn": 969.62,
+  "interpretation_warning": "This is the number of internet subscriptions per 100 population, not unique people with internet access. A person may hold more than one subscription, so values can exceed 100.",
+  "time_alignment": "The snapshot is at the end of June 2024 and will be compared only with PhonePe 2024 Q2 (April-June 2024), not treated as a time series."
+}

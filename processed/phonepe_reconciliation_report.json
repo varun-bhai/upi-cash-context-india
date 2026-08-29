@@ -1,0 +1,7 @@
+{
+  "purpose": "Validate that quarterly state totals reconcile to PhonePe country totals.",
+  "comparisons": 102,
+  "all_transaction_counts_reconcile_exactly": true,
+  "maximum_absolute_value_difference_inr": "24.12162438",
+  "interpretation": "Small value differences are floating-point aggregation artefacts in the JSON source; the largest observed difference should be interpreted against multi-billion-rupee totals."
+}

@@ -1,0 +1,135 @@
+{
+  "source": "India Data Portal, RBI Daily Digital Payments, queried through public CKAN Data API",
+  "source_resource_id": "1f9367ac-01b0-4c82-83a1-4069d4340667",
+  "raw_records": 1919,
+  "duplicate_source_records_removed": 31,
+  "unique_daily_source_records": 1888,
+  "daily_date_range": {
+    "start": "2020-06-01",
+    "end": "2026-07-31"
+  },
+  "modes": {
+    "UPI": {
+      "volume_field": "upi_vol",
+      "value_field": "upi_val"
+    },
+    "IMPS": {
+      "volume_field": "imps_vol",
+      "value_field": "imps_val"
+    },
+    "NFS_ATM_CASH_WITHDRAWAL": {
+      "volume_field": "nfs_through_atms_vol",
+      "value_field": "nfs_through_atms_val"
+    }
+  },
+  "units": {
+    "volume": "lakh",
+    "value": "INR crore"
+  },
+  "missing_or_null_mode_days": {},
+  "daily_rows_written": 5664,
+  "monthly_rows_written": 186,
+  "complete_quarterly_rows_written": 57,
+  "skipped_incomplete_quarter_mode_combinations": [
+    {
+      "period": "2020-Q2",
+      "payment_mode": "IMPS",
+      "months_present": [
+        6
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2020-Q2",
+      "payment_mode": "NFS_ATM_CASH_WITHDRAWAL",
+      "months_present": [
+        6
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2020-Q2",
+      "payment_mode": "UPI",
+      "months_present": [
+        6
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2025-Q2",
+      "payment_mode": "IMPS",
+      "months_present": [
+        4,
+        5
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2025-Q2",
+      "payment_mode": "NFS_ATM_CASH_WITHDRAWAL",
+      "months_present": [
+        4,
+        5
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2025-Q2",
+      "payment_mode": "UPI",
+      "months_present": [
+        4,
+        5
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2025-Q3",
+      "payment_mode": "IMPS",
+      "months_present": [
+        7
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2025-Q3",
+      "payment_mode": "NFS_ATM_CASH_WITHDRAWAL",
+      "months_present": [
+        7
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2025-Q3",
+      "payment_mode": "UPI",
+      "months_present": [
+        7
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2026-Q3",
+      "payment_mode": "IMPS",
+      "months_present": [
+        7
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2026-Q3",
+      "payment_mode": "NFS_ATM_CASH_WITHDRAWAL",
+      "months_present": [
+        7
+      ],
+      "all_calendar_days_observed": true
+    },
+    {
+      "period": "2026-Q3",
+      "payment_mode": "UPI",
+      "months_present": [
+        7
+      ],
+      "all_calendar_days_observed": true
+    }
+  ],
+  "interpretation_note": "NFS_ATM_CASH_WITHDRAWAL is National Financial Switch throughput at ATMs. It is a cash-access proxy, not total ATM withdrawals or cash spending."
+}

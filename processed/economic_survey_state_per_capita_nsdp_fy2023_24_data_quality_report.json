@@ -1,0 +1,16 @@
+{
+  "source": "Economic Survey 2025-26 Statistical Appendix, Table 1.11A: Per Capita Net State Domestic Product at Current Prices (2011-12 Series).",
+  "source_url": "https://www.indiabudget.gov.in/economicsurvey/doc/stat/tab1.11a.pdf",
+  "raw_file": "data/raw/economic_survey/economic_survey_2025_26_table_1_11a.pdf",
+  "raw_file_sha256": "3bedfb88378a40709abb22342878a0333394ea4b66ab505bff8247f8f732abcc",
+  "financial_year": "2023-24",
+  "rows_written": 34,
+  "geography_match_to_phonepe": "passed for 34 published state/UT estimates",
+  "missing_phonepe_geographies": [
+    "Dadra & Nagar Haveli and Daman & Diu",
+    "Lakshadweep"
+  ],
+  "missing_reason": "The Economic Survey table does not publish State Domestic Product estimates for Dadra & Nagar Haveli and Daman & Diu or Lakshadweep; no values were imputed.",
+  "time_alignment": "FY 2023-24 is compared only with PhonePe 2024 Q1 (January-March 2024), the quarter ending in the same month as the financial year.",
+  "interpretation_warning": "Per capita NSDP is state economic output per resident, not household income or average salary. Values are at current prices and are not adjusted for inflation."
+}

@@ -1,0 +1,1072 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Reserve Bank of India - Publications</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="/js/libs/modernizr-2.5.3.min.js"></script>
+    <style type="text/css">
+        table.tablebg tbody tr td center table tbody tr td
+        {
+            border: 0 !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <form method="post" action="./PublicationsView.aspx?id=22515" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTAyODIwOTQwM2Rkmmd+TqPIe6sVrtoP+/XplTQ4VoWHRFGDU6KFe5t+tR8=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D0871D1A" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAZeSpe15KNBwkMb4yeZ7WfgB9uhwrLton8G4OyNnKejEXCkVcckkqjwW41hIGBauqDeAlzpuYC6p1TQzDrppceDu4O9V3+xnl8Yc8y6pgr5zcQlpIH2aLgERNfX+xNUzTqUelDOsyWJReWx5rLyyfeV9iWLmFKbXYfxG2bTqpcFRA==" />
+</div>
+    
+<link href="/JQuery/css/jquery-ui-1.8.18.custom2.css" rel="stylesheet" type="text/css" />
+<link href="/includes/print.css" rel="stylesheet" media="print" type="text/css" />
+
+<link href="/Styles/960.css" rel="stylesheet" type="text/css" />
+<link href="/Includes1/rbi.css?v=4.0" rel="Stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/libs/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/JQuery/ui/jquery.ui.revampRBI.js"></script>
+<script type="text/javascript" src="/js/ImgSaveDisable.js"></script>
+<!--<script src='//tw.netcore.co.in/smartechclient.js'></script>
+<script>
+smartech('create', 'ADGMOT35CHFLVDHBJNIG50K968AU3Q5FOE3L6REE67CQ9HGBQ58G');
+smartech('register', '4d6884e503ecf55a3339a37e98b711da');
+smartech('identify', '');
+smartech('dispatch', 1, { });
+</script>-->
+<script type="text/javascript">
+
+//Redirect to mobile site start
+    function detectmob() {
+        if (screen.width <= 599 || screen.Height <= 975) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    if (detectmob()) {
+       window.location.href = "https://m.rbi.org.in" + window.location.pathname;
+		
+       
+    }
+	//Redirect to mobile site End
+    $(document).ready(function () {
+        Search();
+    });
+
+    function Search() {
+        highlightTextAutocomplete();
+        $(".autoSuggest").autocomplete({
+
+
+            source: function (request, response) {
+                var param = { keyWord: document.getElementById('txtSearch').value };
+
+                $.ajax({
+                    url: "../Home.aspx/GetKeywords",
+                    data: JSON.stringify(param),
+                    dataType: "json",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    dataFilter: function (data) { return data; },
+                    success: function (data) {
+
+                        if (data.d.length > 0) {
+                            response($.map(data.d, function (item) {
+                                return {
+                                    value: RemoveSpecialChars(item)
+
+                                }
+                            }))
+                        }
+                        else {
+                            response([{ label: "No results found", value: ""}]);
+                        }
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert(textStatus);
+                    }
+                });
+            },
+
+            //            select: function (event, ui) {
+            //                if (ui.item.value != "") {
+            //                    window.open("/scripts/SearchResults.aspx?search=" + ui.item.value, '_blank');
+            //                }
+            //            },
+            minLength: 3
+
+        });
+    }
+
+    function highlightTextAutocomplete() {
+
+        var oldFn = $.ui.autocomplete.prototype._renderItem;
+
+        $.ui.autocomplete.prototype._renderItem = function (ul, item) {
+
+            var t = String(item.value).replace(
+                new RegExp(this.term, "gi"),
+                "<span class='ui-state-highlight'>$&</span>");
+            if (item.value != "") {
+                return $("<li class='borderAutocomplete'></li>")
+                  .data("item.autocomplete", item)
+                  .append("<a>" + t + "</a>")
+                  .appendTo(ul);
+            }
+
+            else {
+                return $("<li></li>")
+                  .data("item.autocomplete", item)
+                  .append("")
+                  .appendTo(ul);
+            }
+        };
+    }
+
+
+    function RemoveSpecialChars(inputText) {
+        var filteredString = inputText.replace(/[\*\^\'\!\@\$\.\#\(\)\-\?\<\>\;\"\&\+\{\}\:]/g, '');
+        //alert(filteredString);
+        return filteredString;
+    }
+    //    jQuery(document).ready(function () {
+    //        var xmlhttp;
+    //        jQuery("#txtSearch").autocomplete(
+    //                    {
+    //                        minLength: 3,
+    //                        delay: 0,
+    //                        source: function (request, response) {
+    //                            if (!xmlhttp) {
+    //                                if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+    //                                    xmlhttp = new XMLHttpRequest();
+    //                                }
+    //                                else {// code for IE6, IE5
+    //                                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    //                                }
+    //                            }
+    //                            else if (xmlhttp.readyState != 0) {
+    //                                xmlhttp.abort();
+    //                            }
+    //                            xmlhttp.onreadystatechange = function () {
+    //                                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+    //                                    fetchedKeywords = xmlhttp.responseText.split("'");
+    //                                    
+    //                                    if (fetchedKeywords.length > 10) {
+    //                                        fetchedKeywords.splice(10, fetchedKeywords.length - 10);
+    //                                    }
+    //                                    if (fetchedKeywords != "") response(fetchedKeywords);
+    //                                    else response(null);
+    //                                }
+    //                            }
+    //                            var input = document.getElementById("txtSearch").value;
+    //                            xmlhttp.open("POST", "/Webservice/KeywordSearch.ashx?q=" + input, true);
+    //                            xmlhttp.send();
+    //                        }
+    //                    });
+    //    });
+
+    function LoadSearchData(id, key) {
+        if (id == "txtSearch") {
+            if (key == 13) {
+                validateSearchText();
+                return false;
+            }
+        }
+        else validateSearchText();
+        return true;
+    }
+    function validateSearchText() {
+        if (validation()) {
+            var strloc = new String(document.location.href.toString());
+            if (strloc.indexOf("SearchResults.aspx") == -1) {//             
+                window.open("/scripts/SearchResults.aspx?search=" + document.getElementById("txtSearch").value);
+            }
+            else window.open("/scripts/SearchResults.aspx?search=" + document.getElementById("txtSearch").value, '_parent');
+        }
+    }
+    function validation() {
+        strSearch = trim(document.getElementById('txtSearch').value);
+        if (strSearch == "") { alert('Please enter the search text'); return false; }
+        else {
+            //var strFilterChars = new RegExp("[~`!@#$%^&*()_+-={}\\[\\]:/\\\\\";|'<>,.?]");
+            var strFilterChars = new RegExp("^[0-9a-zA-Z ]*$");
+            if (!strFilterChars.test(strSearch)) { alert("Please remove special characters from search text"); return false; }
+        }
+        return true;
+    }
+    function trim(value) {
+        value = value.replace(/^\s+/, '');
+        value = value.replace(/\s+$/, '');
+        return value;
+    }
+</script>
+
+    <style type="text/css">
+    .blink_msm1 
+{
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.blink_NewWebsite {
+        animation:blinker 1.5s linear infinite;
+        color:blue;
+        font-size:1.5em;
+        margin-bottom:0px;
+        }
+    @keyframes blinker
+    {
+        50%{
+            opacity:0;
+        }
+    }
+
+</style>
+<div class="top_setting">
+    <div class="container_12">
+        <div class="grid_5 top_settings">
+            <a href="#mainsection">Skip to main content </a>
+        </div>
+        <div id="Setting1_tblThemes" style="float: right" class="grid_4 prefix_3 top_settings">
+            <span class="fonts">
+                <a id="Setting1_LinkBtnFontIncrease" title="Increase Font Size" href="javascript:__doPostBack(&#39;Setting1$LinkBtnFontIncrease&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-increase.gif" alt="Increase Font Size"/></a></span>
+            <span class="fonts">
+                <a id="Setting1_LinkBtnFontRegular" class="aspNetDisabled" title="Regular Font Size" style="text-decoration:none;"><img src="/images/font-reset.gif" alt="Regular Font Size"/></a></span>
+            <span class="fonts">
+                <a id="Setting1_LinkBtnFontDecrease" title="Decrease Font Size" href="javascript:__doPostBack(&#39;Setting1$LinkBtnFontDecrease&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-decrease.gif" alt="Decrease Font Size"/></a></span>
+            <span class="black">
+                <a id="Setting1_LinkBtnAccessibilty" title="Apply Dark Theme" href="javascript:__doPostBack(&#39;Setting1$LinkBtnAccessibilty&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/dark-theme.gif" alt="Apply Dark Theme"/></a></span>
+            <span class="white">
+                <a id="Setting1_LinkBtnUndoAccessibilty" class="aspNetDisabled" title="Apply Normal Theme" style="text-decoration:none;"><img src="/images/bright-theme.gif" alt="Apply Normal Theme"/></a></span>
+            <a onclick="javascript:window.print();" id="A1" title="Print This Page">
+                <img src="/images/print-icon.png" alt="Print this page" class="print" /></a>
+            <div style="float: right">
+                <label style="margin-right: 6px;color: #000000;">
+                    Language</label><a class="lnk-language" id="lnkhindi" title="Hindi site" href="https://www.rbi.org.in/hindi/Home.aspx">हिंदी</a></div>
+                    
+        </div>
+        <div class="clearfix">
+        </div>
+    </div>
+     <div>
+         <div style="background: url(/images/Innerstripbg1.jpg);height: 32px;min-width: 100%;float: left;background-repeat: repeat;text-align: center;">
+            <a class="blink_NewWebsite" target="_blank" href="https://website.rbi.org.in" style="color: #205db1;text-decoration: none;">
+            <span>Click here to <b><span style="font-size: 20px;padding: 7px;">Visit the RBI’s new website</span></b>
+                </span></a>
+        </div>
+     </div>
+</div>
+<div class="container_12">
+    <div class="grid_4" role="banner">
+        <h1 class="logo">
+            <a href="/home.aspx">
+                <img src="/images/rbi-company-logo.jpg" alt="Reserve Bank of India" /></a></h1>
+    </div>
+    <div class="grid_5" align="right" role="search" style="float: right">
+        <label for="searchbox" class="search_label">
+            Search the Website</label>
+        <input name="Setting1$txtSearch" type="text" maxlength="103" id="txtSearch" class="search_box autoSuggest" onkeydown="return LoadSearchData(&#39;txtSearch&#39;,event.keyCode);" placeHolder="Search" />
+        <button id="btnSearch" onclick="return LoadSearchData('btnSearch',event.keyCode);"
+            type="button" class="search_button">
+            Search</button>
+    </div>
+	<div class="grid_2" align="CENTER" role="" style="float: right">
+        <h1 class="logo">
+            
+            <img src="../images/BBBP_Logo_4.jpg" alt="BBBPLogo" style="padding-top: 10px;">
+        </h1>
+    	</div>
+    <div class="clearfix">
+    </div>
+</div>
+<!--  NAVIGATION START-->
+<nav role="navigation">
+       <div class="top-newmenu">
+		<div class="midmenu">
+        <ul>
+			  <li><a href="https://rbi.org.in/home.aspx">Home</a></li>
+			  <li><a href="/Scripts/AboutusDisplay.aspx">About Us</a></li>
+			  <li><a href="/Scripts/NotificationUser.aspx">Notifications</a></li>			
+			  <li><a href="/Scripts/BS_PressReleaseDisplay.aspx">Press Releases</a></li>
+			  
+
+            <li><a href="#">Speeches & Media Interactions<img src="/images/down.gif" alt="down" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="/Scripts/BS_ViewSpeeches.aspx">Speeches</a></li>
+                  <li><a href="/Scripts/BS_ViewInterviews.aspx">Media Interactions</a></li>
+                  <li><a href="/Scripts/Lectures.aspx">Memorial Lectures</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="#">Publications <img src="/images/down.gif" alt="down" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="/Scripts/Publications.aspx?publication=Annual">Annual</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=HalfYearly">Half-Yearly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Quarterly">Quarterly</a></li>
+		          <li><a href="/Scripts/Publications.aspx?publication=Bimonthly">Bi-monthly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Monthly">Monthly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Weekly">Weekly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Occasional">Occasional</a></li>
+                   <li><a href="/Scripts/Publications.aspx?publication=Reports">Reports</a></li>
+		            <li><a href="/Scripts/OccasionalPublications.aspx?head=Working Papers">Working Papers</a></li>
+	   	            
+
+                </ul>
+              </li>
+
+			  
+              
+             <li><a href="#">Legal Framework <img src="/images/down.gif" alt="down" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="/Scripts/Act.aspx">Act </a></li>
+                   <li><a href="/Scripts/Rules.aspx">Rules </a></li>
+                    <li><a href="/Scripts/Regulations.aspx">Regulations </a></li> 
+                    <li><a href="/Scripts/Schemes.aspx">Schemes </a></li>
+                </ul>
+              </li>
+            	
+	     
+		<li><a href="#">Research <img src="/images/down.gif" alt="down" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+	        <ul>
+                <li><a href="/Scripts/ExternalResearchSchemes.aspx">External Research Schemes</a></li>
+                <li><a href="/Scripts/OccasionalPapers.aspx">RBI Occasional Papers</a></li>
+                <li><a href="/Scripts/OccasionalPublications.aspx?head=Working%20Papers">Working Papers</a></li>
+                <li><a href="/Scripts/BS_ViewBulletin.aspx">RBI Bulletin</a></li>
+	            <li><a href="/Scripts/Project1.aspx">History</a></li>
+                <li><a href="/Scripts/Occas_DRG_Studies.aspx">DRG Studies</a></li>
+                <li><a href="/Scripts/KLEMS.aspx">KLEMS</a></li>
+		        <li><a href="/Scripts/StateStatisticsFinances.aspx">State Statistics and Finances</a></li>
+                </ul>
+           </li>
+	    
+              <li><a href="#">Statistics <img src="/images/down.gif" alt="down" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="/Scripts/Statistics.aspx">Data Releases</a></li>
+                  <li><a href="https://data.rbi.org.in" target="_blank">Database on Indian Economy</a></li>
+                  <li><a href="/scripts/FS_PDS.aspx">Public Debt Statistics</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">Regulatory Reporting<img src="/images/down.gif" alt="down" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+				 <ul>
+					<li><a href="/scripts/BS_Listofallreturns.aspx">List of Returns</a></li>
+					
+                    <li><a href="/scripts/DataDefinition.aspx">Data Definition</a>
+                        <!--<ul>
+                            <li><a href="../scripts/Assets.aspx">Assets</a></li>
+							<li><a href="../Scripts/Liabilities.aspx">Liabilities</a></li>	
+							<li><a href="../Scripts/OffBalanceSheetItems.aspx">Off-Balance Sheet Items</a></li>
+							<li><a href="../Scripts/ProfitandLossAccountItems.aspx">Profit and Loss Account Items</a></li>
+							<li><a href="../Scripts/Miscellaneous.aspx">Miscellaneous</a></li>
+                        </ul>-->
+                    </li>
+
+					<li><a href="/scripts/ValidationRules.aspx">Validation rules/ Taxonomy</a></li>
+					<li><a href="/scripts/ReportingPlaform.aspx">List of RBI Reporting Portals</a></li>
+					<li><a href="/scripts/ReportingFAQ.aspx">FAQs of RBI Reporting Portals</a></li>
+
+
+                </ul>
+             </li>
+
+
+              
+
+        </ul>
+    
+ </div>
+</div>
+</nav>
+<!--  NAVIGATION END-->
+<!--HEADER END-->
+<input type="submit" name="Setting1$btn" value="" id="btn" style="visibility: hidden; height: 0px; width: 0px;" />
+
+
+    <div class="container_12">
+        <!-- InstanceBeginEditable name="Editable Area" -->
+        <a id="mainsection" name="mainsection"></a>
+        <div class="grid_12 breadcrumbs">
+            <ul>
+                <li><a href="../Home.aspx">Home</a></li>
+		
+                <li><a href="Publications.aspx">Publications</a></li>
+                <li><a href="Publications.aspx?Publication=Annual">
+                    Annual</a></li>
+                
+                <li><a href="AnnualPublications.aspx?head=Handbook of Statistics on Indian Economy">
+                    Handbook of Statistics on Indian Economy</a></li>
+                
+            </ul>
+        </div>
+        <div class="clear">
+        </div>
+        
+        <div class="grid_12">
+            <h2 class="page_title">
+                publications</h2>
+            <div id="doublescroll">
+                <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                    
+                    <table class="tablebg" width="100%"><tr><td class="tableheader"><a target='_blank' href='https://rbidocs.rbi.org.in/rdocs/Publications/DOCs/41T_1309202400AFD845E96E432C9A3AFD9305FCB310.XLSX'><img src='../Images/xlsx.gif' width='16' alt="download file" height='16' border=0 align='absmiddle'></a> (16 kb) or <a target='_blank' href='https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/41T_1309202400AFD845E96E432C9A3AFD9305FCB310.PDF'><img src='../Images/pdf.gif' width='16' height='16' alt='PDF document' border=0 align='absmiddle'></a> (119 kb)</td></tr><tr><td align="right" class="tableheader"><b> Date : </b>Sep 13, 2024</td></tr><tr><td align="center" class="tableheader"><b>Table 41 : Average Monetary Aggregates</b></td></tr><tr><td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="1" class="tablebg">  <tr>    <td colspan="13" align="right">(&#8377; Crore)</td>  </tr>  <tr>    <td width="16%" align="center"><span class="head">Year</span></td>    <td width="7%" align="center"><span class="head">Currency with the Public</span></td>    <td width="7%" align="center"><span class="head">Demand Deposits</span></td>    <td width="7%" align="center"><span class="head">Time Deposits</span></td>    <td width="7%" align="center"><span class="head">'Other' Deposits with RBI</span></td>    <td width="7%" align="center"><span class="head">Reserve Money</span></td>    <td width="7%" align="center"><span class="head">Narrow Money (M<sub>1</sub>)</span></td>    <td width="7%" align="center"><span class="head">Broad Money (M<sub>3</sub>)</span></td>    <td width="7%" align="center"><span class="head">Net Bank Credit to Government</span></td>    <td width="7%" align="center"><span class="head">Bank Credit to Commercial Sector</span></td>    <td width="7%" align="center"><span class="head">Net Foreign Exchange Assets of the Banking Sector</span></td>    <td width="7%" align="center"><span class="head">Government's Currency Liabilities to the Public</span></td>    <td width="7%" align="center"><span class="head">Banking Sector's Net Non- monetary Liabilities</span></td>  </tr>  <tr>    <td align="center"><span class="head">1</span></td>    <td align="center"><span class="head">2</span></td>    <td align="center"><span class="head">3</span></td>    <td align="center"><span class="head">4</span></td>    <td align="center"><span class="head">5</span></td>    <td align="center"><span class="head">6</span></td>    <td align="center"><span class="head">7</span></td>    <td align="center"><span class="head">8</span></td>    <td align="center"><span class="head">9</span></td>    <td align="center"><span class="head">10</span></td>    <td align="center"><span class="head">11</span></td>    <td align="center"><span class="head">12</span></td>    <td align="center"><span class="head">13</span></td>  </tr>  <tr>    <td>1961-62</td>    <td align="right">2062</td>    <td align="right">767</td>    <td align="right">1154</td>    <td align="right">20</td>    <td align="right">2224</td>    <td align="right">2849</td>    <td align="right">4004</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1962-63</td>    <td align="right">2235</td>    <td align="right">845</td>    <td align="right">1292</td>    <td align="right">21</td>    <td align="right">2399</td>    <td align="right">3102</td>    <td align="right">4393</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1963-64</td>    <td align="right">2438</td>    <td align="right">1012</td>    <td align="right">1313</td>    <td align="right">25</td>    <td align="right">2615</td>    <td align="right">3475</td>    <td align="right">4788</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1964-65</td>    <td align="right">2634</td>    <td align="right">1204</td>    <td align="right">1403</td>    <td align="right">27</td>    <td align="right">2829</td>    <td align="right">3865</td>    <td align="right">5269</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1965-66</td>    <td align="right">2841</td>    <td align="right">1376</td>    <td align="right">1570</td>    <td align="right">20</td>    <td align="right">3045</td>    <td align="right">4237</td>    <td align="right">5807</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1966-67</td>    <td align="right">3028</td>    <td align="right">1584</td>    <td align="right">1821</td>    <td align="right">29</td>    <td align="right">3274</td>    <td align="right">4641</td>    <td align="right">6462</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1967-68</td>    <td align="right">3199</td>    <td align="right">1779</td>    <td align="right">2033</td>    <td align="right">31</td>    <td align="right">3472</td>    <td align="right">5009</td>    <td align="right">7042</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1968-69</td>    <td align="right">3436</td>    <td align="right">1927</td>    <td align="right">2366</td>    <td align="right">64</td>    <td align="right">3767</td>    <td align="right">5428</td>    <td align="right">7793</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1969-70</td>    <td align="right">3764</td>    <td align="right">2199</td>    <td align="right">2816</td>    <td align="right">58</td>    <td align="right">4151</td>    <td align="right">6021</td>    <td align="right">8838</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>    <td align="right">-</td>  </tr>  <tr>    <td>1970-71</td>    <td align="right">4143</td>    <td align="right">2703</td>    <td align="right">3423</td>    <td align="right">57</td>    <td align="right">4578</td>    <td align="right">6903</td>    <td align="right">10326</td>    <td align="right">4969</td>    <td align="right">5939</td>    <td align="right">627</td>    <td align="right">372</td>    <td align="right">1580</td>  </tr>  <tr>    <td>1971-72</td>    <td align="right">4560</td>    <td align="right">3130</td>    <td align="right">4073</td>    <td align="right">50</td>    <td align="right">5052</td>    <td align="right">7740</td>    <td align="right">11814</td>    <td align="right">5973</td>    <td align="right">6780</td>    <td align="right">599</td>    <td align="right">399</td>    <td align="right">1938</td>  </tr>  <tr>    <td>1972-73</td>    <td align="right">4948</td>    <td align="right">3771</td>    <td align="right">4968</td>    <td align="right">59</td>    <td align="right">5534</td>    <td align="right">8778</td>    <td align="right">13746</td>    <td align="right">7237</td>    <td align="right">7778</td>    <td align="right">584</td>    <td align="right">428</td>    <td align="right">2281</td>  </tr>  <tr>    <td>1973-74</td>    <td align="right">5823</td>    <td align="right">4499</td>    <td align="right">6111</td>    <td align="right">41</td>    <td align="right">6778</td>    <td align="right">10363</td>    <td align="right">16474</td>    <td align="right">8607</td>    <td align="right">9498</td>    <td align="right">606</td>    <td align="right">485</td>    <td align="right">2722</td>  </tr>  <tr>    <td>1974-75</td>    <td align="right">6292</td>    <td align="right">5235</td>    <td align="right">7140</td>    <td align="right">51</td>    <td align="right">7262</td>    <td align="right">11578</td>    <td align="right">18717</td>    <td align="right">9429</td>    <td align="right">11537</td>    <td align="right">516</td>    <td align="right">520</td>    <td align="right">3284</td>  </tr>  <tr>    <td>1975-76</td>    <td align="right">6521</td>    <td align="right">5987</td>    <td align="right">8491</td>    <td align="right">55</td>    <td align="right">7493</td>    <td align="right">12562</td>    <td align="right">21052</td>    <td align="right">10488</td>    <td align="right">13738</td>    <td align="right">509</td>    <td align="right">549</td>    <td align="right">4232</td>  </tr>  <tr>    <td>1976-77</td>    <td align="right">7284</td>    <td align="right">7128</td>    <td align="right">10752</td>    <td align="right">73</td>    <td align="right">8610</td>    <td align="right">14485</td>    <td align="right">25237</td>    <td align="right">10786</td>    <td align="right">17151</td>    <td align="right">1678</td>    <td align="right">557</td>    <td align="right">4934</td>  </tr>  <tr>    <td>1977-78</td>    <td align="right">8232</td>    <td align="right">8201</td>    <td align="right">13766</td>    <td align="right">63</td>    <td align="right">10237</td>    <td align="right">16496</td>    <td align="right">30263</td>    <td align="right">12326</td>    <td align="right">19595</td>    <td align="right">3686</td>    <td align="right">586</td>    <td align="right">5930</td>  </tr>  <tr>    <td>1978-79</td>    <td align="right">9416</td>    <td align="right">5970</td>    <td align="right">20905</td>    <td align="right">143</td>    <td align="right">12367</td>    <td align="right">15529</td>    <td align="right">36434</td>    <td align="right">14263</td>    <td align="right">23206</td>    <td align="right">4897</td>    <td align="right">605</td>    <td align="right">6538</td>  </tr>  <tr>    <td>1979-80</td>    <td align="right">10992</td>    <td align="right">7222</td>    <td align="right">25313</td>    <td align="right">266</td>    <td align="right">15202</td>    <td align="right">18479</td>    <td align="right">43792</td>    <td align="right">17299</td>    <td align="right">28161</td>    <td align="right">5563</td>    <td align="right">598</td>    <td align="right">7828</td>  </tr>  <tr>    <td>1980-81</td>    <td align="right">12364</td>    <td align="right">8290</td>    <td align="right">30075</td>    <td align="right">237</td>    <td align="right">17253</td>    <td align="right">20891</td>    <td align="right">50966</td>    <td align="right">22529</td>    <td align="right">32962</td>    <td align="right">4903</td>    <td align="right">606</td>    <td align="right">10034</td>  </tr>  <tr>    <td>1981-82</td>    <td align="right">13878</td>    <td align="right">9889</td>    <td align="right">35857</td>    <td align="right">169</td>    <td align="right">19658</td>    <td align="right">23936</td>    <td align="right">59793</td>    <td align="right">28235</td>    <td align="right">39846</td>    <td align="right">3654</td>    <td align="right">641</td>    <td align="right">12583</td>  </tr>  <tr>    <td>1982-83</td>    <td align="right">15531</td>    <td align="right">10886</td>    <td align="right">41952</td>    <td align="right">146</td>    <td align="right">21773</td>    <td align="right">26563</td>    <td align="right">68515</td>    <td align="right">34234</td>    <td align="right">46307</td>    <td align="right">1997</td>    <td align="right">673</td>    <td align="right">14696</td>  </tr>  <tr>    <td>1983-84</td>    <td align="right">18007</td>    <td align="right">12296</td>    <td align="right">50101</td>    <td align="right">173</td>    <td align="right">25129</td>    <td align="right">30476</td>    <td align="right">80577</td>    <td align="right">38956</td>    <td align="right">54872</td>    <td align="right">1694</td>    <td align="right">702</td>    <td align="right">15647</td>  </tr>  <tr>    <td>1984-85</td>    <td align="right">21340</td>    <td align="right">14387</td>    <td align="right">59239</td>    <td align="right">329</td>    <td align="right">30352</td>    <td align="right">36056</td>    <td align="right">95295</td>    <td align="right">46365</td>    <td align="right">65091</td>    <td align="right">2161</td>    <td align="right">749</td>    <td align="right">19070</td>  </tr>  <tr>    <td>1985-86</td>    <td align="right">23916</td>    <td align="right">16674</td>    <td align="right">70249</td>    <td align="right">257</td>    <td align="right">34264</td>    <td align="right">40847</td>    <td align="right">111096</td>    <td align="right">55595</td>    <td align="right">75038</td>    <td align="right">3083</td>    <td align="right">837</td>    <td align="right">23456</td>  </tr>  <tr>    <td>1986-87</td>    <td align="right">26858</td>    <td align="right">19723</td>    <td align="right">83817</td>    <td align="right">254</td>    <td align="right">40520</td>    <td align="right">46836</td>    <td align="right">130653</td>    <td align="right">67024</td>    <td align="right">86341</td>    <td align="right">3812</td>    <td align="right">1070</td>    <td align="right">27595</td>  </tr>  <tr>    <td>1987-88</td>    <td align="right">31301</td>    <td align="right">22196</td>    <td align="right">99393</td>    <td align="right">318</td>    <td align="right">49795</td>    <td align="right">53814</td>    <td align="right">153207</td>    <td align="right">79805</td>    <td align="right">98262</td>    <td align="right">4546</td>    <td align="right">1298</td>    <td align="right">30704</td>  </tr>  <tr>    <td>1988-89</td>    <td align="right">35682</td>    <td align="right">25757</td>    <td align="right">117849</td>    <td align="right">399</td>    <td align="right">58321</td>    <td align="right">61838</td>    <td align="right">179687</td>    <td align="right">94528</td>    <td align="right">114548</td>    <td align="right">5432</td>    <td align="right">1434</td>    <td align="right">36255</td>  </tr>  <tr>    <td>1989-90</td>    <td align="right">42369</td>    <td align="right">31357</td>    <td align="right">139631</td>    <td align="right">499</td>    <td align="right">69413</td>    <td align="right">74225</td>    <td align="right">213856</td>    <td align="right">110020</td>    <td align="right">137461</td>    <td align="right">6216</td>    <td align="right">1522</td>    <td align="right">41363</td>  </tr>  <tr>    <td>1990-91</td>    <td align="right">49772</td>    <td align="right">36422</td>    <td align="right">162276</td>    <td align="right">1023</td>    <td align="right">80243</td>    <td align="right">87217</td>    <td align="right">249493</td>    <td align="right">131750</td>    <td align="right">158790</td>    <td align="right">7662</td>    <td align="right">1592</td>    <td align="right">50301</td>  </tr>  <tr>    <td>1991-92</td>    <td align="right">57327</td>    <td align="right">45299</td>    <td align="right">188433</td>    <td align="right">1345</td>    <td align="right">94090</td>    <td align="right">103970</td>    <td align="right">292403</td>    <td align="right">155834</td>    <td align="right">175716</td>    <td align="right">13490</td>    <td align="right">1664</td>    <td align="right">54302</td>  </tr>  <tr>    <td>1992-93</td>    <td align="right">64450</td>    <td align="right">51577</td>    <td align="right">224188</td>    <td align="right">4023</td>    <td align="right">107740</td>    <td align="right">120050</td>    <td align="right">344238</td>    <td align="right">170692</td>    <td align="right">204164</td>    <td align="right">20639</td>    <td align="right">1768</td>    <td align="right">53025</td>  </tr>  <tr>    <td>1993-94</td>    <td align="right">76212</td>    <td align="right">56841</td>    <td align="right">262696</td>    <td align="right">3300</td>    <td align="right">125182</td>    <td align="right">136353</td>    <td align="right">399048</td>    <td align="right">196982</td>    <td align="right">226473</td>    <td align="right">32274</td>    <td align="right">1908</td>    <td align="right">58588</td>  </tr>  <tr>    <td>1994-95</td>    <td align="right">92282</td>    <td align="right">73310</td>    <td align="right">308996</td>    <td align="right">3608</td>    <td align="right">153165</td>    <td align="right">169200</td>    <td align="right">478196</td>    <td align="right">215607</td>    <td align="right">256410</td>    <td align="right">69405</td>    <td align="right">2126</td>    <td align="right">65353</td>  </tr>  <tr>    <td>1995-96</td>    <td align="right">112080</td>    <td align="right">80278</td>    <td align="right">354670</td>    <td align="right">5925</td>    <td align="right">178245</td>    <td align="right">198283</td>    <td align="right">552953</td>    <td align="right">242199</td>    <td align="right">309803</td>    <td align="right">77699</td>    <td align="right">2388</td>    <td align="right">79136</td>  </tr>  <tr>    <td>1996-97</td>    <td align="right">126712</td>    <td align="right">89745</td>    <td align="right">420868</td>    <td align="right">5307</td>    <td align="right">189524</td>    <td align="right">221764</td>    <td align="right">642631</td>    <td align="right">278313</td>    <td align="right">349493</td>    <td align="right">91187</td>    <td align="right">2759</td>    <td align="right">79120</td>  </tr>  <tr>    <td>1997-98</td>    <td align="right">142187</td>    <td align="right">102244</td>    <td align="right">503563</td>    <td align="right">4035</td>    <td align="right">208994</td>    <td align="right">248465</td>    <td align="right">752028</td>    <td align="right">313099</td>    <td align="right">391029</td>    <td align="right">117494</td>    <td align="right">3146</td>    <td align="right">72740</td>  </tr>  <tr>    <td>1998-99</td>    <td align="right">158854</td>    <td align="right">117190</td>    <td align="right">621656</td>    <td align="right">3594</td>    <td align="right">234625</td>    <td align="right">279638</td>    <td align="right">901294</td>    <td align="right">369536</td>    <td align="right">449640</td>    <td align="right">154267</td>    <td align="right">3616</td>    <td align="right">75765</td>  </tr>  <tr>    <td>1999-00</td>    <td align="right">184702</td>    <td align="right">132348</td>    <td align="right">735396</td>    <td align="right">3580</td>    <td align="right">262307</td>    <td align="right">320630</td>    <td align="right">1056025</td>    <td align="right">424990</td>    <td align="right">524136</td>    <td align="right">185834</td>    <td align="right">4244</td>    <td align="right">83179</td>  </tr>  <tr>    <td>2000-01</td>    <td align="right">201581</td>    <td align="right">151826</td>    <td align="right">867499</td>    <td align="right">3182</td>    <td align="right">282678</td>    <td align="right">356588</td>    <td align="right">1224087</td>    <td align="right">483761</td>    <td align="right">631875</td>    <td align="right">219285</td>    <td align="right">4987</td>    <td align="right">115820</td>  </tr>  <tr>    <td>2001-02</td>    <td align="right">227164</td>    <td align="right">167505</td>    <td align="right">1022324</td>    <td align="right">3014</td>    <td align="right">314034</td>    <td align="right">397683</td>    <td align="right">1420007</td>    <td align="right">564639</td>    <td align="right">710139</td>    <td align="right">272800</td>    <td align="right">5863</td>    <td align="right">133435</td>  </tr>  <tr>    <td>2002-03</td>    <td align="right">258675</td>    <td align="right">183804</td>    <td align="right">1202441</td>    <td align="right">3034</td>    <td align="right">343038</td>    <td align="right">445513</td>    <td align="right">1647954</td>    <td align="right">641414</td>    <td align="right">836014</td>    <td align="right">358505</td>    <td align="right">6781</td>    <td align="right">194760</td>  </tr>  <tr>    <td>2003-04</td>    <td align="right">294797</td>    <td align="right">216196</td>    <td align="right">1346944</td>    <td align="right">3643</td>    <td align="right">390712</td>    <td align="right">514636</td>    <td align="right">1861580</td>    <td align="right">718705</td>    <td align="right">934430</td>    <td align="right">457791</td>    <td align="right">7223</td>    <td align="right">256568</td>  </tr>  <tr>    <td>2004-05</td>    <td align="right">336528</td>    <td align="right">259116</td>    <td align="right">1521116</td>    <td align="right">4700</td>    <td align="right">444861</td>    <td align="right">600343</td>    <td align="right">2121459</td>    <td align="right">749970</td>    <td align="right">1130470</td>    <td align="right">592455</td>    <td align="right">7373</td>    <td align="right">358809</td>  </tr>  <tr>    <td>2005-06</td>    <td align="right">385186</td>    <td align="right">326438</td>    <td align="right">1742454</td>    <td align="right">4847</td>    <td align="right">515948</td>    <td align="right">716470</td>    <td align="right">2458925</td>    <td align="right">763243</td>    <td align="right">1448510</td>    <td align="right">663489</td>    <td align="right">8056</td>    <td align="right">424372</td>  </tr>  <tr>    <td>2006-07</td>    <td align="right">451325</td>    <td align="right">401639</td>    <td align="right">2091512</td>    <td align="right">5711</td>    <td align="right">617286</td>    <td align="right">858675</td>    <td align="right">2950186</td>    <td align="right">799555</td>    <td align="right">1844861</td>    <td align="right">824060</td>    <td align="right">7927</td>    <td align="right">526218</td>  </tr>  <tr>    <td>2007-08</td>    <td align="right">517434</td>    <td align="right">471324</td>    <td align="right">2608416</td>    <td align="right">6270</td>    <td align="right">786960</td>    <td align="right">995028</td>    <td align="right">3603444</td>    <td align="right">863929</td>    <td align="right">2256300</td>    <td align="right">1043138</td>    <td align="right">8740</td>    <td align="right">568663</td>  </tr>  <tr>    <td>2008-09</td>    <td align="right">614796</td>    <td align="right">518697</td>    <td align="right">3204058</td>    <td align="right">6113</td>    <td align="right">913929</td>    <td align="right">1139607</td>    <td align="right">4343664</td>    <td align="right">1037045</td>    <td align="right">2760648</td>    <td align="right">1316696</td>    <td align="right">9689</td>    <td align="right">780414</td>  </tr>  <tr>    <td>2009-10</td>    <td align="right">713395</td>    <td align="right">601199</td>    <td align="right">3858031</td>    <td align="right">5257</td>    <td align="right">996522</td>    <td align="right">1319851</td>    <td align="right">5177882</td>    <td align="right">1478218</td>    <td align="right">3142004</td>    <td align="right">1331174</td>    <td align="right">10678</td>    <td align="right">784192</td>  </tr>  <tr>    <td>2010-11</td>    <td align="right">850449</td>    <td align="right">686531</td>    <td align="right">4473638</td>    <td align="right">4546</td>    <td align="right">1210801</td>    <td align="right">1541527</td>    <td align="right">6015165</td>    <td align="right">1796221</td>    <td align="right">3790363</td>    <td align="right">1343267</td>    <td align="right">12062</td>    <td align="right">926748</td>  </tr>  <tr>    <td>2011-12</td>    <td align="right">968975</td>    <td align="right">660120</td>    <td align="right">5337563</td>    <td align="right">2148</td>    <td align="right">1381046</td>    <td align="right">1631242</td>    <td align="right">6968805</td>    <td align="right">2188647</td>    <td align="right">4503665</td>    <td align="right">1496366</td>    <td align="right">12829</td>    <td align="right">1232702</td>  </tr>  <tr>    <td>2012-13</td>    <td align="right">1085374</td>    <td align="right">699034</td>    <td align="right">6122631</td>    <td align="right">1903</td>    <td align="right">1463829</td>    <td align="right">1786311</td>    <td align="right">7908942</td>    <td align="right">2594654</td>    <td align="right">5255518</td>    <td align="right">1614128</td>    <td align="right">14449</td>    <td align="right">1569806</td>  </tr>  <tr>    <td>2013-14</td>    <td align="right">1194454</td>    <td align="right">759490</td>    <td align="right">7024884</td>    <td align="right">3386</td>    <td align="right">1592672</td>    <td align="right">1957330</td>    <td align="right">8982214</td>    <td align="right">2949914</td>    <td align="right">6033605</td>    <td align="right">1787221</td>    <td align="right">16453</td>    <td align="right">1804980</td>  </tr>  <tr>    <td>2014-15</td>    <td align="right">1318623</td>    <td align="right">839596</td>    <td align="right">7886635</td>    <td align="right">6902</td>    <td align="right">1753773</td>    <td align="right">2165121</td>    <td align="right">10051756</td>    <td align="right">3066422</td>    <td align="right">6703029</td>    <td align="right">2038911</td>    <td align="right">18484</td>    <td align="right">1775090</td>  </tr>  <tr>    <td>2015-16</td>    <td align="right">1473911</td>    <td align="right">921017</td>    <td align="right">8720808</td>    <td align="right">14859</td>    <td align="right">1958266</td>    <td align="right">2409786</td>    <td align="right">11130594</td>    <td align="right">3258943</td>    <td align="right">7352368</td>    <td align="right">2410474</td>    <td align="right">20766</td>    <td align="right">1911957</td>  </tr>  <tr>    <td>2016-17</td>    <td align="right">1382482</td>    <td align="right">1105316</td>    <td align="right">9658102</td>    <td align="right">15385</td>    <td align="right">1940597</td>    <td align="right">2503182</td>    <td align="right">12161285</td>    <td align="right">3764456</td>    <td align="right">7920328</td>    <td align="right">2586173</td>    <td align="right">23608</td>    <td align="right">2133281</td>  </tr>  <tr>    <td>2017-18</td>    <td align="right">1546603</td>    <td align="right">1258041</td>    <td align="right">10279353</td>    <td align="right">21727</td>    <td align="right">2126677</td>    <td align="right">2826371</td>    <td align="right">13105724</td>    <td align="right">4055249</td>    <td align="right">8488162</td>    <td align="right">2703177</td>    <td align="right">25459</td>    <td align="right">2166322</td>  </tr>  <tr>    <td>2018-19</td>    <td align="right">1910496</td>    <td align="right">1357885</td>    <td align="right">11153372</td>    <td align="right">26045</td>    <td align="right">2543148</td>    <td align="right">3294426</td>    <td align="right">14447798</td>    <td align="right">4315872</td>    <td align="right">9595648</td>    <td align="right">2959322</td>    <td align="right">25736</td>    <td align="right">2448779</td>  </tr>  <tr>    <td>2019-20</td>    <td align="right">2160630</td>    <td align="right">1500699</td>    <td align="right">12215282</td>    <td align="right">32405</td>    <td align="right">2857118</td>    <td align="right">3693735</td>    <td align="right">15909016</td>    <td align="right">4810378</td>    <td align="right">10477658</td>    <td align="right">3361634</td>    <td align="right">26087</td>    <td align="right">2766740</td>  </tr>  <tr>    <td>2020-21</td>    <td align="right">2618214</td>    <td align="right">1691483</td>    <td align="right">13499361</td>    <td align="right">41838</td>    <td align="right">3250214</td>    <td align="right">4351535</td>    <td align="right">17850896</td>    <td align="right">5613697</td>    <td align="right">11100840</td>    <td align="right">4326837</td>    <td align="right">26549</td>    <td align="right">3217027</td>  </tr>  <tr>    <td>2021-22</td>    <td align="right">2880956</td>    <td align="right">1993729</td>    <td align="right">14668204</td>    <td align="right">49096</td>    <td align="right">3737469</td>    <td align="right">4923780</td>    <td align="right">19591984</td>    <td align="right">6035944</td>    <td align="right">11885411</td>    <td align="right">4868380</td>    <td align="right">27380</td>    <td align="right">3225130</td>  </tr>  <tr>    <td>2022-23</td>    <td align="right">3121791</td>    <td align="right">2202366</td>    <td align="right">15955668</td>    <td align="right">61638</td>    <td align="right">4151021</td>    <td align="right">5385794</td>    <td align="right">21341461</td>    <td align="right">6525613</td>    <td align="right">13506243</td>    <td align="right">4696092</td>    <td align="right">29023</td>    <td align="right">3415510</td>  </tr>  <tr>    <td>2023-24</td>    <td align="right">3282183</td>    <td align="right">2436808</td>    <td align="right">17978445</td>    <td align="right">75678</td>    <td align="right">4444981</td>    <td align="right">5794669</td>    <td align="right">23773114</td>    <td align="right">7296916</td>    <td align="right">15971708</td>    <td align="right">5144663</td>    <td align="right">31759</td>    <td align="right">4671931</td>  </tr>  <tr>    <td colspan="13" align="justify">Note: 1. Data include the impact of merger in the banking system on May 3, 2002 and conversion of a non-banking entity into a banking entity on October 11, 2004.<br>      2. Data include the impact of merger of a non-bank with a bank on July 1, 2023.<br>      Also see Notes on Tables.</td>  </tr></table></td></tr></table>
+                </table>
+                <br />
+                <div align="right">
+                    </div>
+            </div>
+        </div>
+        <!-- InstanceEndEditable -->
+    </div>
+    <div class="clearfix">
+    </div>
+    <a href="#top" class="scrollToTop" id="backToTop">Top</a>
+<footer class="footer">
+<div class="footer">
+  <div class="container_12">
+
+
+    <!--<div class="grid_9" style="width: 833px !important; ">
+      <h4><span class="blue">More</span> Links :</h4>
+      <div class="grid_2 alpha" style="width:150px !important">
+        <ul class="footerlist">
+          
+          <li><a target="_blank" href="https://www.rbi.org.in/FinancialEducation/">Financial Education</a></li>https://www.rbi.org.in/commonperson/English/Scripts/Home.aspx
+	      <li><a target="_blank" href="https://ncfe.org.in/e-lms">E-LMS</a></li>
+	      <li><a target="_blank" href="https://rbikehtahai.rbi.org.in/">RBI Kehta Hai</a></li>
+          <li><a href="/Scripts/FAQDisplay.aspx">FAQs</a></li>
+         
+          <li><a href="/Scripts/IFSCMICRDetails.aspx">IFSC/MICR Codes</a></li>
+        </ul>
+      </div>
+      <div class="grid_2 omega" style="width:150px !important;">
+        <ul class="footerlist">
+          <li><a href="/Scripts/BS_ViewTenders.aspx">Tenders</a></li>
+          <li><a target="_blank" href="https://opportunities.rbi.org.in/scripts/index.aspx">Opportunities<font>@</font>RBI</a></li>
+          <li><a href="/Scripts/HolidayMatrixDisplay.aspx">Bank Holidays</a></li>
+          <li><a href="/Scripts/BS_ViewForms.aspx">Forms</a></li>
+          <li><a href="https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894">COVID-19 Measures</a></li>
+            
+        </ul>
+      </div>
+      <div class="grid_2 alpha omega" style="width:254px !important;">
+        <ul class="footerlist">
+          <li><a href="/Scripts/EventsDisplay.aspx">Events</a></li>
+         
+          <li><a href="/Scripts/rbi_clarification.aspx">RBI Clarifications</a></li>
+	  <li><a href="/Scripts/Righttoinfoact.aspx">Right to Information Act</a></li>
+            <li><a href="/Scripts/OtherLinks.aspx">Important Websites</a></li>
+	  <li><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf">RBI's Core Purpose, Values and Vision</a></li>
+        </ul>
+      </div>
+      <div class="grid_2" style="width:215px !important;">
+        <ul class="footerlist">
+          
+          <li><a href="/Scripts/CitiChart.aspx">Citizens' Charter</a></li>
+          <li><a href="/Scripts/Timlines.aspx">Timelines for Regulatory Approvals</a></li>
+          <li><a href="/Scripts/Complaints.aspx">Complaints</a></li>
+	  <li><a href="https://shabdavali.rbi.org.in/">Banking Glossary</a></li>
+          <li><a href="/Scripts/helpdesk.aspx">Contact Us</a></li>
+	  
+        </ul>
+      </div>
+    </div>-->
+      <div class="grid_9" style="width: 833px !important; ">
+          <h4><span class="blue">More</span> Links </h4>
+          <div class="grid_2 alpha" style="width:170px !important">
+              <ul class="footerlist">
+                  <li><a href="/Scripts/HolidayMatrixDisplay.aspx">Bank Holidays</a></li>
+                  <li><a href="https://shabdavali.rbi.org.in/">Banking Glossary</a></li>
+                  <li><a href="/Scripts/CitiChart.aspx">Citizens' Charter</a></li>
+                  <li><a href="/Scripts/Complaints.aspx">Complaints</a></li>
+                  <li><a href="/Scripts/helpdesk.aspx">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="grid_2 omega" style="width:180px !important;">
+              <ul class="footerlist">
+                  <li><a href="https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894">COVID-19 Measures</a></li>
+                  <li><a target="_blank" href="https://ncfe.org.in/e-lms">E-LMS</a></li>
+                  <li><a href="/Scripts/EventsDisplay.aspx">Events</a></li>
+                  <li><a href="/Scripts/FAQDisplay.aspx">FAQs</a></li>
+                  <li><a target="_blank" href="https://www.rbi.org.in/FinancialEducation/">Financial Education</a></li><!--https://www.rbi.org.in/commonperson/English/Scripts/Home.aspx-->
+              </ul>
+          </div>
+          <div class="grid_2 alpha omega" style="width:180px !important;">
+              <ul class="footerlist">
+                  <li><a href="/Scripts/BS_ViewForms.aspx">Forms</a></li>
+                  <li><a href="/Scripts/IFSCMICRDetails.aspx">IFSC/MICR Codes</a></li>
+                  <li><a href="/Scripts/OtherLinks.aspx">Important Websites</a></li>
+                  <li><a target="_blank" href="https://opportunities.rbi.org.in/scripts/index.aspx">Opportunities<font>@</font>RBI</a></li>
+                  <li><a href="/Scripts/rbi_clarification.aspx">RBI Clarifications</a></li>
+              </ul>
+          </div>
+          <div class="grid_2" style="width:254px !important;">
+              <ul class="footerlist">
+
+                  <li><a target="_blank" href="https://rbikehtahai.rbi.org.in/">RBI Kehta Hai</a></li>
+                  <li><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf">RBI's Core Purpose, Values and Vision</a></li>
+                  <li><a href="/Scripts/Righttoinfoact.aspx">Right to Information Act</a></li>
+                  <li><a href="/Scripts/BS_ViewTenders.aspx">Tenders</a></li>
+                  <li><a href="/Scripts/Timlines.aspx">Timelines for Regulatory Approvals</a></li>
+              </ul>
+          </div>
+      </div>
+
+    <div class="grid_3" style="width:197px !important">
+      <h4><span class="blue">Follow</span> RBI </h4>
+      <ul class="footerlist">
+        <!--<li><a href="/Scripts/rss.aspx"><img src="/images/rss-icon.png" alt="Subscribe to RSS" class="rss"/>RSS</a></li>-->
+
+          <li style="float: left;background: url(/images/footer_list_arrow.gif) left 8px no-repeat;"><a href="/Scripts/rss.aspx"><img src="/images/rss-icon.png" alt="Subscribe to RSS" class="rss">RSS</a></li>
+
+        <!--<li><a href="https://twitter.com/RBI" target="_blank" class="twitter"><img src="/images/Twitter_New.png" width="14px" height="14px" alt="Follow RBI on Twitter" class="videos" />Twitter</a></li>-->
+          <li>
+              <a href="https://twitter.com/RBI" target="_blank" class="twitter">
+                  <img src="/images/Twitter_New.png" width="14px" height="14px" alt="Follow RBI on Twitter" class="videos" style="padding-left: 18%;">Twitter
+              </a>
+          </li>
+
+        <!--<li><a href="https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA" class="videos" target="_blank"><img src="/images/videos-icon.png" alt="Check RBI Videos" class="videos"/>Videos</a></li>-->
+
+          <li style="float: left;"><a href="https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA" class="videos" target="_blank"><img src="/images/youtube.png" alt="Check RBI Videos" class="videos">YouTube</a></li>
+
+          <li>
+              <a href="https://instagram.com/reservebankofindia" class="videos" target="_blank">
+                  <img src="/images/Instagram.jpg" width="14px" height="14px" alt="Check Instagram" class="videos" style="padding-left: 5%;">Instagram
+              </a>
+          </li>
+          <li style="float: left;"><a href="https://www.facebook.com/RBIsays" class="videos" target="_blank"><img src="/images/Facebook.jpg" width="14px" height="14px" alt="Check Facebook" class="videos">Facebook</a></li>
+          <li>
+              <a href="https://www.linkedin.com/company/reservebankofindia" class="videos" target="_blank">
+                  <img src="/images/LinkedinIcon1.png" alt="Check linkedin" class="" style="padding-left: 4%;width: 17px;background: bottom no-repeat;display: block;float: left;margin: 2px 3px 0 1px;">LinkedIn
+              </a>
+          </li>
+	<li>
+   	 Download Mobile App<br> 
+   	 <a href="https://play.google.com/store/apps/details?id=com.reservebankofindia.app" target="_blank"><img src="/images/Android.png" alt="Android App" class="rss" style="width:17px" >Play Store</a><br>
+	<a href="https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1" target="_blank"><img src="/images/IOS.png" alt="Apple App" class="rss" style="width:18px;height:17px">App Store</a>
+	</li>
+
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="copyright">
+    <div class="container_12">
+      <div class="grid_6 pull_left" >&copy; Reserve Bank of India. All Rights Reserved.</div>
+      <div class="grid_5 pull_right" ><a href="/Scripts/sitemap.aspx">Sitemap</a> | <a href="/Scripts/Disclaimer.aspx">Disclaimer</a></div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  
+
+<!--Welcome note-->
+
+  <div id="boxesWN">
+  <div id="dialogWN" class="window" style="top:100px;">
+  <div> <img width="60" height="60" src="/images/Rbinote.jpeg" alt="Rbi note" /> </div>
+   <table class="WelcomeNote" >
+   <tr>
+   <td style="float:right;">
+
+   April 14, 2015
+   </td>
+   </tr>
+    <tr>
+  
+    <td >
+    
+   Dear All
+    </td>
+    </tr>
+     <tr>
+     <td >
+     
+  Welcome to the refurbished site of the Reserve Bank of India. 
+    </td>
+   
+    </tr>
+    <tr>
+    <td >
+    
+  The two most important features of the site are: One, in addition to the default site, the refurbished site also has all the information bifurcated functionwise; two, a much improved search – well, at least we think so but you be the judge. 
+    </td>
+   
+    </tr>
+
+      <tr>
+    <td>
+   With this makeover, we also take a small step into social media. We will now use Twitter (albeit one way) to send out alerts on the announcements we make and YouTube to place in public domain our press conferences, interviews of our top management, events, such as, town halls and of course, some films aimed at consumer literacy.  
+    </td>
+   
+    </tr>
+    <tr>
+    <td>
+    The site can be accessed through most browsers and devices; it also meets accessibility standards. 
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Please save the url of the refurbished site in your favourites as we will give up the existing site shortly and register or re-register yourselves for receiving RSS feeds for uninterrupted alerts from the Reserve Bank. 
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Do feel free to give us your feedback by clicking on the feedback button on the right hand corner of the refurbished site. 
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Thank you for your continued support.<br /><br />
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <strong>
+    Department of Communication <br />
+Reserve Bank of India</strong>
+
+    </td>
+    </tr>
+	<tr><td id="popupfootWN"><a href="#" class="close agree" style="float:right" >Next</a></td></tr>
+    </table>
+   <!-- <div id="popupfootWN"> <a href="#" class="close agree" style="float:right" >Next</a>    </div>--><!--<img src="../images/button_close.gif" alt="Close" class="close agree" />-->
+  </div>
+  <div id="maskWN" style="width:100% !important"></div>
+
+<!--<div id="feedbackbtn"><a href="#"><div align="center" class="feedbacktext">Feedback</div></a></div>-->
+
+</div>
+</div>
+</footer>
+<!--<script type="text/javascript" src="/js/URLchange.js"></script>-->
+<!-- For live comment out below line.-->
+
+<script src="/js/ReplaceURL.js" type="text/javascript"></script>
+<script src="/js/jquery.cookie.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+
+
+    //this is for floating TOP link
+    
+    $(document).ready(function () {
+
+        var offset = 230;
+        var duration = 500;
+
+
+        jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.scrollToTop').fadeIn(duration);
+                // $('#backToTop').css('right', (diffWidth / 2) - 6);
+            } else {
+                jQuery('.scrollToTop').fadeOut(duration);
+                //  $('#backToTop').css('right', (diffWidth / 2) - 6);
+            }
+        });
+
+        //        $('a[href*=#]:not([href=#])').click(function () {
+
+        //            if (location.pathname.replace(/^\//, '') == window.location.pathname.replace(/^\//, '') && location.hostname == window.location.hostname) {
+
+        //                var target = $(this.hash);
+        //                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        //                if (target.length) {
+        //                    $('html,body').animate({
+        //                        scrollTop: target.offset().top
+        //                    }, 800);
+        //                    return false;
+        //                }
+        //            }
+        //        });
+
+        $('.scrollToTop').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 800);
+            return false;
+        });
+    });
+
+
+    //Below code is for floating left panel and floating tree structure
+    //first if condition is for functionwise pages and 2nd one for rest all
+    $(window).scroll(function () {
+
+        if ($('div.banner2').length) {
+
+            if ($(window).scrollTop() >= 265) {
+                $('#menubar').css("position", "fixed");
+                $('#menubar').css("width", "240px");
+                $('#menubar').css("margin-top", "-281px");
+                $('.content_area').css("margin-left", "252px");
+
+                $('.sidebar_nav').css("position", "fixed");
+                $('.sidebar_nav').css("margin-top", "-200px");
+                $('.sidebar_nav').css("width", "236px");
+
+
+                $('#DateSettree_lbltree').css('position', 'fixed');
+                $('#DateSettree_lbltree').css('margin-top', '-281px');
+
+            }
+
+            else {
+                $('#menubar').css("position", "");
+                $('#menubar').css("width", "");
+                $('#menubar').css("margin-top", "");
+                $('.content_area').css("margin-left", "");
+
+                $('.sidebar_nav').css("position", "");
+                $('.sidebar_nav').css("margin-top", "");
+                $('.sidebar_nav').css("width", "");
+
+
+
+                $('#DateSettree_lbltree').css('position', '');
+                $('#DateSettree_lbltree').css('margin-top', '');
+            }
+
+        }
+
+        else if ($(window).scrollTop() >= 185) {
+            $('#menubar').css("position", "fixed");
+            $('#menubar').css("width", "240px");
+            $('#menubar').css("margin-top", "-200px");
+            $('.content_area').css("margin-left", "252px");
+
+            $('.sidebar_nav').css("position", "fixed");
+            $('.sidebar_nav').css("margin-top", "-200px");
+            $('.sidebar_nav').css("width", "236px");
+
+
+            $('#DateSettree_lbltree').css('position', 'fixed');
+            $('#DateSettree_lbltree').css('margin-top', '-200px');
+
+        }
+
+        else {
+            $('#menubar').css("position", "");
+            $('#menubar').css("width", "");
+            $('#menubar').css("margin-top", "");
+            $('.content_area').css("margin-left", "");
+
+            $('.sidebar_nav').css("position", "");
+            $('.sidebar_nav').css("margin-top", "");
+            $('.sidebar_nav').css("width", "");
+
+
+            $('#DateSettree_lbltree').css('position', '');
+            $('#DateSettree_lbltree').css('margin-top', '');
+        }
+//        if ($(window).scrollTop() >= 235) {
+
+//            $('#DateSettree_lbltree').css('height', '183px');
+//            $('#DateSettree_lbltree').css('overflow-y', 'scroll');
+//            $('#DateSettree_lbltree').css('width', '100px');
+
+//        }
+//        else {
+//            $('#DateSettree_lbltree').css('height', '');
+//            $('#DateSettree_lbltree').css('overflow-y', '');
+//            $('#DateSettree_lbltree').css('width', '');
+
+//        }
+
+       
+    });
+	
+       // $(window).unload(function () {
+       //     $.cookies.del('feedback_Cookie'); 
+       // });
+    $(document).ready(function () {
+	
+	
+		  $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+            $('#maskWN').hide();
+            $('.window').hide();
+            var scroll = $(window).scrollTop();
+            $("html").scrollTop(scroll);
+        });
+		
+		 $('#maskWN').click(function () {
+            $(this).hide();
+            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+            $('.window').hide();
+
+        });
+
+        //        if ($.cookie('feedback_Cookie') == null) {
+        //            var id = '#dialog';
+
+        //            //Get the screen height and width
+        //            var maskHeight = $(document).height();
+        //            var maskWidth = $(window).width();
+        //           
+
+        //            //Set heigth and width to mask to fill up the whole screen
+        //            $('#mask').css({ 'width': '100%', 'height': '100%','position':'fixed' });
+
+        //            //transition effect
+        //            $('#mask').fadeIn(500);
+        //            $('#mask').fadeTo("slow", 0.9);
+
+        //            //Get the window height and width
+        //            var winH = $(window).height();
+        //            var winW = $(window).width();
+
+        //            //Set the popup window to center
+        //            $(id).css('top', winH / 2 - $(id).height() / 2);
+        //            $(id).css('left', winW / 2 - $(id).width() / 2);
+
+        //            //transition effect
+        //            $(id).fadeIn(2000);
+
+
+
+        //        }
+//        $('blockquote p').css('margin','auto');
+//        $('blockquote blockquote blockquote p').contents().contents().unwrap();
+//        $('blockquote blockquote blockquote').contents().unwrap();
+//        $('blockquote blockquote').contents().unwrap();
+//        $('blockquote').contents().unwrap();
+        
+
+        //if close button is clicked
+        $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+            $('#mask').hide();
+            $('.window').hide();
+            var scroll = $(window).scrollTop();
+            $("html").scrollTop(scroll);
+        });
+
+        //if mask is clicked
+        $('#mask').click(function () {
+            $(this).hide();
+            $('.window').hide();
+        });
+        $('#feedbackbtn').click(function () {
+            var id = '#dialog';
+
+            //Get the screen height and width
+            var maskHeight = $(document).height();
+            var maskWidth = $(window).width();
+
+            //Set heigth and width to mask to fill up the whole screen
+            //$('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+            $('#mask').css({ 'width': '100%', 'height': '100%', 'position': 'fixed' });
+
+            //transition effect
+            $('#mask').fadeIn(500);
+            $('#mask').fadeTo("slow", 0.9);
+
+            //Get the window height and width
+            var winH = $(window).height();
+            var winW = $(window).width();
+
+            //Set the popup window to center
+            $(id).css('top', winH / 2 - $(id).height() / 2);
+            $(id).css('left', winW / 2 - $(id).width() / 2);
+
+            //transition effect
+            $(id).fadeIn(2000);
+        });
+
+        $('.submit').click(function () {
+            var Name = $("[id*=txtFeedbackName]").val();
+            var Email = $("[id*=txtFeedbackEmail]").val();
+            var Comments = $("[id*=txtFeedbackComments]").val();
+            if (Name == "") {
+
+                alert("Please enter your name");
+                $("[id*=txtFeedbackName]").focus();
+                return false;
+            }
+            else if (Email == "") {
+                alert("Please enter your email");
+                $("[id*=txtFeedbackEmail]").focus();
+                return false;
+            }
+            else if (Email != "" && !ValidateEmail(Email)) {
+                alert("Please enter a valid email address");
+                $("[id*=txtFeedbackEmail]").focus();
+                return false;
+            }
+
+            else if (Comments == "") {
+
+                alert("Please enter some comments");
+                $("[id*=txtFeedbackComments]").focus();
+                return false;
+            }
+
+            else {
+                $('[id*=Button1]').attr('disabled', 'disabled');
+
+                var param = { Name: Name, EmailID: Email, Comments: Comments };
+                $.ajax({
+                    type: "POST",
+                    url: "../Home.aspx/SaveFeedback",
+                    data: JSON.stringify(param),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+
+                    success: function (response) {
+
+                        if (response.d == "0") {
+                            alert("Thank you for your feedback");
+                            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+                            $('#mask').hide();
+                            $('.window').hide();
+                            $('[id*=Button1]').removeAttr('disabled');
+                            $("[id*=txtFeedbackName]").val("");
+                            $("[id*=txtFeedbackEmail]").val("");
+                            $("[id*=txtFeedbackComments]").val("");
+                        }
+                        else {
+                            alert("Please try again");
+                            $('[id*=Button1]').removeAttr('disabled');
+
+
+                        }
+
+                    }
+                });
+            }
+
+        });
+
+        function ValidateEmail(email) {
+            var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            return expr.test(email);
+        };
+
+        //        $('#divArchiveMain').click(function () {
+        //            
+        //            if ($(window).scrollTop() >= 235) {
+
+        //                $('#DateSettree_lbltree').css('height', '181px');
+        //                $('#DateSettree_lbltree').css('overflow-y', 'scroll');
+        //                $('#DateSettree_lbltree').css('width', '100px');
+
+        //            }
+        //            else {
+        //                $('#DateSettree_lbltree').css('height', '');
+        //                $('#DateSettree_lbltree').css('overflow-y', '');
+        //                $('#DateSettree_lbltree').css('width', '');
+
+        //            }
+        //        });
+
+        $('a.style1').each(function () {
+
+            var $this = $(this);
+            var aHref = $this.attr('class');
+            $this.attr('class', aHref.replace('style1', 'links'));
+        });
+    });
+
+</script>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61369961-1', 'auto');
+  ga('send', 'pageview');
+
+</script></form>
+</body>
+</html>
+<script type="text/javascript" src="/js/plugins.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/Scroll.js"></script>
+<script type="text/javascript" language="javascript">
+    //alert('hi');
+    //DoubleScroll(document.getElementById('doublescroll', 12));
+    DoubleScrollWithoutTree(document.getElementById('doublescroll'));
+
+    //    function GetQueryStringParams(sParam) {
+    //        var sPageURL = window.location.search.substring(1);
+    //        var sURLVariables = sPageURL.split('&');
+    //        for (var i = 0; i < sURLVariables.length; i++) {
+    //            var sParameterName = sURLVariables[i].split('=');
+    //            if (sParameterName[0] == sParam) {
+    //                return sParameterName[1];
+    //            }
+    //        }
+    //    }
+
+    //    var id=GetQueryStringParams("id");
+    //    
+    //    if (id == 155) {
+    //        
+    //        $('.tablebg td').attr('style','border:0 !important');
+    //    }
+    //    else
+    //    { $('.tablebg td').css('border', '1px solid #efd1aa'); }
+
+</script>

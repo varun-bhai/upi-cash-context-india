@@ -1,0 +1,274 @@
+{
+  "purpose": "Observed source coverage and extraction checks; missing values are never imputed.",
+  "source_root": "/Users/varun/Desktop/sql_upi_project/data/raw/phonepe_pulse",
+  "datasets": {
+    "transactions": {
+      "state_or_ut_entities": 36,
+      "first_period": "2018 Q1",
+      "last_period": "2026 Q2",
+      "source_files": 1224,
+      "output_rows": 3671,
+      "category_file_counts": {
+        "P2P": 1224,
+        "Retail": 1224,
+        "Utility": 1223
+      },
+      "missing_category_observations": [
+        {
+          "state_slug": "lakshadweep",
+          "year": "2018",
+          "quarter": "1",
+          "source_category": "Utility",
+          "note": "Category absent from source file; this is not imputed as zero."
+        }
+      ]
+    },
+    "users": {
+      "state_or_ut_entities": 36,
+      "first_period": "2018 Q1",
+      "last_period": "2026 Q2",
+      "source_files": 1224,
+      "output_rows": 1224,
+      "missing_entity_quarters_compared_to_transactions": []
+    },
+    "merchants": {
+      "state_or_ut_entities": 36,
+      "first_period": "2018 Q1",
+      "last_period": "2026 Q2",
+      "source_files": 1178,
+      "output_rows": 1178,
+      "missing_entity_quarters_compared_to_transactions": [
+        {
+          "state_slug": "andaman-&-nicobar-islands",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "andaman-&-nicobar-islands",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "andaman-&-nicobar-islands",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "andaman-&-nicobar-islands",
+          "year": "2018",
+          "quarter": "4"
+        },
+        {
+          "state_slug": "arunachal-pradesh",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "arunachal-pradesh",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "arunachal-pradesh",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "assam",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "assam",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "chandigarh",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "dadra-&-nagar-haveli-&-daman-&-diu",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "goa",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "himachal-pradesh",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "jharkhand",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "jharkhand",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "ladakh",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "ladakh",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "ladakh",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "lakshadweep",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "lakshadweep",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "lakshadweep",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "lakshadweep",
+          "year": "2018",
+          "quarter": "4"
+        },
+        {
+          "state_slug": "lakshadweep",
+          "year": "2019",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "lakshadweep",
+          "year": "2019",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "manipur",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "manipur",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "manipur",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "meghalaya",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "meghalaya",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "meghalaya",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "mizoram",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "mizoram",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "mizoram",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "mizoram",
+          "year": "2018",
+          "quarter": "4"
+        },
+        {
+          "state_slug": "nagaland",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "nagaland",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "puducherry",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "puducherry",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "sikkim",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "sikkim",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "sikkim",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "tripura",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "tripura",
+          "year": "2018",
+          "quarter": "2"
+        },
+        {
+          "state_slug": "tripura",
+          "year": "2018",
+          "quarter": "3"
+        },
+        {
+          "state_slug": "uttarakhand",
+          "year": "2018",
+          "quarter": "1"
+        },
+        {
+          "state_slug": "uttarakhand",
+          "year": "2018",
+          "quarter": "2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "purpose": "Dashboard-ready, presentation-layer CSVs exported from the reproducible SQLite database.",
+  "database": "data/upi_cash_displacement.sqlite",
+  "tables": {
+    "national_quarterly_payments_context.csv": 19,
+    "national_annual_cash_reliance.csv": 7,
+    "national_payment_mix_quarterly.csv": 34,
+    "state_scale_growth_business_signals.csv": 36
+  },
+  "warnings": [
+    "NFS ATM withdrawals are a national cash-access proxy, not total cash use.",
+    "Currency-to-demand-deposits is an annual national monetary-context ratio, not cash spending or causal evidence.",
+    "PhonePe state measures are not all-UPI state totals.",
+    "Business signals are prompts for investigation, not investment recommendations."
+  ]
+}

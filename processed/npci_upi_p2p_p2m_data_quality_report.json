@@ -1,0 +1,32 @@
+{
+  "source": "Official NPCI UPI Ecosystem Statistics; locally accessed through a public reference snapshot after validation.",
+  "official_source_url": "https://www.npci.org.in/product/ecosystem-statistics/upi",
+  "reference_repository": "https://github.com/luckisalive/npci_upi_analytics",
+  "reference_commit": "5c007daef0b69f30dd8e555c548ba6f3bd85c43f",
+  "rows_written": 51,
+  "coverage": {
+    "first_month": "2022-01-01",
+    "last_month": "2026-03-01"
+  },
+  "official_browser_validation": {
+    "month": "2025-08-01",
+    "published_values": [
+      20008.31,
+      2485472.91,
+      7303.15,
+      1761675.49,
+      12705.16,
+      723797.42
+    ],
+    "result": "matched official NPCI P2P/P2M table"
+  },
+  "source_reconciliation_warnings": [
+    {
+      "month": "2023-09-01",
+      "volume_difference_mn": 1.0000000000009095,
+      "value_difference_crore": 0.0,
+      "decision": "Preserved all published fields unchanged; warn rather than overwrite a source total."
+    }
+  ],
+  "interpretation_note": "P2P is person-to-person and P2M is person-to-merchant. These are national monthly totals across UPI, not PhonePe-only data."
+}

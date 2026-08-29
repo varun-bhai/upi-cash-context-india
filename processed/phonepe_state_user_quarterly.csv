@@ -1,0 +1,1225 @@
+state_slug,state_name,year,quarter,quarter_start_date,registered_count,source_file
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2018,1,2018-01-01,9292,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2018/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2018,2,2018-04-01,12739,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2018/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2018,3,2018-07-01,15949,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2018/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2018,4,2018-10-01,20050,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2018/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2019,1,2019-01-01,24369,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2019/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2019,2,2019-04-01,28099,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2019/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2019,3,2019-07-01,31181,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2019/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2019,4,2019-10-01,33871,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2019/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2020,1,2020-01-01,36875,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2020/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2020,2,2020-04-01,41393,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2020/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2020,3,2020-07-01,50005,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2020/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2020,4,2020-10-01,61520,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2020/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2021,1,2021-01-01,69111,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2021/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2021,2,2021-04-01,77369,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2021/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2021,3,2021-07-01,85547,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2021/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2021,4,2021-10-01,94375,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2021/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2022,1,2022-01-01,102605,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2022/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2022,2,2022-04-01,111074,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2022/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2022,3,2022-07-01,119671,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2022/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2022,4,2022-10-01,127606,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2022/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2023,1,2023-01-01,134328,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2023/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2023,2,2023-04-01,141172,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2023/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2023,3,2023-07-01,148091,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2023/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2023,4,2023-10-01,155470,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2023/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2024,1,2024-01-01,162750,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2024/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2024,2,2024-04-01,170651,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2024/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2024,3,2024-07-01,178309,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2024/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2024,4,2024-10-01,184669,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2024/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2025,1,2025-01-01,190713,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2025/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2025,2,2025-04-01,196844,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2025/2.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2025,3,2025-07-01,203056,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2025/3.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2025,4,2025-10-01,209295,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2025/4.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2026,1,2026-01-01,214818,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2026/1.json
+andaman-&-nicobar-islands,Andaman & Nicobar Islands,2026,2,2026-04-01,220759,data/aggregated/user/country/india/state/andaman-&-nicobar-islands/2026/2.json
+andhra-pradesh,Andhra Pradesh,2018,1,2018-01-01,2979027,data/aggregated/user/country/india/state/andhra-pradesh/2018/1.json
+andhra-pradesh,Andhra Pradesh,2018,2,2018-04-01,3941740,data/aggregated/user/country/india/state/andhra-pradesh/2018/2.json
+andhra-pradesh,Andhra Pradesh,2018,3,2018-07-01,4841052,data/aggregated/user/country/india/state/andhra-pradesh/2018/3.json
+andhra-pradesh,Andhra Pradesh,2018,4,2018-10-01,6134766,data/aggregated/user/country/india/state/andhra-pradesh/2018/4.json
+andhra-pradesh,Andhra Pradesh,2019,1,2019-01-01,7399826,data/aggregated/user/country/india/state/andhra-pradesh/2019/1.json
+andhra-pradesh,Andhra Pradesh,2019,2,2019-04-01,8379878,data/aggregated/user/country/india/state/andhra-pradesh/2019/2.json
+andhra-pradesh,Andhra Pradesh,2019,3,2019-07-01,9369779,data/aggregated/user/country/india/state/andhra-pradesh/2019/3.json
+andhra-pradesh,Andhra Pradesh,2019,4,2019-10-01,10528985,data/aggregated/user/country/india/state/andhra-pradesh/2019/4.json
+andhra-pradesh,Andhra Pradesh,2020,1,2020-01-01,11664133,data/aggregated/user/country/india/state/andhra-pradesh/2020/1.json
+andhra-pradesh,Andhra Pradesh,2020,2,2020-04-01,12828761,data/aggregated/user/country/india/state/andhra-pradesh/2020/2.json
+andhra-pradesh,Andhra Pradesh,2020,3,2020-07-01,14049378,data/aggregated/user/country/india/state/andhra-pradesh/2020/3.json
+andhra-pradesh,Andhra Pradesh,2020,4,2020-10-01,15263807,data/aggregated/user/country/india/state/andhra-pradesh/2020/4.json
+andhra-pradesh,Andhra Pradesh,2021,1,2021-01-01,16309736,data/aggregated/user/country/india/state/andhra-pradesh/2021/1.json
+andhra-pradesh,Andhra Pradesh,2021,2,2021-04-01,17327874,data/aggregated/user/country/india/state/andhra-pradesh/2021/2.json
+andhra-pradesh,Andhra Pradesh,2021,3,2021-07-01,18380260,data/aggregated/user/country/india/state/andhra-pradesh/2021/3.json
+andhra-pradesh,Andhra Pradesh,2021,4,2021-10-01,19405303,data/aggregated/user/country/india/state/andhra-pradesh/2021/4.json
+andhra-pradesh,Andhra Pradesh,2022,1,2022-01-01,20341205,data/aggregated/user/country/india/state/andhra-pradesh/2022/1.json
+andhra-pradesh,Andhra Pradesh,2022,2,2022-04-01,21272937,data/aggregated/user/country/india/state/andhra-pradesh/2022/2.json
+andhra-pradesh,Andhra Pradesh,2022,3,2022-07-01,22199210,data/aggregated/user/country/india/state/andhra-pradesh/2022/3.json
+andhra-pradesh,Andhra Pradesh,2022,4,2022-10-01,23102641,data/aggregated/user/country/india/state/andhra-pradesh/2022/4.json
+andhra-pradesh,Andhra Pradesh,2023,1,2023-01-01,23903359,data/aggregated/user/country/india/state/andhra-pradesh/2023/1.json
+andhra-pradesh,Andhra Pradesh,2023,2,2023-04-01,24687258,data/aggregated/user/country/india/state/andhra-pradesh/2023/2.json
+andhra-pradesh,Andhra Pradesh,2023,3,2023-07-01,25473637,data/aggregated/user/country/india/state/andhra-pradesh/2023/3.json
+andhra-pradesh,Andhra Pradesh,2023,4,2023-10-01,26160960,data/aggregated/user/country/india/state/andhra-pradesh/2023/4.json
+andhra-pradesh,Andhra Pradesh,2024,1,2024-01-01,26931791,data/aggregated/user/country/india/state/andhra-pradesh/2024/1.json
+andhra-pradesh,Andhra Pradesh,2024,2,2024-04-01,27773775,data/aggregated/user/country/india/state/andhra-pradesh/2024/2.json
+andhra-pradesh,Andhra Pradesh,2024,3,2024-07-01,28578957,data/aggregated/user/country/india/state/andhra-pradesh/2024/3.json
+andhra-pradesh,Andhra Pradesh,2024,4,2024-10-01,29497544,data/aggregated/user/country/india/state/andhra-pradesh/2024/4.json
+andhra-pradesh,Andhra Pradesh,2025,1,2025-01-01,30313656,data/aggregated/user/country/india/state/andhra-pradesh/2025/1.json
+andhra-pradesh,Andhra Pradesh,2025,2,2025-04-01,31181805,data/aggregated/user/country/india/state/andhra-pradesh/2025/2.json
+andhra-pradesh,Andhra Pradesh,2025,3,2025-07-01,32097241,data/aggregated/user/country/india/state/andhra-pradesh/2025/3.json
+andhra-pradesh,Andhra Pradesh,2025,4,2025-10-01,32906085,data/aggregated/user/country/india/state/andhra-pradesh/2025/4.json
+andhra-pradesh,Andhra Pradesh,2026,1,2026-01-01,33598777,data/aggregated/user/country/india/state/andhra-pradesh/2026/1.json
+andhra-pradesh,Andhra Pradesh,2026,2,2026-04-01,34327612,data/aggregated/user/country/india/state/andhra-pradesh/2026/2.json
+arunachal-pradesh,Arunachal Pradesh,2018,1,2018-01-01,26660,data/aggregated/user/country/india/state/arunachal-pradesh/2018/1.json
+arunachal-pradesh,Arunachal Pradesh,2018,2,2018-04-01,39517,data/aggregated/user/country/india/state/arunachal-pradesh/2018/2.json
+arunachal-pradesh,Arunachal Pradesh,2018,3,2018-07-01,53503,data/aggregated/user/country/india/state/arunachal-pradesh/2018/3.json
+arunachal-pradesh,Arunachal Pradesh,2018,4,2018-10-01,71555,data/aggregated/user/country/india/state/arunachal-pradesh/2018/4.json
+arunachal-pradesh,Arunachal Pradesh,2019,1,2019-01-01,88991,data/aggregated/user/country/india/state/arunachal-pradesh/2019/1.json
+arunachal-pradesh,Arunachal Pradesh,2019,2,2019-04-01,108855,data/aggregated/user/country/india/state/arunachal-pradesh/2019/2.json
+arunachal-pradesh,Arunachal Pradesh,2019,3,2019-07-01,128047,data/aggregated/user/country/india/state/arunachal-pradesh/2019/3.json
+arunachal-pradesh,Arunachal Pradesh,2019,4,2019-10-01,146946,data/aggregated/user/country/india/state/arunachal-pradesh/2019/4.json
+arunachal-pradesh,Arunachal Pradesh,2020,1,2020-01-01,169049,data/aggregated/user/country/india/state/arunachal-pradesh/2020/1.json
+arunachal-pradesh,Arunachal Pradesh,2020,2,2020-04-01,198449,data/aggregated/user/country/india/state/arunachal-pradesh/2020/2.json
+arunachal-pradesh,Arunachal Pradesh,2020,3,2020-07-01,228945,data/aggregated/user/country/india/state/arunachal-pradesh/2020/3.json
+arunachal-pradesh,Arunachal Pradesh,2020,4,2020-10-01,257285,data/aggregated/user/country/india/state/arunachal-pradesh/2020/4.json
+arunachal-pradesh,Arunachal Pradesh,2021,1,2021-01-01,279538,data/aggregated/user/country/india/state/arunachal-pradesh/2021/1.json
+arunachal-pradesh,Arunachal Pradesh,2021,2,2021-04-01,303657,data/aggregated/user/country/india/state/arunachal-pradesh/2021/2.json
+arunachal-pradesh,Arunachal Pradesh,2021,3,2021-07-01,327708,data/aggregated/user/country/india/state/arunachal-pradesh/2021/3.json
+arunachal-pradesh,Arunachal Pradesh,2021,4,2021-10-01,353110,data/aggregated/user/country/india/state/arunachal-pradesh/2021/4.json
+arunachal-pradesh,Arunachal Pradesh,2022,1,2022-01-01,378277,data/aggregated/user/country/india/state/arunachal-pradesh/2022/1.json
+arunachal-pradesh,Arunachal Pradesh,2022,2,2022-04-01,406742,data/aggregated/user/country/india/state/arunachal-pradesh/2022/2.json
+arunachal-pradesh,Arunachal Pradesh,2022,3,2022-07-01,436558,data/aggregated/user/country/india/state/arunachal-pradesh/2022/3.json
+arunachal-pradesh,Arunachal Pradesh,2022,4,2022-10-01,465208,data/aggregated/user/country/india/state/arunachal-pradesh/2022/4.json
+arunachal-pradesh,Arunachal Pradesh,2023,1,2023-01-01,493307,data/aggregated/user/country/india/state/arunachal-pradesh/2023/1.json
+arunachal-pradesh,Arunachal Pradesh,2023,2,2023-04-01,521967,data/aggregated/user/country/india/state/arunachal-pradesh/2023/2.json
+arunachal-pradesh,Arunachal Pradesh,2023,3,2023-07-01,552339,data/aggregated/user/country/india/state/arunachal-pradesh/2023/3.json
+arunachal-pradesh,Arunachal Pradesh,2023,4,2023-10-01,584620,data/aggregated/user/country/india/state/arunachal-pradesh/2023/4.json
+arunachal-pradesh,Arunachal Pradesh,2024,1,2024-01-01,623413,data/aggregated/user/country/india/state/arunachal-pradesh/2024/1.json
+arunachal-pradesh,Arunachal Pradesh,2024,2,2024-04-01,670071,data/aggregated/user/country/india/state/arunachal-pradesh/2024/2.json
+arunachal-pradesh,Arunachal Pradesh,2024,3,2024-07-01,712965,data/aggregated/user/country/india/state/arunachal-pradesh/2024/3.json
+arunachal-pradesh,Arunachal Pradesh,2024,4,2024-10-01,743265,data/aggregated/user/country/india/state/arunachal-pradesh/2024/4.json
+arunachal-pradesh,Arunachal Pradesh,2025,1,2025-01-01,772957,data/aggregated/user/country/india/state/arunachal-pradesh/2025/1.json
+arunachal-pradesh,Arunachal Pradesh,2025,2,2025-04-01,803428,data/aggregated/user/country/india/state/arunachal-pradesh/2025/2.json
+arunachal-pradesh,Arunachal Pradesh,2025,3,2025-07-01,834455,data/aggregated/user/country/india/state/arunachal-pradesh/2025/3.json
+arunachal-pradesh,Arunachal Pradesh,2025,4,2025-10-01,865553,data/aggregated/user/country/india/state/arunachal-pradesh/2025/4.json
+arunachal-pradesh,Arunachal Pradesh,2026,1,2026-01-01,894421,data/aggregated/user/country/india/state/arunachal-pradesh/2026/1.json
+arunachal-pradesh,Arunachal Pradesh,2026,2,2026-04-01,951240,data/aggregated/user/country/india/state/arunachal-pradesh/2026/2.json
+assam,Assam,2018,1,2018-01-01,449118,data/aggregated/user/country/india/state/assam/2018/1.json
+assam,Assam,2018,2,2018-04-01,669433,data/aggregated/user/country/india/state/assam/2018/2.json
+assam,Assam,2018,3,2018-07-01,900297,data/aggregated/user/country/india/state/assam/2018/3.json
+assam,Assam,2018,4,2018-10-01,1200972,data/aggregated/user/country/india/state/assam/2018/4.json
+assam,Assam,2019,1,2019-01-01,1461630,data/aggregated/user/country/india/state/assam/2019/1.json
+assam,Assam,2019,2,2019-04-01,1719942,data/aggregated/user/country/india/state/assam/2019/2.json
+assam,Assam,2019,3,2019-07-01,1997575,data/aggregated/user/country/india/state/assam/2019/3.json
+assam,Assam,2019,4,2019-10-01,2240183,data/aggregated/user/country/india/state/assam/2019/4.json
+assam,Assam,2020,1,2020-01-01,2534072,data/aggregated/user/country/india/state/assam/2020/1.json
+assam,Assam,2020,2,2020-04-01,2938372,data/aggregated/user/country/india/state/assam/2020/2.json
+assam,Assam,2020,3,2020-07-01,3266212,data/aggregated/user/country/india/state/assam/2020/3.json
+assam,Assam,2020,4,2020-10-01,3615153,data/aggregated/user/country/india/state/assam/2020/4.json
+assam,Assam,2021,1,2021-01-01,3929145,data/aggregated/user/country/india/state/assam/2021/1.json
+assam,Assam,2021,2,2021-04-01,4267940,data/aggregated/user/country/india/state/assam/2021/2.json
+assam,Assam,2021,3,2021-07-01,4661558,data/aggregated/user/country/india/state/assam/2021/3.json
+assam,Assam,2021,4,2021-10-01,5099567,data/aggregated/user/country/india/state/assam/2021/4.json
+assam,Assam,2022,1,2022-01-01,5551092,data/aggregated/user/country/india/state/assam/2022/1.json
+assam,Assam,2022,2,2022-04-01,6021618,data/aggregated/user/country/india/state/assam/2022/2.json
+assam,Assam,2022,3,2022-07-01,6517957,data/aggregated/user/country/india/state/assam/2022/3.json
+assam,Assam,2022,4,2022-10-01,6999042,data/aggregated/user/country/india/state/assam/2022/4.json
+assam,Assam,2023,1,2023-01-01,7478158,data/aggregated/user/country/india/state/assam/2023/1.json
+assam,Assam,2023,2,2023-04-01,7935267,data/aggregated/user/country/india/state/assam/2023/2.json
+assam,Assam,2023,3,2023-07-01,8451423,data/aggregated/user/country/india/state/assam/2023/3.json
+assam,Assam,2023,4,2023-10-01,9011333,data/aggregated/user/country/india/state/assam/2023/4.json
+assam,Assam,2024,1,2024-01-01,9619049,data/aggregated/user/country/india/state/assam/2024/1.json
+assam,Assam,2024,2,2024-04-01,10259479,data/aggregated/user/country/india/state/assam/2024/2.json
+assam,Assam,2024,3,2024-07-01,10865707,data/aggregated/user/country/india/state/assam/2024/3.json
+assam,Assam,2024,4,2024-10-01,11341543,data/aggregated/user/country/india/state/assam/2024/4.json
+assam,Assam,2025,1,2025-01-01,11808496,data/aggregated/user/country/india/state/assam/2025/1.json
+assam,Assam,2025,2,2025-04-01,12266826,data/aggregated/user/country/india/state/assam/2025/2.json
+assam,Assam,2025,3,2025-07-01,12771675,data/aggregated/user/country/india/state/assam/2025/3.json
+assam,Assam,2025,4,2025-10-01,13282617,data/aggregated/user/country/india/state/assam/2025/4.json
+assam,Assam,2026,1,2026-01-01,13764766,data/aggregated/user/country/india/state/assam/2026/1.json
+assam,Assam,2026,2,2026-04-01,14095525,data/aggregated/user/country/india/state/assam/2026/2.json
+bihar,Bihar,2018,1,2018-01-01,2173873,data/aggregated/user/country/india/state/bihar/2018/1.json
+bihar,Bihar,2018,2,2018-04-01,3075993,data/aggregated/user/country/india/state/bihar/2018/2.json
+bihar,Bihar,2018,3,2018-07-01,3846555,data/aggregated/user/country/india/state/bihar/2018/3.json
+bihar,Bihar,2018,4,2018-10-01,4894391,data/aggregated/user/country/india/state/bihar/2018/4.json
+bihar,Bihar,2019,1,2019-01-01,5903371,data/aggregated/user/country/india/state/bihar/2019/1.json
+bihar,Bihar,2019,2,2019-04-01,6750778,data/aggregated/user/country/india/state/bihar/2019/2.json
+bihar,Bihar,2019,3,2019-07-01,7595450,data/aggregated/user/country/india/state/bihar/2019/3.json
+bihar,Bihar,2019,4,2019-10-01,8557982,data/aggregated/user/country/india/state/bihar/2019/4.json
+bihar,Bihar,2020,1,2020-01-01,9579162,data/aggregated/user/country/india/state/bihar/2020/1.json
+bihar,Bihar,2020,2,2020-04-01,10810307,data/aggregated/user/country/india/state/bihar/2020/2.json
+bihar,Bihar,2020,3,2020-07-01,11972054,data/aggregated/user/country/india/state/bihar/2020/3.json
+bihar,Bihar,2020,4,2020-10-01,13128377,data/aggregated/user/country/india/state/bihar/2020/4.json
+bihar,Bihar,2021,1,2021-01-01,14274751,data/aggregated/user/country/india/state/bihar/2021/1.json
+bihar,Bihar,2021,2,2021-04-01,15401467,data/aggregated/user/country/india/state/bihar/2021/2.json
+bihar,Bihar,2021,3,2021-07-01,16692841,data/aggregated/user/country/india/state/bihar/2021/3.json
+bihar,Bihar,2021,4,2021-10-01,17989043,data/aggregated/user/country/india/state/bihar/2021/4.json
+bihar,Bihar,2022,1,2022-01-01,19351497,data/aggregated/user/country/india/state/bihar/2022/1.json
+bihar,Bihar,2022,2,2022-04-01,20671708,data/aggregated/user/country/india/state/bihar/2022/2.json
+bihar,Bihar,2022,3,2022-07-01,22066926,data/aggregated/user/country/india/state/bihar/2022/3.json
+bihar,Bihar,2022,4,2022-10-01,23466284,data/aggregated/user/country/india/state/bihar/2022/4.json
+bihar,Bihar,2023,1,2023-01-01,24855994,data/aggregated/user/country/india/state/bihar/2023/1.json
+bihar,Bihar,2023,2,2023-04-01,26174400,data/aggregated/user/country/india/state/bihar/2023/2.json
+bihar,Bihar,2023,3,2023-07-01,27578408,data/aggregated/user/country/india/state/bihar/2023/3.json
+bihar,Bihar,2023,4,2023-10-01,29113524,data/aggregated/user/country/india/state/bihar/2023/4.json
+bihar,Bihar,2024,1,2024-01-01,30849769,data/aggregated/user/country/india/state/bihar/2024/1.json
+bihar,Bihar,2024,2,2024-04-01,32631512,data/aggregated/user/country/india/state/bihar/2024/2.json
+bihar,Bihar,2024,3,2024-07-01,34194093,data/aggregated/user/country/india/state/bihar/2024/3.json
+bihar,Bihar,2024,4,2024-10-01,35663071,data/aggregated/user/country/india/state/bihar/2024/4.json
+bihar,Bihar,2025,1,2025-01-01,37257833,data/aggregated/user/country/india/state/bihar/2025/1.json
+bihar,Bihar,2025,2,2025-04-01,38792069,data/aggregated/user/country/india/state/bihar/2025/2.json
+bihar,Bihar,2025,3,2025-07-01,40492727,data/aggregated/user/country/india/state/bihar/2025/3.json
+bihar,Bihar,2025,4,2025-10-01,42344157,data/aggregated/user/country/india/state/bihar/2025/4.json
+bihar,Bihar,2026,1,2026-01-01,43855409,data/aggregated/user/country/india/state/bihar/2026/1.json
+bihar,Bihar,2026,2,2026-04-01,44813491,data/aggregated/user/country/india/state/bihar/2026/2.json
+chandigarh,Chandigarh,2018,1,2018-01-01,84504,data/aggregated/user/country/india/state/chandigarh/2018/1.json
+chandigarh,Chandigarh,2018,2,2018-04-01,113150,data/aggregated/user/country/india/state/chandigarh/2018/2.json
+chandigarh,Chandigarh,2018,3,2018-07-01,141119,data/aggregated/user/country/india/state/chandigarh/2018/3.json
+chandigarh,Chandigarh,2018,4,2018-10-01,175644,data/aggregated/user/country/india/state/chandigarh/2018/4.json
+chandigarh,Chandigarh,2019,1,2019-01-01,207673,data/aggregated/user/country/india/state/chandigarh/2019/1.json
+chandigarh,Chandigarh,2019,2,2019-04-01,240155,data/aggregated/user/country/india/state/chandigarh/2019/2.json
+chandigarh,Chandigarh,2019,3,2019-07-01,268117,data/aggregated/user/country/india/state/chandigarh/2019/3.json
+chandigarh,Chandigarh,2019,4,2019-10-01,292017,data/aggregated/user/country/india/state/chandigarh/2019/4.json
+chandigarh,Chandigarh,2020,1,2020-01-01,316683,data/aggregated/user/country/india/state/chandigarh/2020/1.json
+chandigarh,Chandigarh,2020,2,2020-04-01,341687,data/aggregated/user/country/india/state/chandigarh/2020/2.json
+chandigarh,Chandigarh,2020,3,2020-07-01,368783,data/aggregated/user/country/india/state/chandigarh/2020/3.json
+chandigarh,Chandigarh,2020,4,2020-10-01,396747,data/aggregated/user/country/india/state/chandigarh/2020/4.json
+chandigarh,Chandigarh,2021,1,2021-01-01,420246,data/aggregated/user/country/india/state/chandigarh/2021/1.json
+chandigarh,Chandigarh,2021,2,2021-04-01,442163,data/aggregated/user/country/india/state/chandigarh/2021/2.json
+chandigarh,Chandigarh,2021,3,2021-07-01,465065,data/aggregated/user/country/india/state/chandigarh/2021/3.json
+chandigarh,Chandigarh,2021,4,2021-10-01,487572,data/aggregated/user/country/india/state/chandigarh/2021/4.json
+chandigarh,Chandigarh,2022,1,2022-01-01,509170,data/aggregated/user/country/india/state/chandigarh/2022/1.json
+chandigarh,Chandigarh,2022,2,2022-04-01,529517,data/aggregated/user/country/india/state/chandigarh/2022/2.json
+chandigarh,Chandigarh,2022,3,2022-07-01,550651,data/aggregated/user/country/india/state/chandigarh/2022/3.json
+chandigarh,Chandigarh,2022,4,2022-10-01,569949,data/aggregated/user/country/india/state/chandigarh/2022/4.json
+chandigarh,Chandigarh,2023,1,2023-01-01,587987,data/aggregated/user/country/india/state/chandigarh/2023/1.json
+chandigarh,Chandigarh,2023,2,2023-04-01,605280,data/aggregated/user/country/india/state/chandigarh/2023/2.json
+chandigarh,Chandigarh,2023,3,2023-07-01,622265,data/aggregated/user/country/india/state/chandigarh/2023/3.json
+chandigarh,Chandigarh,2023,4,2023-10-01,639168,data/aggregated/user/country/india/state/chandigarh/2023/4.json
+chandigarh,Chandigarh,2024,1,2024-01-01,660057,data/aggregated/user/country/india/state/chandigarh/2024/1.json
+chandigarh,Chandigarh,2024,2,2024-04-01,682073,data/aggregated/user/country/india/state/chandigarh/2024/2.json
+chandigarh,Chandigarh,2024,3,2024-07-01,703169,data/aggregated/user/country/india/state/chandigarh/2024/3.json
+chandigarh,Chandigarh,2024,4,2024-10-01,721374,data/aggregated/user/country/india/state/chandigarh/2024/4.json
+chandigarh,Chandigarh,2025,1,2025-01-01,739749,data/aggregated/user/country/india/state/chandigarh/2025/1.json
+chandigarh,Chandigarh,2025,2,2025-04-01,757963,data/aggregated/user/country/india/state/chandigarh/2025/2.json
+chandigarh,Chandigarh,2025,3,2025-07-01,776162,data/aggregated/user/country/india/state/chandigarh/2025/3.json
+chandigarh,Chandigarh,2025,4,2025-10-01,794106,data/aggregated/user/country/india/state/chandigarh/2025/4.json
+chandigarh,Chandigarh,2026,1,2026-01-01,811491,data/aggregated/user/country/india/state/chandigarh/2026/1.json
+chandigarh,Chandigarh,2026,2,2026-04-01,829123,data/aggregated/user/country/india/state/chandigarh/2026/2.json
+chhattisgarh,Chhattisgarh,2018,1,2018-01-01,686395,data/aggregated/user/country/india/state/chhattisgarh/2018/1.json
+chhattisgarh,Chhattisgarh,2018,2,2018-04-01,967619,data/aggregated/user/country/india/state/chhattisgarh/2018/2.json
+chhattisgarh,Chhattisgarh,2018,3,2018-07-01,1229445,data/aggregated/user/country/india/state/chhattisgarh/2018/3.json
+chhattisgarh,Chhattisgarh,2018,4,2018-10-01,1584333,data/aggregated/user/country/india/state/chhattisgarh/2018/4.json
+chhattisgarh,Chhattisgarh,2019,1,2019-01-01,1925189,data/aggregated/user/country/india/state/chhattisgarh/2019/1.json
+chhattisgarh,Chhattisgarh,2019,2,2019-04-01,2212185,data/aggregated/user/country/india/state/chhattisgarh/2019/2.json
+chhattisgarh,Chhattisgarh,2019,3,2019-07-01,2488075,data/aggregated/user/country/india/state/chhattisgarh/2019/3.json
+chhattisgarh,Chhattisgarh,2019,4,2019-10-01,2780915,data/aggregated/user/country/india/state/chhattisgarh/2019/4.json
+chhattisgarh,Chhattisgarh,2020,1,2020-01-01,3094859,data/aggregated/user/country/india/state/chhattisgarh/2020/1.json
+chhattisgarh,Chhattisgarh,2020,2,2020-04-01,3484888,data/aggregated/user/country/india/state/chhattisgarh/2020/2.json
+chhattisgarh,Chhattisgarh,2020,3,2020-07-01,3897665,data/aggregated/user/country/india/state/chhattisgarh/2020/3.json
+chhattisgarh,Chhattisgarh,2020,4,2020-10-01,4302482,data/aggregated/user/country/india/state/chhattisgarh/2020/4.json
+chhattisgarh,Chhattisgarh,2021,1,2021-01-01,4682835,data/aggregated/user/country/india/state/chhattisgarh/2021/1.json
+chhattisgarh,Chhattisgarh,2021,2,2021-04-01,5078626,data/aggregated/user/country/india/state/chhattisgarh/2021/2.json
+chhattisgarh,Chhattisgarh,2021,3,2021-07-01,5517110,data/aggregated/user/country/india/state/chhattisgarh/2021/3.json
+chhattisgarh,Chhattisgarh,2021,4,2021-10-01,5951381,data/aggregated/user/country/india/state/chhattisgarh/2021/4.json
+chhattisgarh,Chhattisgarh,2022,1,2022-01-01,6380734,data/aggregated/user/country/india/state/chhattisgarh/2022/1.json
+chhattisgarh,Chhattisgarh,2022,2,2022-04-01,6782654,data/aggregated/user/country/india/state/chhattisgarh/2022/2.json
+chhattisgarh,Chhattisgarh,2022,3,2022-07-01,7211969,data/aggregated/user/country/india/state/chhattisgarh/2022/3.json
+chhattisgarh,Chhattisgarh,2022,4,2022-10-01,7618238,data/aggregated/user/country/india/state/chhattisgarh/2022/4.json
+chhattisgarh,Chhattisgarh,2023,1,2023-01-01,8004123,data/aggregated/user/country/india/state/chhattisgarh/2023/1.json
+chhattisgarh,Chhattisgarh,2023,2,2023-04-01,8375641,data/aggregated/user/country/india/state/chhattisgarh/2023/2.json
+chhattisgarh,Chhattisgarh,2023,3,2023-07-01,8766380,data/aggregated/user/country/india/state/chhattisgarh/2023/3.json
+chhattisgarh,Chhattisgarh,2023,4,2023-10-01,9160798,data/aggregated/user/country/india/state/chhattisgarh/2023/4.json
+chhattisgarh,Chhattisgarh,2024,1,2024-01-01,9676480,data/aggregated/user/country/india/state/chhattisgarh/2024/1.json
+chhattisgarh,Chhattisgarh,2024,2,2024-04-01,10160209,data/aggregated/user/country/india/state/chhattisgarh/2024/2.json
+chhattisgarh,Chhattisgarh,2024,3,2024-07-01,10587536,data/aggregated/user/country/india/state/chhattisgarh/2024/3.json
+chhattisgarh,Chhattisgarh,2024,4,2024-10-01,10962228,data/aggregated/user/country/india/state/chhattisgarh/2024/4.json
+chhattisgarh,Chhattisgarh,2025,1,2025-01-01,11341270,data/aggregated/user/country/india/state/chhattisgarh/2025/1.json
+chhattisgarh,Chhattisgarh,2025,2,2025-04-01,11716582,data/aggregated/user/country/india/state/chhattisgarh/2025/2.json
+chhattisgarh,Chhattisgarh,2025,3,2025-07-01,12105416,data/aggregated/user/country/india/state/chhattisgarh/2025/3.json
+chhattisgarh,Chhattisgarh,2025,4,2025-10-01,12478219,data/aggregated/user/country/india/state/chhattisgarh/2025/4.json
+chhattisgarh,Chhattisgarh,2026,1,2026-01-01,12825130,data/aggregated/user/country/india/state/chhattisgarh/2026/1.json
+chhattisgarh,Chhattisgarh,2026,2,2026-04-01,13192734,data/aggregated/user/country/india/state/chhattisgarh/2026/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2018,1,2018-01-01,46505,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2018/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2018,2,2018-04-01,62632,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2018/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2018,3,2018-07-01,79851,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2018/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2018,4,2018-10-01,101702,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2018/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2019,1,2019-01-01,122413,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2019/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2019,2,2019-04-01,139004,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2019/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2019,3,2019-07-01,155873,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2019/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2019,4,2019-10-01,174634,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2019/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2020,1,2020-01-01,193453,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2020/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2020,2,2020-04-01,217392,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2020/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2020,3,2020-07-01,239161,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2020/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2020,4,2020-10-01,264058,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2020/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2021,1,2021-01-01,284780,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2021/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2021,2,2021-04-01,304287,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2021/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2021,3,2021-07-01,326668,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2021/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2021,4,2021-10-01,349265,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2021/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2022,1,2022-01-01,369790,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2022/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2022,2,2022-04-01,390083,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2022/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2022,3,2022-07-01,410533,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2022/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2022,4,2022-10-01,431261,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2022/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2023,1,2023-01-01,449889,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2023/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2023,2,2023-04-01,467310,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2023/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2023,3,2023-07-01,484521,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2023/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2023,4,2023-10-01,502992,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2023/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2024,1,2024-01-01,522738,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2024/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2024,2,2024-04-01,542235,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2024/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2024,3,2024-07-01,560853,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2024/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2024,4,2024-10-01,579259,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2024/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2025,1,2025-01-01,597015,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2025/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2025,2,2025-04-01,613335,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2025/2.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2025,3,2025-07-01,630853,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2025/3.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2025,4,2025-10-01,647249,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2025/4.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2026,1,2026-01-01,661947,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2026/1.json
+dadra-&-nagar-haveli-&-daman-&-diu,Dadra & Nagar Haveli and Daman & Diu,2026,2,2026-04-01,685445,data/aggregated/user/country/india/state/dadra-&-nagar-haveli-&-daman-&-diu/2026/2.json
+delhi,Delhi,2018,1,2018-01-01,1954765,data/aggregated/user/country/india/state/delhi/2018/1.json
+delhi,Delhi,2018,2,2018-04-01,2581867,data/aggregated/user/country/india/state/delhi/2018/2.json
+delhi,Delhi,2018,3,2018-07-01,3271387,data/aggregated/user/country/india/state/delhi/2018/3.json
+delhi,Delhi,2018,4,2018-10-01,4336314,data/aggregated/user/country/india/state/delhi/2018/4.json
+delhi,Delhi,2019,1,2019-01-01,5182927,data/aggregated/user/country/india/state/delhi/2019/1.json
+delhi,Delhi,2019,2,2019-04-01,5845734,data/aggregated/user/country/india/state/delhi/2019/2.json
+delhi,Delhi,2019,3,2019-07-01,6463153,data/aggregated/user/country/india/state/delhi/2019/3.json
+delhi,Delhi,2019,4,2019-10-01,6975942,data/aggregated/user/country/india/state/delhi/2019/4.json
+delhi,Delhi,2020,1,2020-01-01,7506500,data/aggregated/user/country/india/state/delhi/2020/1.json
+delhi,Delhi,2020,2,2020-04-01,8071753,data/aggregated/user/country/india/state/delhi/2020/2.json
+delhi,Delhi,2020,3,2020-07-01,8702719,data/aggregated/user/country/india/state/delhi/2020/3.json
+delhi,Delhi,2020,4,2020-10-01,9361847,data/aggregated/user/country/india/state/delhi/2020/4.json
+delhi,Delhi,2021,1,2021-01-01,9968730,data/aggregated/user/country/india/state/delhi/2021/1.json
+delhi,Delhi,2021,2,2021-04-01,10538375,data/aggregated/user/country/india/state/delhi/2021/2.json
+delhi,Delhi,2021,3,2021-07-01,11160288,data/aggregated/user/country/india/state/delhi/2021/3.json
+delhi,Delhi,2021,4,2021-10-01,11796958,data/aggregated/user/country/india/state/delhi/2021/4.json
+delhi,Delhi,2022,1,2022-01-01,12414526,data/aggregated/user/country/india/state/delhi/2022/1.json
+delhi,Delhi,2022,2,2022-04-01,12974749,data/aggregated/user/country/india/state/delhi/2022/2.json
+delhi,Delhi,2022,3,2022-07-01,13539000,data/aggregated/user/country/india/state/delhi/2022/3.json
+delhi,Delhi,2022,4,2022-10-01,14081903,data/aggregated/user/country/india/state/delhi/2022/4.json
+delhi,Delhi,2023,1,2023-01-01,14595060,data/aggregated/user/country/india/state/delhi/2023/1.json
+delhi,Delhi,2023,2,2023-04-01,15072030,data/aggregated/user/country/india/state/delhi/2023/2.json
+delhi,Delhi,2023,3,2023-07-01,15541397,data/aggregated/user/country/india/state/delhi/2023/3.json
+delhi,Delhi,2023,4,2023-10-01,16011335,data/aggregated/user/country/india/state/delhi/2023/4.json
+delhi,Delhi,2024,1,2024-01-01,16600851,data/aggregated/user/country/india/state/delhi/2024/1.json
+delhi,Delhi,2024,2,2024-04-01,17177363,data/aggregated/user/country/india/state/delhi/2024/2.json
+delhi,Delhi,2024,3,2024-07-01,17734636,data/aggregated/user/country/india/state/delhi/2024/3.json
+delhi,Delhi,2024,4,2024-10-01,18256126,data/aggregated/user/country/india/state/delhi/2024/4.json
+delhi,Delhi,2025,1,2025-01-01,18767127,data/aggregated/user/country/india/state/delhi/2025/1.json
+delhi,Delhi,2025,2,2025-04-01,19263783,data/aggregated/user/country/india/state/delhi/2025/2.json
+delhi,Delhi,2025,3,2025-07-01,19764135,data/aggregated/user/country/india/state/delhi/2025/3.json
+delhi,Delhi,2025,4,2025-10-01,20229290,data/aggregated/user/country/india/state/delhi/2025/4.json
+delhi,Delhi,2026,1,2026-01-01,20688029,data/aggregated/user/country/india/state/delhi/2026/1.json
+delhi,Delhi,2026,2,2026-04-01,21250201,data/aggregated/user/country/india/state/delhi/2026/2.json
+goa,Goa,2018,1,2018-01-01,97236,data/aggregated/user/country/india/state/goa/2018/1.json
+goa,Goa,2018,2,2018-04-01,128359,data/aggregated/user/country/india/state/goa/2018/2.json
+goa,Goa,2018,3,2018-07-01,160129,data/aggregated/user/country/india/state/goa/2018/3.json
+goa,Goa,2018,4,2018-10-01,204229,data/aggregated/user/country/india/state/goa/2018/4.json
+goa,Goa,2019,1,2019-01-01,248825,data/aggregated/user/country/india/state/goa/2019/1.json
+goa,Goa,2019,2,2019-04-01,290801,data/aggregated/user/country/india/state/goa/2019/2.json
+goa,Goa,2019,3,2019-07-01,331094,data/aggregated/user/country/india/state/goa/2019/3.json
+goa,Goa,2019,4,2019-10-01,370015,data/aggregated/user/country/india/state/goa/2019/4.json
+goa,Goa,2020,1,2020-01-01,410941,data/aggregated/user/country/india/state/goa/2020/1.json
+goa,Goa,2020,2,2020-04-01,451839,data/aggregated/user/country/india/state/goa/2020/2.json
+goa,Goa,2020,3,2020-07-01,499358,data/aggregated/user/country/india/state/goa/2020/3.json
+goa,Goa,2020,4,2020-10-01,553679,data/aggregated/user/country/india/state/goa/2020/4.json
+goa,Goa,2021,1,2021-01-01,596406,data/aggregated/user/country/india/state/goa/2021/1.json
+goa,Goa,2021,2,2021-04-01,634949,data/aggregated/user/country/india/state/goa/2021/2.json
+goa,Goa,2021,3,2021-07-01,677726,data/aggregated/user/country/india/state/goa/2021/3.json
+goa,Goa,2021,4,2021-10-01,720435,data/aggregated/user/country/india/state/goa/2021/4.json
+goa,Goa,2022,1,2022-01-01,759279,data/aggregated/user/country/india/state/goa/2022/1.json
+goa,Goa,2022,2,2022-04-01,796871,data/aggregated/user/country/india/state/goa/2022/2.json
+goa,Goa,2022,3,2022-07-01,835257,data/aggregated/user/country/india/state/goa/2022/3.json
+goa,Goa,2022,4,2022-10-01,871837,data/aggregated/user/country/india/state/goa/2022/4.json
+goa,Goa,2023,1,2023-01-01,904953,data/aggregated/user/country/india/state/goa/2023/1.json
+goa,Goa,2023,2,2023-04-01,935702,data/aggregated/user/country/india/state/goa/2023/2.json
+goa,Goa,2023,3,2023-07-01,967033,data/aggregated/user/country/india/state/goa/2023/3.json
+goa,Goa,2023,4,2023-10-01,1001527,data/aggregated/user/country/india/state/goa/2023/4.json
+goa,Goa,2024,1,2024-01-01,1039130,data/aggregated/user/country/india/state/goa/2024/1.json
+goa,Goa,2024,2,2024-04-01,1078255,data/aggregated/user/country/india/state/goa/2024/2.json
+goa,Goa,2024,3,2024-07-01,1117049,data/aggregated/user/country/india/state/goa/2024/3.json
+goa,Goa,2024,4,2024-10-01,1151724,data/aggregated/user/country/india/state/goa/2024/4.json
+goa,Goa,2025,1,2025-01-01,1185550,data/aggregated/user/country/india/state/goa/2025/1.json
+goa,Goa,2025,2,2025-04-01,1218114,data/aggregated/user/country/india/state/goa/2025/2.json
+goa,Goa,2025,3,2025-07-01,1252705,data/aggregated/user/country/india/state/goa/2025/3.json
+goa,Goa,2025,4,2025-10-01,1289056,data/aggregated/user/country/india/state/goa/2025/4.json
+goa,Goa,2026,1,2026-01-01,1325289,data/aggregated/user/country/india/state/goa/2026/1.json
+goa,Goa,2026,2,2026-04-01,1347940,data/aggregated/user/country/india/state/goa/2026/2.json
+gujarat,Gujarat,2018,1,2018-01-01,2813458,data/aggregated/user/country/india/state/gujarat/2018/1.json
+gujarat,Gujarat,2018,2,2018-04-01,3729318,data/aggregated/user/country/india/state/gujarat/2018/2.json
+gujarat,Gujarat,2018,3,2018-07-01,4601012,data/aggregated/user/country/india/state/gujarat/2018/3.json
+gujarat,Gujarat,2018,4,2018-10-01,5796205,data/aggregated/user/country/india/state/gujarat/2018/4.json
+gujarat,Gujarat,2019,1,2019-01-01,6920980,data/aggregated/user/country/india/state/gujarat/2019/1.json
+gujarat,Gujarat,2019,2,2019-04-01,7878532,data/aggregated/user/country/india/state/gujarat/2019/2.json
+gujarat,Gujarat,2019,3,2019-07-01,8815169,data/aggregated/user/country/india/state/gujarat/2019/3.json
+gujarat,Gujarat,2019,4,2019-10-01,9739656,data/aggregated/user/country/india/state/gujarat/2019/4.json
+gujarat,Gujarat,2020,1,2020-01-01,10722212,data/aggregated/user/country/india/state/gujarat/2020/1.json
+gujarat,Gujarat,2020,2,2020-04-01,11915415,data/aggregated/user/country/india/state/gujarat/2020/2.json
+gujarat,Gujarat,2020,3,2020-07-01,13038677,data/aggregated/user/country/india/state/gujarat/2020/3.json
+gujarat,Gujarat,2020,4,2020-10-01,14183614,data/aggregated/user/country/india/state/gujarat/2020/4.json
+gujarat,Gujarat,2021,1,2021-01-01,15212633,data/aggregated/user/country/india/state/gujarat/2021/1.json
+gujarat,Gujarat,2021,2,2021-04-01,16194721,data/aggregated/user/country/india/state/gujarat/2021/2.json
+gujarat,Gujarat,2021,3,2021-07-01,17323185,data/aggregated/user/country/india/state/gujarat/2021/3.json
+gujarat,Gujarat,2021,4,2021-10-01,18430583,data/aggregated/user/country/india/state/gujarat/2021/4.json
+gujarat,Gujarat,2022,1,2022-01-01,19483483,data/aggregated/user/country/india/state/gujarat/2022/1.json
+gujarat,Gujarat,2022,2,2022-04-01,20492610,data/aggregated/user/country/india/state/gujarat/2022/2.json
+gujarat,Gujarat,2022,3,2022-07-01,21579615,data/aggregated/user/country/india/state/gujarat/2022/3.json
+gujarat,Gujarat,2022,4,2022-10-01,22608675,data/aggregated/user/country/india/state/gujarat/2022/4.json
+gujarat,Gujarat,2023,1,2023-01-01,23551635,data/aggregated/user/country/india/state/gujarat/2023/1.json
+gujarat,Gujarat,2023,2,2023-04-01,24442139,data/aggregated/user/country/india/state/gujarat/2023/2.json
+gujarat,Gujarat,2023,3,2023-07-01,25381367,data/aggregated/user/country/india/state/gujarat/2023/3.json
+gujarat,Gujarat,2023,4,2023-10-01,26346004,data/aggregated/user/country/india/state/gujarat/2023/4.json
+gujarat,Gujarat,2024,1,2024-01-01,27405423,data/aggregated/user/country/india/state/gujarat/2024/1.json
+gujarat,Gujarat,2024,2,2024-04-01,28470147,data/aggregated/user/country/india/state/gujarat/2024/2.json
+gujarat,Gujarat,2024,3,2024-07-01,29515495,data/aggregated/user/country/india/state/gujarat/2024/3.json
+gujarat,Gujarat,2024,4,2024-10-01,30455926,data/aggregated/user/country/india/state/gujarat/2024/4.json
+gujarat,Gujarat,2025,1,2025-01-01,31378561,data/aggregated/user/country/india/state/gujarat/2025/1.json
+gujarat,Gujarat,2025,2,2025-04-01,32256294,data/aggregated/user/country/india/state/gujarat/2025/2.json
+gujarat,Gujarat,2025,3,2025-07-01,33195778,data/aggregated/user/country/india/state/gujarat/2025/3.json
+gujarat,Gujarat,2025,4,2025-10-01,34132806,data/aggregated/user/country/india/state/gujarat/2025/4.json
+gujarat,Gujarat,2026,1,2026-01-01,34953549,data/aggregated/user/country/india/state/gujarat/2026/1.json
+gujarat,Gujarat,2026,2,2026-04-01,36083882,data/aggregated/user/country/india/state/gujarat/2026/2.json
+haryana,Haryana,2018,1,2018-01-01,1988481,data/aggregated/user/country/india/state/haryana/2018/1.json
+haryana,Haryana,2018,2,2018-04-01,2621706,data/aggregated/user/country/india/state/haryana/2018/2.json
+haryana,Haryana,2018,3,2018-07-01,3194626,data/aggregated/user/country/india/state/haryana/2018/3.json
+haryana,Haryana,2018,4,2018-10-01,3994128,data/aggregated/user/country/india/state/haryana/2018/4.json
+haryana,Haryana,2019,1,2019-01-01,4759566,data/aggregated/user/country/india/state/haryana/2019/1.json
+haryana,Haryana,2019,2,2019-04-01,5414773,data/aggregated/user/country/india/state/haryana/2019/2.json
+haryana,Haryana,2019,3,2019-07-01,6054463,data/aggregated/user/country/india/state/haryana/2019/3.json
+haryana,Haryana,2019,4,2019-10-01,6642686,data/aggregated/user/country/india/state/haryana/2019/4.json
+haryana,Haryana,2020,1,2020-01-01,7305629,data/aggregated/user/country/india/state/haryana/2020/1.json
+haryana,Haryana,2020,2,2020-04-01,7982067,data/aggregated/user/country/india/state/haryana/2020/2.json
+haryana,Haryana,2020,3,2020-07-01,8695590,data/aggregated/user/country/india/state/haryana/2020/3.json
+haryana,Haryana,2020,4,2020-10-01,9406195,data/aggregated/user/country/india/state/haryana/2020/4.json
+haryana,Haryana,2021,1,2021-01-01,10053988,data/aggregated/user/country/india/state/haryana/2021/1.json
+haryana,Haryana,2021,2,2021-04-01,10686682,data/aggregated/user/country/india/state/haryana/2021/2.json
+haryana,Haryana,2021,3,2021-07-01,11374312,data/aggregated/user/country/india/state/haryana/2021/3.json
+haryana,Haryana,2021,4,2021-10-01,12047369,data/aggregated/user/country/india/state/haryana/2021/4.json
+haryana,Haryana,2022,1,2022-01-01,12718254,data/aggregated/user/country/india/state/haryana/2022/1.json
+haryana,Haryana,2022,2,2022-04-01,13329477,data/aggregated/user/country/india/state/haryana/2022/2.json
+haryana,Haryana,2022,3,2022-07-01,13974131,data/aggregated/user/country/india/state/haryana/2022/3.json
+haryana,Haryana,2022,4,2022-10-01,14567786,data/aggregated/user/country/india/state/haryana/2022/4.json
+haryana,Haryana,2023,1,2023-01-01,15150515,data/aggregated/user/country/india/state/haryana/2023/1.json
+haryana,Haryana,2023,2,2023-04-01,15685619,data/aggregated/user/country/india/state/haryana/2023/2.json
+haryana,Haryana,2023,3,2023-07-01,16228788,data/aggregated/user/country/india/state/haryana/2023/3.json
+haryana,Haryana,2023,4,2023-10-01,16779114,data/aggregated/user/country/india/state/haryana/2023/4.json
+haryana,Haryana,2024,1,2024-01-01,17427671,data/aggregated/user/country/india/state/haryana/2024/1.json
+haryana,Haryana,2024,2,2024-04-01,18087186,data/aggregated/user/country/india/state/haryana/2024/2.json
+haryana,Haryana,2024,3,2024-07-01,18729218,data/aggregated/user/country/india/state/haryana/2024/3.json
+haryana,Haryana,2024,4,2024-10-01,19313789,data/aggregated/user/country/india/state/haryana/2024/4.json
+haryana,Haryana,2025,1,2025-01-01,19907909,data/aggregated/user/country/india/state/haryana/2025/1.json
+haryana,Haryana,2025,2,2025-04-01,20473762,data/aggregated/user/country/india/state/haryana/2025/2.json
+haryana,Haryana,2025,3,2025-07-01,21056009,data/aggregated/user/country/india/state/haryana/2025/3.json
+haryana,Haryana,2025,4,2025-10-01,21615414,data/aggregated/user/country/india/state/haryana/2025/4.json
+haryana,Haryana,2026,1,2026-01-01,22159437,data/aggregated/user/country/india/state/haryana/2026/1.json
+haryana,Haryana,2026,2,2026-04-01,22839223,data/aggregated/user/country/india/state/haryana/2026/2.json
+himachal-pradesh,Himachal Pradesh,2018,1,2018-01-01,232961,data/aggregated/user/country/india/state/himachal-pradesh/2018/1.json
+himachal-pradesh,Himachal Pradesh,2018,2,2018-04-01,321663,data/aggregated/user/country/india/state/himachal-pradesh/2018/2.json
+himachal-pradesh,Himachal Pradesh,2018,3,2018-07-01,411528,data/aggregated/user/country/india/state/himachal-pradesh/2018/3.json
+himachal-pradesh,Himachal Pradesh,2018,4,2018-10-01,536663,data/aggregated/user/country/india/state/himachal-pradesh/2018/4.json
+himachal-pradesh,Himachal Pradesh,2019,1,2019-01-01,664582,data/aggregated/user/country/india/state/himachal-pradesh/2019/1.json
+himachal-pradesh,Himachal Pradesh,2019,2,2019-04-01,782863,data/aggregated/user/country/india/state/himachal-pradesh/2019/2.json
+himachal-pradesh,Himachal Pradesh,2019,3,2019-07-01,895546,data/aggregated/user/country/india/state/himachal-pradesh/2019/3.json
+himachal-pradesh,Himachal Pradesh,2019,4,2019-10-01,1005852,data/aggregated/user/country/india/state/himachal-pradesh/2019/4.json
+himachal-pradesh,Himachal Pradesh,2020,1,2020-01-01,1132310,data/aggregated/user/country/india/state/himachal-pradesh/2020/1.json
+himachal-pradesh,Himachal Pradesh,2020,2,2020-04-01,1275538,data/aggregated/user/country/india/state/himachal-pradesh/2020/2.json
+himachal-pradesh,Himachal Pradesh,2020,3,2020-07-01,1408247,data/aggregated/user/country/india/state/himachal-pradesh/2020/3.json
+himachal-pradesh,Himachal Pradesh,2020,4,2020-10-01,1534598,data/aggregated/user/country/india/state/himachal-pradesh/2020/4.json
+himachal-pradesh,Himachal Pradesh,2021,1,2021-01-01,1638990,data/aggregated/user/country/india/state/himachal-pradesh/2021/1.json
+himachal-pradesh,Himachal Pradesh,2021,2,2021-04-01,1741024,data/aggregated/user/country/india/state/himachal-pradesh/2021/2.json
+himachal-pradesh,Himachal Pradesh,2021,3,2021-07-01,1846491,data/aggregated/user/country/india/state/himachal-pradesh/2021/3.json
+himachal-pradesh,Himachal Pradesh,2021,4,2021-10-01,1950122,data/aggregated/user/country/india/state/himachal-pradesh/2021/4.json
+himachal-pradesh,Himachal Pradesh,2022,1,2022-01-01,2050007,data/aggregated/user/country/india/state/himachal-pradesh/2022/1.json
+himachal-pradesh,Himachal Pradesh,2022,2,2022-04-01,2145736,data/aggregated/user/country/india/state/himachal-pradesh/2022/2.json
+himachal-pradesh,Himachal Pradesh,2022,3,2022-07-01,2243636,data/aggregated/user/country/india/state/himachal-pradesh/2022/3.json
+himachal-pradesh,Himachal Pradesh,2022,4,2022-10-01,2334678,data/aggregated/user/country/india/state/himachal-pradesh/2022/4.json
+himachal-pradesh,Himachal Pradesh,2023,1,2023-01-01,2420834,data/aggregated/user/country/india/state/himachal-pradesh/2023/1.json
+himachal-pradesh,Himachal Pradesh,2023,2,2023-04-01,2502650,data/aggregated/user/country/india/state/himachal-pradesh/2023/2.json
+himachal-pradesh,Himachal Pradesh,2023,3,2023-07-01,2584543,data/aggregated/user/country/india/state/himachal-pradesh/2023/3.json
+himachal-pradesh,Himachal Pradesh,2023,4,2023-10-01,2677484,data/aggregated/user/country/india/state/himachal-pradesh/2023/4.json
+himachal-pradesh,Himachal Pradesh,2024,1,2024-01-01,2783894,data/aggregated/user/country/india/state/himachal-pradesh/2024/1.json
+himachal-pradesh,Himachal Pradesh,2024,2,2024-04-01,2904980,data/aggregated/user/country/india/state/himachal-pradesh/2024/2.json
+himachal-pradesh,Himachal Pradesh,2024,3,2024-07-01,3013084,data/aggregated/user/country/india/state/himachal-pradesh/2024/3.json
+himachal-pradesh,Himachal Pradesh,2024,4,2024-10-01,3099424,data/aggregated/user/country/india/state/himachal-pradesh/2024/4.json
+himachal-pradesh,Himachal Pradesh,2025,1,2025-01-01,3187150,data/aggregated/user/country/india/state/himachal-pradesh/2025/1.json
+himachal-pradesh,Himachal Pradesh,2025,2,2025-04-01,3270465,data/aggregated/user/country/india/state/himachal-pradesh/2025/2.json
+himachal-pradesh,Himachal Pradesh,2025,3,2025-07-01,3355425,data/aggregated/user/country/india/state/himachal-pradesh/2025/3.json
+himachal-pradesh,Himachal Pradesh,2025,4,2025-10-01,3444065,data/aggregated/user/country/india/state/himachal-pradesh/2025/4.json
+himachal-pradesh,Himachal Pradesh,2026,1,2026-01-01,3529338,data/aggregated/user/country/india/state/himachal-pradesh/2026/1.json
+himachal-pradesh,Himachal Pradesh,2026,2,2026-04-01,3592809,data/aggregated/user/country/india/state/himachal-pradesh/2026/2.json
+jammu-&-kashmir,Jammu & Kashmir,2018,1,2018-01-01,256997,data/aggregated/user/country/india/state/jammu-&-kashmir/2018/1.json
+jammu-&-kashmir,Jammu & Kashmir,2018,2,2018-04-01,380192,data/aggregated/user/country/india/state/jammu-&-kashmir/2018/2.json
+jammu-&-kashmir,Jammu & Kashmir,2018,3,2018-07-01,476825,data/aggregated/user/country/india/state/jammu-&-kashmir/2018/3.json
+jammu-&-kashmir,Jammu & Kashmir,2018,4,2018-10-01,601895,data/aggregated/user/country/india/state/jammu-&-kashmir/2018/4.json
+jammu-&-kashmir,Jammu & Kashmir,2019,1,2019-01-01,740329,data/aggregated/user/country/india/state/jammu-&-kashmir/2019/1.json
+jammu-&-kashmir,Jammu & Kashmir,2019,2,2019-04-01,864680,data/aggregated/user/country/india/state/jammu-&-kashmir/2019/2.json
+jammu-&-kashmir,Jammu & Kashmir,2019,3,2019-07-01,911309,data/aggregated/user/country/india/state/jammu-&-kashmir/2019/3.json
+jammu-&-kashmir,Jammu & Kashmir,2019,4,2019-10-01,934260,data/aggregated/user/country/india/state/jammu-&-kashmir/2019/4.json
+jammu-&-kashmir,Jammu & Kashmir,2020,1,2020-01-01,1010260,data/aggregated/user/country/india/state/jammu-&-kashmir/2020/1.json
+jammu-&-kashmir,Jammu & Kashmir,2020,2,2020-04-01,1132400,data/aggregated/user/country/india/state/jammu-&-kashmir/2020/2.json
+jammu-&-kashmir,Jammu & Kashmir,2020,3,2020-07-01,1249897,data/aggregated/user/country/india/state/jammu-&-kashmir/2020/3.json
+jammu-&-kashmir,Jammu & Kashmir,2020,4,2020-10-01,1396218,data/aggregated/user/country/india/state/jammu-&-kashmir/2020/4.json
+jammu-&-kashmir,Jammu & Kashmir,2021,1,2021-01-01,1549842,data/aggregated/user/country/india/state/jammu-&-kashmir/2021/1.json
+jammu-&-kashmir,Jammu & Kashmir,2021,2,2021-04-01,1701193,data/aggregated/user/country/india/state/jammu-&-kashmir/2021/2.json
+jammu-&-kashmir,Jammu & Kashmir,2021,3,2021-07-01,1855715,data/aggregated/user/country/india/state/jammu-&-kashmir/2021/3.json
+jammu-&-kashmir,Jammu & Kashmir,2021,4,2021-10-01,2040417,data/aggregated/user/country/india/state/jammu-&-kashmir/2021/4.json
+jammu-&-kashmir,Jammu & Kashmir,2022,1,2022-01-01,2232542,data/aggregated/user/country/india/state/jammu-&-kashmir/2022/1.json
+jammu-&-kashmir,Jammu & Kashmir,2022,2,2022-04-01,2422700,data/aggregated/user/country/india/state/jammu-&-kashmir/2022/2.json
+jammu-&-kashmir,Jammu & Kashmir,2022,3,2022-07-01,2603073,data/aggregated/user/country/india/state/jammu-&-kashmir/2022/3.json
+jammu-&-kashmir,Jammu & Kashmir,2022,4,2022-10-01,2801460,data/aggregated/user/country/india/state/jammu-&-kashmir/2022/4.json
+jammu-&-kashmir,Jammu & Kashmir,2023,1,2023-01-01,2995581,data/aggregated/user/country/india/state/jammu-&-kashmir/2023/1.json
+jammu-&-kashmir,Jammu & Kashmir,2023,2,2023-04-01,3178196,data/aggregated/user/country/india/state/jammu-&-kashmir/2023/2.json
+jammu-&-kashmir,Jammu & Kashmir,2023,3,2023-07-01,3356452,data/aggregated/user/country/india/state/jammu-&-kashmir/2023/3.json
+jammu-&-kashmir,Jammu & Kashmir,2023,4,2023-10-01,3588585,data/aggregated/user/country/india/state/jammu-&-kashmir/2023/4.json
+jammu-&-kashmir,Jammu & Kashmir,2024,1,2024-01-01,3840608,data/aggregated/user/country/india/state/jammu-&-kashmir/2024/1.json
+jammu-&-kashmir,Jammu & Kashmir,2024,2,2024-04-01,4103216,data/aggregated/user/country/india/state/jammu-&-kashmir/2024/2.json
+jammu-&-kashmir,Jammu & Kashmir,2024,3,2024-07-01,4334950,data/aggregated/user/country/india/state/jammu-&-kashmir/2024/3.json
+jammu-&-kashmir,Jammu & Kashmir,2024,4,2024-10-01,4516651,data/aggregated/user/country/india/state/jammu-&-kashmir/2024/4.json
+jammu-&-kashmir,Jammu & Kashmir,2025,1,2025-01-01,4699442,data/aggregated/user/country/india/state/jammu-&-kashmir/2025/1.json
+jammu-&-kashmir,Jammu & Kashmir,2025,2,2025-04-01,4865971,data/aggregated/user/country/india/state/jammu-&-kashmir/2025/2.json
+jammu-&-kashmir,Jammu & Kashmir,2025,3,2025-07-01,5026228,data/aggregated/user/country/india/state/jammu-&-kashmir/2025/3.json
+jammu-&-kashmir,Jammu & Kashmir,2025,4,2025-10-01,5205677,data/aggregated/user/country/india/state/jammu-&-kashmir/2025/4.json
+jammu-&-kashmir,Jammu & Kashmir,2026,1,2026-01-01,5380456,data/aggregated/user/country/india/state/jammu-&-kashmir/2026/1.json
+jammu-&-kashmir,Jammu & Kashmir,2026,2,2026-04-01,5645686,data/aggregated/user/country/india/state/jammu-&-kashmir/2026/2.json
+jharkhand,Jharkhand,2018,1,2018-01-01,880343,data/aggregated/user/country/india/state/jharkhand/2018/1.json
+jharkhand,Jharkhand,2018,2,2018-04-01,1238359,data/aggregated/user/country/india/state/jharkhand/2018/2.json
+jharkhand,Jharkhand,2018,3,2018-07-01,1545612,data/aggregated/user/country/india/state/jharkhand/2018/3.json
+jharkhand,Jharkhand,2018,4,2018-10-01,1954512,data/aggregated/user/country/india/state/jharkhand/2018/4.json
+jharkhand,Jharkhand,2019,1,2019-01-01,2344245,data/aggregated/user/country/india/state/jharkhand/2019/1.json
+jharkhand,Jharkhand,2019,2,2019-04-01,2680159,data/aggregated/user/country/india/state/jharkhand/2019/2.json
+jharkhand,Jharkhand,2019,3,2019-07-01,3022018,data/aggregated/user/country/india/state/jharkhand/2019/3.json
+jharkhand,Jharkhand,2019,4,2019-10-01,3396614,data/aggregated/user/country/india/state/jharkhand/2019/4.json
+jharkhand,Jharkhand,2020,1,2020-01-01,3782690,data/aggregated/user/country/india/state/jharkhand/2020/1.json
+jharkhand,Jharkhand,2020,2,2020-04-01,4198053,data/aggregated/user/country/india/state/jharkhand/2020/2.json
+jharkhand,Jharkhand,2020,3,2020-07-01,4625467,data/aggregated/user/country/india/state/jharkhand/2020/3.json
+jharkhand,Jharkhand,2020,4,2020-10-01,5079848,data/aggregated/user/country/india/state/jharkhand/2020/4.json
+jharkhand,Jharkhand,2021,1,2021-01-01,5505298,data/aggregated/user/country/india/state/jharkhand/2021/1.json
+jharkhand,Jharkhand,2021,2,2021-04-01,5909431,data/aggregated/user/country/india/state/jharkhand/2021/2.json
+jharkhand,Jharkhand,2021,3,2021-07-01,6377290,data/aggregated/user/country/india/state/jharkhand/2021/3.json
+jharkhand,Jharkhand,2021,4,2021-10-01,6872363,data/aggregated/user/country/india/state/jharkhand/2021/4.json
+jharkhand,Jharkhand,2022,1,2022-01-01,7352042,data/aggregated/user/country/india/state/jharkhand/2022/1.json
+jharkhand,Jharkhand,2022,2,2022-04-01,7783514,data/aggregated/user/country/india/state/jharkhand/2022/2.json
+jharkhand,Jharkhand,2022,3,2022-07-01,8271861,data/aggregated/user/country/india/state/jharkhand/2022/3.json
+jharkhand,Jharkhand,2022,4,2022-10-01,8761666,data/aggregated/user/country/india/state/jharkhand/2022/4.json
+jharkhand,Jharkhand,2023,1,2023-01-01,9222109,data/aggregated/user/country/india/state/jharkhand/2023/1.json
+jharkhand,Jharkhand,2023,2,2023-04-01,9650559,data/aggregated/user/country/india/state/jharkhand/2023/2.json
+jharkhand,Jharkhand,2023,3,2023-07-01,10115548,data/aggregated/user/country/india/state/jharkhand/2023/3.json
+jharkhand,Jharkhand,2023,4,2023-10-01,10617881,data/aggregated/user/country/india/state/jharkhand/2023/4.json
+jharkhand,Jharkhand,2024,1,2024-01-01,11202660,data/aggregated/user/country/india/state/jharkhand/2024/1.json
+jharkhand,Jharkhand,2024,2,2024-04-01,11765547,data/aggregated/user/country/india/state/jharkhand/2024/2.json
+jharkhand,Jharkhand,2024,3,2024-07-01,12330147,data/aggregated/user/country/india/state/jharkhand/2024/3.json
+jharkhand,Jharkhand,2024,4,2024-10-01,12847879,data/aggregated/user/country/india/state/jharkhand/2024/4.json
+jharkhand,Jharkhand,2025,1,2025-01-01,13390825,data/aggregated/user/country/india/state/jharkhand/2025/1.json
+jharkhand,Jharkhand,2025,2,2025-04-01,13882870,data/aggregated/user/country/india/state/jharkhand/2025/2.json
+jharkhand,Jharkhand,2025,3,2025-07-01,14421897,data/aggregated/user/country/india/state/jharkhand/2025/3.json
+jharkhand,Jharkhand,2025,4,2025-10-01,14935840,data/aggregated/user/country/india/state/jharkhand/2025/4.json
+jharkhand,Jharkhand,2026,1,2026-01-01,15393721,data/aggregated/user/country/india/state/jharkhand/2026/1.json
+jharkhand,Jharkhand,2026,2,2026-04-01,15790280,data/aggregated/user/country/india/state/jharkhand/2026/2.json
+karnataka,Karnataka,2018,1,2018-01-01,3901200,data/aggregated/user/country/india/state/karnataka/2018/1.json
+karnataka,Karnataka,2018,2,2018-04-01,5226252,data/aggregated/user/country/india/state/karnataka/2018/2.json
+karnataka,Karnataka,2018,3,2018-07-01,6536115,data/aggregated/user/country/india/state/karnataka/2018/3.json
+karnataka,Karnataka,2018,4,2018-10-01,8476930,data/aggregated/user/country/india/state/karnataka/2018/4.json
+karnataka,Karnataka,2019,1,2019-01-01,10393952,data/aggregated/user/country/india/state/karnataka/2019/1.json
+karnataka,Karnataka,2019,2,2019-04-01,12052561,data/aggregated/user/country/india/state/karnataka/2019/2.json
+karnataka,Karnataka,2019,3,2019-07-01,13733198,data/aggregated/user/country/india/state/karnataka/2019/3.json
+karnataka,Karnataka,2019,4,2019-10-01,15440057,data/aggregated/user/country/india/state/karnataka/2019/4.json
+karnataka,Karnataka,2020,1,2020-01-01,17044952,data/aggregated/user/country/india/state/karnataka/2020/1.json
+karnataka,Karnataka,2020,2,2020-04-01,18659833,data/aggregated/user/country/india/state/karnataka/2020/2.json
+karnataka,Karnataka,2020,3,2020-07-01,20469767,data/aggregated/user/country/india/state/karnataka/2020/3.json
+karnataka,Karnataka,2020,4,2020-10-01,22376108,data/aggregated/user/country/india/state/karnataka/2020/4.json
+karnataka,Karnataka,2021,1,2021-01-01,24058436,data/aggregated/user/country/india/state/karnataka/2021/1.json
+karnataka,Karnataka,2021,2,2021-04-01,25647896,data/aggregated/user/country/india/state/karnataka/2021/2.json
+karnataka,Karnataka,2021,3,2021-07-01,27447523,data/aggregated/user/country/india/state/karnataka/2021/3.json
+karnataka,Karnataka,2021,4,2021-10-01,29180661,data/aggregated/user/country/india/state/karnataka/2021/4.json
+karnataka,Karnataka,2022,1,2022-01-01,30809500,data/aggregated/user/country/india/state/karnataka/2022/1.json
+karnataka,Karnataka,2022,2,2022-04-01,32374488,data/aggregated/user/country/india/state/karnataka/2022/2.json
+karnataka,Karnataka,2022,3,2022-07-01,33953647,data/aggregated/user/country/india/state/karnataka/2022/3.json
+karnataka,Karnataka,2022,4,2022-10-01,35452134,data/aggregated/user/country/india/state/karnataka/2022/4.json
+karnataka,Karnataka,2023,1,2023-01-01,36773789,data/aggregated/user/country/india/state/karnataka/2023/1.json
+karnataka,Karnataka,2023,2,2023-04-01,38043386,data/aggregated/user/country/india/state/karnataka/2023/2.json
+karnataka,Karnataka,2023,3,2023-07-01,39411658,data/aggregated/user/country/india/state/karnataka/2023/3.json
+karnataka,Karnataka,2023,4,2023-10-01,40600790,data/aggregated/user/country/india/state/karnataka/2023/4.json
+karnataka,Karnataka,2024,1,2024-01-01,41888288,data/aggregated/user/country/india/state/karnataka/2024/1.json
+karnataka,Karnataka,2024,2,2024-04-01,43157465,data/aggregated/user/country/india/state/karnataka/2024/2.json
+karnataka,Karnataka,2024,3,2024-07-01,44350489,data/aggregated/user/country/india/state/karnataka/2024/3.json
+karnataka,Karnataka,2024,4,2024-10-01,45668243,data/aggregated/user/country/india/state/karnataka/2024/4.json
+karnataka,Karnataka,2025,1,2025-01-01,46870457,data/aggregated/user/country/india/state/karnataka/2025/1.json
+karnataka,Karnataka,2025,2,2025-04-01,48100388,data/aggregated/user/country/india/state/karnataka/2025/2.json
+karnataka,Karnataka,2025,3,2025-07-01,49293465,data/aggregated/user/country/india/state/karnataka/2025/3.json
+karnataka,Karnataka,2025,4,2025-10-01,50339561,data/aggregated/user/country/india/state/karnataka/2025/4.json
+karnataka,Karnataka,2026,1,2026-01-01,51308731,data/aggregated/user/country/india/state/karnataka/2026/1.json
+karnataka,Karnataka,2026,2,2026-04-01,52534800,data/aggregated/user/country/india/state/karnataka/2026/2.json
+kerala,Kerala,2018,1,2018-01-01,776998,data/aggregated/user/country/india/state/kerala/2018/1.json
+kerala,Kerala,2018,2,2018-04-01,1053063,data/aggregated/user/country/india/state/kerala/2018/2.json
+kerala,Kerala,2018,3,2018-07-01,1311720,data/aggregated/user/country/india/state/kerala/2018/3.json
+kerala,Kerala,2018,4,2018-10-01,1712592,data/aggregated/user/country/india/state/kerala/2018/4.json
+kerala,Kerala,2019,1,2019-01-01,2073323,data/aggregated/user/country/india/state/kerala/2019/1.json
+kerala,Kerala,2019,2,2019-04-01,2457611,data/aggregated/user/country/india/state/kerala/2019/2.json
+kerala,Kerala,2019,3,2019-07-01,2881087,data/aggregated/user/country/india/state/kerala/2019/3.json
+kerala,Kerala,2019,4,2019-10-01,3357041,data/aggregated/user/country/india/state/kerala/2019/4.json
+kerala,Kerala,2020,1,2020-01-01,3898086,data/aggregated/user/country/india/state/kerala/2020/1.json
+kerala,Kerala,2020,2,2020-04-01,4520490,data/aggregated/user/country/india/state/kerala/2020/2.json
+kerala,Kerala,2020,3,2020-07-01,5337146,data/aggregated/user/country/india/state/kerala/2020/3.json
+kerala,Kerala,2020,4,2020-10-01,6108425,data/aggregated/user/country/india/state/kerala/2020/4.json
+kerala,Kerala,2021,1,2021-01-01,6650208,data/aggregated/user/country/india/state/kerala/2021/1.json
+kerala,Kerala,2021,2,2021-04-01,7167573,data/aggregated/user/country/india/state/kerala/2021/2.json
+kerala,Kerala,2021,3,2021-07-01,7726125,data/aggregated/user/country/india/state/kerala/2021/3.json
+kerala,Kerala,2021,4,2021-10-01,8323308,data/aggregated/user/country/india/state/kerala/2021/4.json
+kerala,Kerala,2022,1,2022-01-01,8855141,data/aggregated/user/country/india/state/kerala/2022/1.json
+kerala,Kerala,2022,2,2022-04-01,9344928,data/aggregated/user/country/india/state/kerala/2022/2.json
+kerala,Kerala,2022,3,2022-07-01,9864268,data/aggregated/user/country/india/state/kerala/2022/3.json
+kerala,Kerala,2022,4,2022-10-01,10342101,data/aggregated/user/country/india/state/kerala/2022/4.json
+kerala,Kerala,2023,1,2023-01-01,10759741,data/aggregated/user/country/india/state/kerala/2023/1.json
+kerala,Kerala,2023,2,2023-04-01,11135396,data/aggregated/user/country/india/state/kerala/2023/2.json
+kerala,Kerala,2023,3,2023-07-01,11534779,data/aggregated/user/country/india/state/kerala/2023/3.json
+kerala,Kerala,2023,4,2023-10-01,11984795,data/aggregated/user/country/india/state/kerala/2023/4.json
+kerala,Kerala,2024,1,2024-01-01,12400955,data/aggregated/user/country/india/state/kerala/2024/1.json
+kerala,Kerala,2024,2,2024-04-01,12860951,data/aggregated/user/country/india/state/kerala/2024/2.json
+kerala,Kerala,2024,3,2024-07-01,13360448,data/aggregated/user/country/india/state/kerala/2024/3.json
+kerala,Kerala,2024,4,2024-10-01,13798127,data/aggregated/user/country/india/state/kerala/2024/4.json
+kerala,Kerala,2025,1,2025-01-01,14209056,data/aggregated/user/country/india/state/kerala/2025/1.json
+kerala,Kerala,2025,2,2025-04-01,14603026,data/aggregated/user/country/india/state/kerala/2025/2.json
+kerala,Kerala,2025,3,2025-07-01,15022652,data/aggregated/user/country/india/state/kerala/2025/3.json
+kerala,Kerala,2025,4,2025-10-01,15459282,data/aggregated/user/country/india/state/kerala/2025/4.json
+kerala,Kerala,2026,1,2026-01-01,15839220,data/aggregated/user/country/india/state/kerala/2026/1.json
+kerala,Kerala,2026,2,2026-04-01,16304760,data/aggregated/user/country/india/state/kerala/2026/2.json
+ladakh,Ladakh,2018,1,2018-01-01,14795,data/aggregated/user/country/india/state/ladakh/2018/1.json
+ladakh,Ladakh,2018,2,2018-04-01,21011,data/aggregated/user/country/india/state/ladakh/2018/2.json
+ladakh,Ladakh,2018,3,2018-07-01,27274,data/aggregated/user/country/india/state/ladakh/2018/3.json
+ladakh,Ladakh,2018,4,2018-10-01,35989,data/aggregated/user/country/india/state/ladakh/2018/4.json
+ladakh,Ladakh,2019,1,2019-01-01,44058,data/aggregated/user/country/india/state/ladakh/2019/1.json
+ladakh,Ladakh,2019,2,2019-04-01,51485,data/aggregated/user/country/india/state/ladakh/2019/2.json
+ladakh,Ladakh,2019,3,2019-07-01,56993,data/aggregated/user/country/india/state/ladakh/2019/3.json
+ladakh,Ladakh,2019,4,2019-10-01,62146,data/aggregated/user/country/india/state/ladakh/2019/4.json
+ladakh,Ladakh,2020,1,2020-01-01,68423,data/aggregated/user/country/india/state/ladakh/2020/1.json
+ladakh,Ladakh,2020,2,2020-04-01,74807,data/aggregated/user/country/india/state/ladakh/2020/2.json
+ladakh,Ladakh,2020,3,2020-07-01,81517,data/aggregated/user/country/india/state/ladakh/2020/3.json
+ladakh,Ladakh,2020,4,2020-10-01,89518,data/aggregated/user/country/india/state/ladakh/2020/4.json
+ladakh,Ladakh,2021,1,2021-01-01,96146,data/aggregated/user/country/india/state/ladakh/2021/1.json
+ladakh,Ladakh,2021,2,2021-04-01,102914,data/aggregated/user/country/india/state/ladakh/2021/2.json
+ladakh,Ladakh,2021,3,2021-07-01,109859,data/aggregated/user/country/india/state/ladakh/2021/3.json
+ladakh,Ladakh,2021,4,2021-10-01,117697,data/aggregated/user/country/india/state/ladakh/2021/4.json
+ladakh,Ladakh,2022,1,2022-01-01,125119,data/aggregated/user/country/india/state/ladakh/2022/1.json
+ladakh,Ladakh,2022,2,2022-04-01,131845,data/aggregated/user/country/india/state/ladakh/2022/2.json
+ladakh,Ladakh,2022,3,2022-07-01,138524,data/aggregated/user/country/india/state/ladakh/2022/3.json
+ladakh,Ladakh,2022,4,2022-10-01,146028,data/aggregated/user/country/india/state/ladakh/2022/4.json
+ladakh,Ladakh,2023,1,2023-01-01,152636,data/aggregated/user/country/india/state/ladakh/2023/1.json
+ladakh,Ladakh,2023,2,2023-04-01,158956,data/aggregated/user/country/india/state/ladakh/2023/2.json
+ladakh,Ladakh,2023,3,2023-07-01,164962,data/aggregated/user/country/india/state/ladakh/2023/3.json
+ladakh,Ladakh,2023,4,2023-10-01,173131,data/aggregated/user/country/india/state/ladakh/2023/4.json
+ladakh,Ladakh,2024,1,2024-01-01,180765,data/aggregated/user/country/india/state/ladakh/2024/1.json
+ladakh,Ladakh,2024,2,2024-04-01,190668,data/aggregated/user/country/india/state/ladakh/2024/2.json
+ladakh,Ladakh,2024,3,2024-07-01,199266,data/aggregated/user/country/india/state/ladakh/2024/3.json
+ladakh,Ladakh,2024,4,2024-10-01,206450,data/aggregated/user/country/india/state/ladakh/2024/4.json
+ladakh,Ladakh,2025,1,2025-01-01,213189,data/aggregated/user/country/india/state/ladakh/2025/1.json
+ladakh,Ladakh,2025,2,2025-04-01,219995,data/aggregated/user/country/india/state/ladakh/2025/2.json
+ladakh,Ladakh,2025,3,2025-07-01,225152,data/aggregated/user/country/india/state/ladakh/2025/3.json
+ladakh,Ladakh,2025,4,2025-10-01,231656,data/aggregated/user/country/india/state/ladakh/2025/4.json
+ladakh,Ladakh,2026,1,2026-01-01,237706,data/aggregated/user/country/india/state/ladakh/2026/1.json
+ladakh,Ladakh,2026,2,2026-04-01,250921,data/aggregated/user/country/india/state/ladakh/2026/2.json
+lakshadweep,Lakshadweep,2018,1,2018-01-01,862,data/aggregated/user/country/india/state/lakshadweep/2018/1.json
+lakshadweep,Lakshadweep,2018,2,2018-04-01,1172,data/aggregated/user/country/india/state/lakshadweep/2018/2.json
+lakshadweep,Lakshadweep,2018,3,2018-07-01,1491,data/aggregated/user/country/india/state/lakshadweep/2018/3.json
+lakshadweep,Lakshadweep,2018,4,2018-10-01,1903,data/aggregated/user/country/india/state/lakshadweep/2018/4.json
+lakshadweep,Lakshadweep,2019,1,2019-01-01,2320,data/aggregated/user/country/india/state/lakshadweep/2019/1.json
+lakshadweep,Lakshadweep,2019,2,2019-04-01,2763,data/aggregated/user/country/india/state/lakshadweep/2019/2.json
+lakshadweep,Lakshadweep,2019,3,2019-07-01,3275,data/aggregated/user/country/india/state/lakshadweep/2019/3.json
+lakshadweep,Lakshadweep,2019,4,2019-10-01,3708,data/aggregated/user/country/india/state/lakshadweep/2019/4.json
+lakshadweep,Lakshadweep,2020,1,2020-01-01,4140,data/aggregated/user/country/india/state/lakshadweep/2020/1.json
+lakshadweep,Lakshadweep,2020,2,2020-04-01,4578,data/aggregated/user/country/india/state/lakshadweep/2020/2.json
+lakshadweep,Lakshadweep,2020,3,2020-07-01,5137,data/aggregated/user/country/india/state/lakshadweep/2020/3.json
+lakshadweep,Lakshadweep,2020,4,2020-10-01,5775,data/aggregated/user/country/india/state/lakshadweep/2020/4.json
+lakshadweep,Lakshadweep,2021,1,2021-01-01,6336,data/aggregated/user/country/india/state/lakshadweep/2021/1.json
+lakshadweep,Lakshadweep,2021,2,2021-04-01,6816,data/aggregated/user/country/india/state/lakshadweep/2021/2.json
+lakshadweep,Lakshadweep,2021,3,2021-07-01,7374,data/aggregated/user/country/india/state/lakshadweep/2021/3.json
+lakshadweep,Lakshadweep,2021,4,2021-10-01,7965,data/aggregated/user/country/india/state/lakshadweep/2021/4.json
+lakshadweep,Lakshadweep,2022,1,2022-01-01,8435,data/aggregated/user/country/india/state/lakshadweep/2022/1.json
+lakshadweep,Lakshadweep,2022,2,2022-04-01,8885,data/aggregated/user/country/india/state/lakshadweep/2022/2.json
+lakshadweep,Lakshadweep,2022,3,2022-07-01,9374,data/aggregated/user/country/india/state/lakshadweep/2022/3.json
+lakshadweep,Lakshadweep,2022,4,2022-10-01,9808,data/aggregated/user/country/india/state/lakshadweep/2022/4.json
+lakshadweep,Lakshadweep,2023,1,2023-01-01,10183,data/aggregated/user/country/india/state/lakshadweep/2023/1.json
+lakshadweep,Lakshadweep,2023,2,2023-04-01,10584,data/aggregated/user/country/india/state/lakshadweep/2023/2.json
+lakshadweep,Lakshadweep,2023,3,2023-07-01,11059,data/aggregated/user/country/india/state/lakshadweep/2023/3.json
+lakshadweep,Lakshadweep,2023,4,2023-10-01,11676,data/aggregated/user/country/india/state/lakshadweep/2023/4.json
+lakshadweep,Lakshadweep,2024,1,2024-01-01,12330,data/aggregated/user/country/india/state/lakshadweep/2024/1.json
+lakshadweep,Lakshadweep,2024,2,2024-04-01,13251,data/aggregated/user/country/india/state/lakshadweep/2024/2.json
+lakshadweep,Lakshadweep,2024,3,2024-07-01,14065,data/aggregated/user/country/india/state/lakshadweep/2024/3.json
+lakshadweep,Lakshadweep,2024,4,2024-10-01,14725,data/aggregated/user/country/india/state/lakshadweep/2024/4.json
+lakshadweep,Lakshadweep,2025,1,2025-01-01,15368,data/aggregated/user/country/india/state/lakshadweep/2025/1.json
+lakshadweep,Lakshadweep,2025,2,2025-04-01,15987,data/aggregated/user/country/india/state/lakshadweep/2025/2.json
+lakshadweep,Lakshadweep,2025,3,2025-07-01,16553,data/aggregated/user/country/india/state/lakshadweep/2025/3.json
+lakshadweep,Lakshadweep,2025,4,2025-10-01,17251,data/aggregated/user/country/india/state/lakshadweep/2025/4.json
+lakshadweep,Lakshadweep,2026,1,2026-01-01,17882,data/aggregated/user/country/india/state/lakshadweep/2026/1.json
+lakshadweep,Lakshadweep,2026,2,2026-04-01,18419,data/aggregated/user/country/india/state/lakshadweep/2026/2.json
+madhya-pradesh,Madhya Pradesh,2018,1,2018-01-01,2501837,data/aggregated/user/country/india/state/madhya-pradesh/2018/1.json
+madhya-pradesh,Madhya Pradesh,2018,2,2018-04-01,3390239,data/aggregated/user/country/india/state/madhya-pradesh/2018/2.json
+madhya-pradesh,Madhya Pradesh,2018,3,2018-07-01,4233736,data/aggregated/user/country/india/state/madhya-pradesh/2018/3.json
+madhya-pradesh,Madhya Pradesh,2018,4,2018-10-01,5311159,data/aggregated/user/country/india/state/madhya-pradesh/2018/4.json
+madhya-pradesh,Madhya Pradesh,2019,1,2019-01-01,6383958,data/aggregated/user/country/india/state/madhya-pradesh/2019/1.json
+madhya-pradesh,Madhya Pradesh,2019,2,2019-04-01,7278165,data/aggregated/user/country/india/state/madhya-pradesh/2019/2.json
+madhya-pradesh,Madhya Pradesh,2019,3,2019-07-01,8231531,data/aggregated/user/country/india/state/madhya-pradesh/2019/3.json
+madhya-pradesh,Madhya Pradesh,2019,4,2019-10-01,9219787,data/aggregated/user/country/india/state/madhya-pradesh/2019/4.json
+madhya-pradesh,Madhya Pradesh,2020,1,2020-01-01,10260896,data/aggregated/user/country/india/state/madhya-pradesh/2020/1.json
+madhya-pradesh,Madhya Pradesh,2020,2,2020-04-01,11514232,data/aggregated/user/country/india/state/madhya-pradesh/2020/2.json
+madhya-pradesh,Madhya Pradesh,2020,3,2020-07-01,12744642,data/aggregated/user/country/india/state/madhya-pradesh/2020/3.json
+madhya-pradesh,Madhya Pradesh,2020,4,2020-10-01,13925932,data/aggregated/user/country/india/state/madhya-pradesh/2020/4.json
+madhya-pradesh,Madhya Pradesh,2021,1,2021-01-01,15131202,data/aggregated/user/country/india/state/madhya-pradesh/2021/1.json
+madhya-pradesh,Madhya Pradesh,2021,2,2021-04-01,16251687,data/aggregated/user/country/india/state/madhya-pradesh/2021/2.json
+madhya-pradesh,Madhya Pradesh,2021,3,2021-07-01,17570524,data/aggregated/user/country/india/state/madhya-pradesh/2021/3.json
+madhya-pradesh,Madhya Pradesh,2021,4,2021-10-01,18846562,data/aggregated/user/country/india/state/madhya-pradesh/2021/4.json
+madhya-pradesh,Madhya Pradesh,2022,1,2022-01-01,20115633,data/aggregated/user/country/india/state/madhya-pradesh/2022/1.json
+madhya-pradesh,Madhya Pradesh,2022,2,2022-04-01,21283425,data/aggregated/user/country/india/state/madhya-pradesh/2022/2.json
+madhya-pradesh,Madhya Pradesh,2022,3,2022-07-01,22575200,data/aggregated/user/country/india/state/madhya-pradesh/2022/3.json
+madhya-pradesh,Madhya Pradesh,2022,4,2022-10-01,23793582,data/aggregated/user/country/india/state/madhya-pradesh/2022/4.json
+madhya-pradesh,Madhya Pradesh,2023,1,2023-01-01,24981019,data/aggregated/user/country/india/state/madhya-pradesh/2023/1.json
+madhya-pradesh,Madhya Pradesh,2023,2,2023-04-01,26193021,data/aggregated/user/country/india/state/madhya-pradesh/2023/2.json
+madhya-pradesh,Madhya Pradesh,2023,3,2023-07-01,27512164,data/aggregated/user/country/india/state/madhya-pradesh/2023/3.json
+madhya-pradesh,Madhya Pradesh,2023,4,2023-10-01,28703519,data/aggregated/user/country/india/state/madhya-pradesh/2023/4.json
+madhya-pradesh,Madhya Pradesh,2024,1,2024-01-01,30087710,data/aggregated/user/country/india/state/madhya-pradesh/2024/1.json
+madhya-pradesh,Madhya Pradesh,2024,2,2024-04-01,31399806,data/aggregated/user/country/india/state/madhya-pradesh/2024/2.json
+madhya-pradesh,Madhya Pradesh,2024,3,2024-07-01,32634553,data/aggregated/user/country/india/state/madhya-pradesh/2024/3.json
+madhya-pradesh,Madhya Pradesh,2024,4,2024-10-01,33718050,data/aggregated/user/country/india/state/madhya-pradesh/2024/4.json
+madhya-pradesh,Madhya Pradesh,2025,1,2025-01-01,34868747,data/aggregated/user/country/india/state/madhya-pradesh/2025/1.json
+madhya-pradesh,Madhya Pradesh,2025,2,2025-04-01,35961457,data/aggregated/user/country/india/state/madhya-pradesh/2025/2.json
+madhya-pradesh,Madhya Pradesh,2025,3,2025-07-01,37166358,data/aggregated/user/country/india/state/madhya-pradesh/2025/3.json
+madhya-pradesh,Madhya Pradesh,2025,4,2025-10-01,38249438,data/aggregated/user/country/india/state/madhya-pradesh/2025/4.json
+madhya-pradesh,Madhya Pradesh,2026,1,2026-01-01,39250624,data/aggregated/user/country/india/state/madhya-pradesh/2026/1.json
+madhya-pradesh,Madhya Pradesh,2026,2,2026-04-01,40093377,data/aggregated/user/country/india/state/madhya-pradesh/2026/2.json
+maharashtra,Maharashtra,2018,1,2018-01-01,6133954,data/aggregated/user/country/india/state/maharashtra/2018/1.json
+maharashtra,Maharashtra,2018,2,2018-04-01,8236836,data/aggregated/user/country/india/state/maharashtra/2018/2.json
+maharashtra,Maharashtra,2018,3,2018-07-01,10390459,data/aggregated/user/country/india/state/maharashtra/2018/3.json
+maharashtra,Maharashtra,2018,4,2018-10-01,13355155,data/aggregated/user/country/india/state/maharashtra/2018/4.json
+maharashtra,Maharashtra,2019,1,2019-01-01,16274312,data/aggregated/user/country/india/state/maharashtra/2019/1.json
+maharashtra,Maharashtra,2019,2,2019-04-01,18737804,data/aggregated/user/country/india/state/maharashtra/2019/2.json
+maharashtra,Maharashtra,2019,3,2019-07-01,21322044,data/aggregated/user/country/india/state/maharashtra/2019/3.json
+maharashtra,Maharashtra,2019,4,2019-10-01,23734339,data/aggregated/user/country/india/state/maharashtra/2019/4.json
+maharashtra,Maharashtra,2020,1,2020-01-01,26163809,data/aggregated/user/country/india/state/maharashtra/2020/1.json
+maharashtra,Maharashtra,2020,2,2020-04-01,28790127,data/aggregated/user/country/india/state/maharashtra/2020/2.json
+maharashtra,Maharashtra,2020,3,2020-07-01,31432433,data/aggregated/user/country/india/state/maharashtra/2020/3.json
+maharashtra,Maharashtra,2020,4,2020-10-01,34404572,data/aggregated/user/country/india/state/maharashtra/2020/4.json
+maharashtra,Maharashtra,2021,1,2021-01-01,36994904,data/aggregated/user/country/india/state/maharashtra/2021/1.json
+maharashtra,Maharashtra,2021,2,2021-04-01,39429859,data/aggregated/user/country/india/state/maharashtra/2021/2.json
+maharashtra,Maharashtra,2021,3,2021-07-01,42170156,data/aggregated/user/country/india/state/maharashtra/2021/3.json
+maharashtra,Maharashtra,2021,4,2021-10-01,44928344,data/aggregated/user/country/india/state/maharashtra/2021/4.json
+maharashtra,Maharashtra,2022,1,2022-01-01,47511322,data/aggregated/user/country/india/state/maharashtra/2022/1.json
+maharashtra,Maharashtra,2022,2,2022-04-01,49858004,data/aggregated/user/country/india/state/maharashtra/2022/2.json
+maharashtra,Maharashtra,2022,3,2022-07-01,52289467,data/aggregated/user/country/india/state/maharashtra/2022/3.json
+maharashtra,Maharashtra,2022,4,2022-10-01,54629272,data/aggregated/user/country/india/state/maharashtra/2022/4.json
+maharashtra,Maharashtra,2023,1,2023-01-01,56723036,data/aggregated/user/country/india/state/maharashtra/2023/1.json
+maharashtra,Maharashtra,2023,2,2023-04-01,58661548,data/aggregated/user/country/india/state/maharashtra/2023/2.json
+maharashtra,Maharashtra,2023,3,2023-07-01,60617867,data/aggregated/user/country/india/state/maharashtra/2023/3.json
+maharashtra,Maharashtra,2023,4,2023-10-01,62581750,data/aggregated/user/country/india/state/maharashtra/2023/4.json
+maharashtra,Maharashtra,2024,1,2024-01-01,64700862,data/aggregated/user/country/india/state/maharashtra/2024/1.json
+maharashtra,Maharashtra,2024,2,2024-04-01,66770730,data/aggregated/user/country/india/state/maharashtra/2024/2.json
+maharashtra,Maharashtra,2024,3,2024-07-01,69582864,data/aggregated/user/country/india/state/maharashtra/2024/3.json
+maharashtra,Maharashtra,2024,4,2024-10-01,72020866,data/aggregated/user/country/india/state/maharashtra/2024/4.json
+maharashtra,Maharashtra,2025,1,2025-01-01,74177131,data/aggregated/user/country/india/state/maharashtra/2025/1.json
+maharashtra,Maharashtra,2025,2,2025-04-01,76247239,data/aggregated/user/country/india/state/maharashtra/2025/2.json
+maharashtra,Maharashtra,2025,3,2025-07-01,78365134,data/aggregated/user/country/india/state/maharashtra/2025/3.json
+maharashtra,Maharashtra,2025,4,2025-10-01,80321622,data/aggregated/user/country/india/state/maharashtra/2025/4.json
+maharashtra,Maharashtra,2026,1,2026-01-01,82017557,data/aggregated/user/country/india/state/maharashtra/2026/1.json
+maharashtra,Maharashtra,2026,2,2026-04-01,84075442,data/aggregated/user/country/india/state/maharashtra/2026/2.json
+manipur,Manipur,2018,1,2018-01-01,35579,data/aggregated/user/country/india/state/manipur/2018/1.json
+manipur,Manipur,2018,2,2018-04-01,54326,data/aggregated/user/country/india/state/manipur/2018/2.json
+manipur,Manipur,2018,3,2018-07-01,71019,data/aggregated/user/country/india/state/manipur/2018/3.json
+manipur,Manipur,2018,4,2018-10-01,93713,data/aggregated/user/country/india/state/manipur/2018/4.json
+manipur,Manipur,2019,1,2019-01-01,112463,data/aggregated/user/country/india/state/manipur/2019/1.json
+manipur,Manipur,2019,2,2019-04-01,130880,data/aggregated/user/country/india/state/manipur/2019/2.json
+manipur,Manipur,2019,3,2019-07-01,150811,data/aggregated/user/country/india/state/manipur/2019/3.json
+manipur,Manipur,2019,4,2019-10-01,170399,data/aggregated/user/country/india/state/manipur/2019/4.json
+manipur,Manipur,2020,1,2020-01-01,193166,data/aggregated/user/country/india/state/manipur/2020/1.json
+manipur,Manipur,2020,2,2020-04-01,232085,data/aggregated/user/country/india/state/manipur/2020/2.json
+manipur,Manipur,2020,3,2020-07-01,275979,data/aggregated/user/country/india/state/manipur/2020/3.json
+manipur,Manipur,2020,4,2020-10-01,306249,data/aggregated/user/country/india/state/manipur/2020/4.json
+manipur,Manipur,2021,1,2021-01-01,326912,data/aggregated/user/country/india/state/manipur/2021/1.json
+manipur,Manipur,2021,2,2021-04-01,346378,data/aggregated/user/country/india/state/manipur/2021/2.json
+manipur,Manipur,2021,3,2021-07-01,367233,data/aggregated/user/country/india/state/manipur/2021/3.json
+manipur,Manipur,2021,4,2021-10-01,388184,data/aggregated/user/country/india/state/manipur/2021/4.json
+manipur,Manipur,2022,1,2022-01-01,406492,data/aggregated/user/country/india/state/manipur/2022/1.json
+manipur,Manipur,2022,2,2022-04-01,426522,data/aggregated/user/country/india/state/manipur/2022/2.json
+manipur,Manipur,2022,3,2022-07-01,448114,data/aggregated/user/country/india/state/manipur/2022/3.json
+manipur,Manipur,2022,4,2022-10-01,467306,data/aggregated/user/country/india/state/manipur/2022/4.json
+manipur,Manipur,2023,1,2023-01-01,486209,data/aggregated/user/country/india/state/manipur/2023/1.json
+manipur,Manipur,2023,2,2023-04-01,496881,data/aggregated/user/country/india/state/manipur/2023/2.json
+manipur,Manipur,2023,3,2023-07-01,506910,data/aggregated/user/country/india/state/manipur/2023/3.json
+manipur,Manipur,2023,4,2023-10-01,528770,data/aggregated/user/country/india/state/manipur/2023/4.json
+manipur,Manipur,2024,1,2024-01-01,564185,data/aggregated/user/country/india/state/manipur/2024/1.json
+manipur,Manipur,2024,2,2024-04-01,603425,data/aggregated/user/country/india/state/manipur/2024/2.json
+manipur,Manipur,2024,3,2024-07-01,644220,data/aggregated/user/country/india/state/manipur/2024/3.json
+manipur,Manipur,2024,4,2024-10-01,668293,data/aggregated/user/country/india/state/manipur/2024/4.json
+manipur,Manipur,2025,1,2025-01-01,694042,data/aggregated/user/country/india/state/manipur/2025/1.json
+manipur,Manipur,2025,2,2025-04-01,719620,data/aggregated/user/country/india/state/manipur/2025/2.json
+manipur,Manipur,2025,3,2025-07-01,749966,data/aggregated/user/country/india/state/manipur/2025/3.json
+manipur,Manipur,2025,4,2025-10-01,783532,data/aggregated/user/country/india/state/manipur/2025/4.json
+manipur,Manipur,2026,1,2026-01-01,814173,data/aggregated/user/country/india/state/manipur/2026/1.json
+manipur,Manipur,2026,2,2026-04-01,854036,data/aggregated/user/country/india/state/manipur/2026/2.json
+meghalaya,Meghalaya,2018,1,2018-01-01,22306,data/aggregated/user/country/india/state/meghalaya/2018/1.json
+meghalaya,Meghalaya,2018,2,2018-04-01,31651,data/aggregated/user/country/india/state/meghalaya/2018/2.json
+meghalaya,Meghalaya,2018,3,2018-07-01,42882,data/aggregated/user/country/india/state/meghalaya/2018/3.json
+meghalaya,Meghalaya,2018,4,2018-10-01,56903,data/aggregated/user/country/india/state/meghalaya/2018/4.json
+meghalaya,Meghalaya,2019,1,2019-01-01,69850,data/aggregated/user/country/india/state/meghalaya/2019/1.json
+meghalaya,Meghalaya,2019,2,2019-04-01,83645,data/aggregated/user/country/india/state/meghalaya/2019/2.json
+meghalaya,Meghalaya,2019,3,2019-07-01,98774,data/aggregated/user/country/india/state/meghalaya/2019/3.json
+meghalaya,Meghalaya,2019,4,2019-10-01,112925,data/aggregated/user/country/india/state/meghalaya/2019/4.json
+meghalaya,Meghalaya,2020,1,2020-01-01,129019,data/aggregated/user/country/india/state/meghalaya/2020/1.json
+meghalaya,Meghalaya,2020,2,2020-04-01,152632,data/aggregated/user/country/india/state/meghalaya/2020/2.json
+meghalaya,Meghalaya,2020,3,2020-07-01,176427,data/aggregated/user/country/india/state/meghalaya/2020/3.json
+meghalaya,Meghalaya,2020,4,2020-10-01,197575,data/aggregated/user/country/india/state/meghalaya/2020/4.json
+meghalaya,Meghalaya,2021,1,2021-01-01,213559,data/aggregated/user/country/india/state/meghalaya/2021/1.json
+meghalaya,Meghalaya,2021,2,2021-04-01,230094,data/aggregated/user/country/india/state/meghalaya/2021/2.json
+meghalaya,Meghalaya,2021,3,2021-07-01,247942,data/aggregated/user/country/india/state/meghalaya/2021/3.json
+meghalaya,Meghalaya,2021,4,2021-10-01,267949,data/aggregated/user/country/india/state/meghalaya/2021/4.json
+meghalaya,Meghalaya,2022,1,2022-01-01,287587,data/aggregated/user/country/india/state/meghalaya/2022/1.json
+meghalaya,Meghalaya,2022,2,2022-04-01,307758,data/aggregated/user/country/india/state/meghalaya/2022/2.json
+meghalaya,Meghalaya,2022,3,2022-07-01,330639,data/aggregated/user/country/india/state/meghalaya/2022/3.json
+meghalaya,Meghalaya,2022,4,2022-10-01,352648,data/aggregated/user/country/india/state/meghalaya/2022/4.json
+meghalaya,Meghalaya,2023,1,2023-01-01,373661,data/aggregated/user/country/india/state/meghalaya/2023/1.json
+meghalaya,Meghalaya,2023,2,2023-04-01,394558,data/aggregated/user/country/india/state/meghalaya/2023/2.json
+meghalaya,Meghalaya,2023,3,2023-07-01,419409,data/aggregated/user/country/india/state/meghalaya/2023/3.json
+meghalaya,Meghalaya,2023,4,2023-10-01,450369,data/aggregated/user/country/india/state/meghalaya/2023/4.json
+meghalaya,Meghalaya,2024,1,2024-01-01,488538,data/aggregated/user/country/india/state/meghalaya/2024/1.json
+meghalaya,Meghalaya,2024,2,2024-04-01,536952,data/aggregated/user/country/india/state/meghalaya/2024/2.json
+meghalaya,Meghalaya,2024,3,2024-07-01,582628,data/aggregated/user/country/india/state/meghalaya/2024/3.json
+meghalaya,Meghalaya,2024,4,2024-10-01,611334,data/aggregated/user/country/india/state/meghalaya/2024/4.json
+meghalaya,Meghalaya,2025,1,2025-01-01,640474,data/aggregated/user/country/india/state/meghalaya/2025/1.json
+meghalaya,Meghalaya,2025,2,2025-04-01,670920,data/aggregated/user/country/india/state/meghalaya/2025/2.json
+meghalaya,Meghalaya,2025,3,2025-07-01,704327,data/aggregated/user/country/india/state/meghalaya/2025/3.json
+meghalaya,Meghalaya,2025,4,2025-10-01,742750,data/aggregated/user/country/india/state/meghalaya/2025/4.json
+meghalaya,Meghalaya,2026,1,2026-01-01,778471,data/aggregated/user/country/india/state/meghalaya/2026/1.json
+meghalaya,Meghalaya,2026,2,2026-04-01,821275,data/aggregated/user/country/india/state/meghalaya/2026/2.json
+mizoram,Mizoram,2018,1,2018-01-01,9312,data/aggregated/user/country/india/state/mizoram/2018/1.json
+mizoram,Mizoram,2018,2,2018-04-01,12467,data/aggregated/user/country/india/state/mizoram/2018/2.json
+mizoram,Mizoram,2018,3,2018-07-01,16728,data/aggregated/user/country/india/state/mizoram/2018/3.json
+mizoram,Mizoram,2018,4,2018-10-01,22190,data/aggregated/user/country/india/state/mizoram/2018/4.json
+mizoram,Mizoram,2019,1,2019-01-01,27134,data/aggregated/user/country/india/state/mizoram/2019/1.json
+mizoram,Mizoram,2019,2,2019-04-01,32162,data/aggregated/user/country/india/state/mizoram/2019/2.json
+mizoram,Mizoram,2019,3,2019-07-01,38565,data/aggregated/user/country/india/state/mizoram/2019/3.json
+mizoram,Mizoram,2019,4,2019-10-01,44755,data/aggregated/user/country/india/state/mizoram/2019/4.json
+mizoram,Mizoram,2020,1,2020-01-01,52556,data/aggregated/user/country/india/state/mizoram/2020/1.json
+mizoram,Mizoram,2020,2,2020-04-01,62148,data/aggregated/user/country/india/state/mizoram/2020/2.json
+mizoram,Mizoram,2020,3,2020-07-01,75962,data/aggregated/user/country/india/state/mizoram/2020/3.json
+mizoram,Mizoram,2020,4,2020-10-01,87194,data/aggregated/user/country/india/state/mizoram/2020/4.json
+mizoram,Mizoram,2021,1,2021-01-01,94488,data/aggregated/user/country/india/state/mizoram/2021/1.json
+mizoram,Mizoram,2021,2,2021-04-01,101851,data/aggregated/user/country/india/state/mizoram/2021/2.json
+mizoram,Mizoram,2021,3,2021-07-01,109595,data/aggregated/user/country/india/state/mizoram/2021/3.json
+mizoram,Mizoram,2021,4,2021-10-01,116803,data/aggregated/user/country/india/state/mizoram/2021/4.json
+mizoram,Mizoram,2022,1,2022-01-01,123574,data/aggregated/user/country/india/state/mizoram/2022/1.json
+mizoram,Mizoram,2022,2,2022-04-01,130454,data/aggregated/user/country/india/state/mizoram/2022/2.json
+mizoram,Mizoram,2022,3,2022-07-01,138370,data/aggregated/user/country/india/state/mizoram/2022/3.json
+mizoram,Mizoram,2022,4,2022-10-01,146161,data/aggregated/user/country/india/state/mizoram/2022/4.json
+mizoram,Mizoram,2023,1,2023-01-01,153259,data/aggregated/user/country/india/state/mizoram/2023/1.json
+mizoram,Mizoram,2023,2,2023-04-01,160684,data/aggregated/user/country/india/state/mizoram/2023/2.json
+mizoram,Mizoram,2023,3,2023-07-01,169046,data/aggregated/user/country/india/state/mizoram/2023/3.json
+mizoram,Mizoram,2023,4,2023-10-01,179480,data/aggregated/user/country/india/state/mizoram/2023/4.json
+mizoram,Mizoram,2024,1,2024-01-01,194379,data/aggregated/user/country/india/state/mizoram/2024/1.json
+mizoram,Mizoram,2024,2,2024-04-01,213479,data/aggregated/user/country/india/state/mizoram/2024/2.json
+mizoram,Mizoram,2024,3,2024-07-01,246580,data/aggregated/user/country/india/state/mizoram/2024/3.json
+mizoram,Mizoram,2024,4,2024-10-01,258269,data/aggregated/user/country/india/state/mizoram/2024/4.json
+mizoram,Mizoram,2025,1,2025-01-01,270295,data/aggregated/user/country/india/state/mizoram/2025/1.json
+mizoram,Mizoram,2025,2,2025-04-01,282032,data/aggregated/user/country/india/state/mizoram/2025/2.json
+mizoram,Mizoram,2025,3,2025-07-01,295734,data/aggregated/user/country/india/state/mizoram/2025/3.json
+mizoram,Mizoram,2025,4,2025-10-01,312483,data/aggregated/user/country/india/state/mizoram/2025/4.json
+mizoram,Mizoram,2026,1,2026-01-01,327659,data/aggregated/user/country/india/state/mizoram/2026/1.json
+mizoram,Mizoram,2026,2,2026-04-01,349070,data/aggregated/user/country/india/state/mizoram/2026/2.json
+nagaland,Nagaland,2018,1,2018-01-01,16047,data/aggregated/user/country/india/state/nagaland/2018/1.json
+nagaland,Nagaland,2018,2,2018-04-01,23866,data/aggregated/user/country/india/state/nagaland/2018/2.json
+nagaland,Nagaland,2018,3,2018-07-01,33223,data/aggregated/user/country/india/state/nagaland/2018/3.json
+nagaland,Nagaland,2018,4,2018-10-01,44601,data/aggregated/user/country/india/state/nagaland/2018/4.json
+nagaland,Nagaland,2019,1,2019-01-01,55915,data/aggregated/user/country/india/state/nagaland/2019/1.json
+nagaland,Nagaland,2019,2,2019-04-01,68483,data/aggregated/user/country/india/state/nagaland/2019/2.json
+nagaland,Nagaland,2019,3,2019-07-01,82418,data/aggregated/user/country/india/state/nagaland/2019/3.json
+nagaland,Nagaland,2019,4,2019-10-01,95667,data/aggregated/user/country/india/state/nagaland/2019/4.json
+nagaland,Nagaland,2020,1,2020-01-01,110228,data/aggregated/user/country/india/state/nagaland/2020/1.json
+nagaland,Nagaland,2020,2,2020-04-01,132841,data/aggregated/user/country/india/state/nagaland/2020/2.json
+nagaland,Nagaland,2020,3,2020-07-01,175583,data/aggregated/user/country/india/state/nagaland/2020/3.json
+nagaland,Nagaland,2020,4,2020-10-01,194444,data/aggregated/user/country/india/state/nagaland/2020/4.json
+nagaland,Nagaland,2021,1,2021-01-01,208308,data/aggregated/user/country/india/state/nagaland/2021/1.json
+nagaland,Nagaland,2021,2,2021-04-01,222211,data/aggregated/user/country/india/state/nagaland/2021/2.json
+nagaland,Nagaland,2021,3,2021-07-01,236840,data/aggregated/user/country/india/state/nagaland/2021/3.json
+nagaland,Nagaland,2021,4,2021-10-01,251384,data/aggregated/user/country/india/state/nagaland/2021/4.json
+nagaland,Nagaland,2022,1,2022-01-01,266042,data/aggregated/user/country/india/state/nagaland/2022/1.json
+nagaland,Nagaland,2022,2,2022-04-01,281398,data/aggregated/user/country/india/state/nagaland/2022/2.json
+nagaland,Nagaland,2022,3,2022-07-01,297083,data/aggregated/user/country/india/state/nagaland/2022/3.json
+nagaland,Nagaland,2022,4,2022-10-01,311555,data/aggregated/user/country/india/state/nagaland/2022/4.json
+nagaland,Nagaland,2023,1,2023-01-01,325241,data/aggregated/user/country/india/state/nagaland/2023/1.json
+nagaland,Nagaland,2023,2,2023-04-01,339039,data/aggregated/user/country/india/state/nagaland/2023/2.json
+nagaland,Nagaland,2023,3,2023-07-01,353878,data/aggregated/user/country/india/state/nagaland/2023/3.json
+nagaland,Nagaland,2023,4,2023-10-01,370492,data/aggregated/user/country/india/state/nagaland/2023/4.json
+nagaland,Nagaland,2024,1,2024-01-01,391270,data/aggregated/user/country/india/state/nagaland/2024/1.json
+nagaland,Nagaland,2024,2,2024-04-01,423165,data/aggregated/user/country/india/state/nagaland/2024/2.json
+nagaland,Nagaland,2024,3,2024-07-01,456203,data/aggregated/user/country/india/state/nagaland/2024/3.json
+nagaland,Nagaland,2024,4,2024-10-01,475258,data/aggregated/user/country/india/state/nagaland/2024/4.json
+nagaland,Nagaland,2025,1,2025-01-01,493342,data/aggregated/user/country/india/state/nagaland/2025/1.json
+nagaland,Nagaland,2025,2,2025-04-01,512198,data/aggregated/user/country/india/state/nagaland/2025/2.json
+nagaland,Nagaland,2025,3,2025-07-01,533473,data/aggregated/user/country/india/state/nagaland/2025/3.json
+nagaland,Nagaland,2025,4,2025-10-01,555336,data/aggregated/user/country/india/state/nagaland/2025/4.json
+nagaland,Nagaland,2026,1,2026-01-01,575983,data/aggregated/user/country/india/state/nagaland/2026/1.json
+nagaland,Nagaland,2026,2,2026-04-01,602471,data/aggregated/user/country/india/state/nagaland/2026/2.json
+odisha,Odisha,2018,1,2018-01-01,1573698,data/aggregated/user/country/india/state/odisha/2018/1.json
+odisha,Odisha,2018,2,2018-04-01,2160851,data/aggregated/user/country/india/state/odisha/2018/2.json
+odisha,Odisha,2018,3,2018-07-01,2740899,data/aggregated/user/country/india/state/odisha/2018/3.json
+odisha,Odisha,2018,4,2018-10-01,3565892,data/aggregated/user/country/india/state/odisha/2018/4.json
+odisha,Odisha,2019,1,2019-01-01,4265066,data/aggregated/user/country/india/state/odisha/2019/1.json
+odisha,Odisha,2019,2,2019-04-01,4786497,data/aggregated/user/country/india/state/odisha/2019/2.json
+odisha,Odisha,2019,3,2019-07-01,5361369,data/aggregated/user/country/india/state/odisha/2019/3.json
+odisha,Odisha,2019,4,2019-10-01,6075390,data/aggregated/user/country/india/state/odisha/2019/4.json
+odisha,Odisha,2020,1,2020-01-01,6631513,data/aggregated/user/country/india/state/odisha/2020/1.json
+odisha,Odisha,2020,2,2020-04-01,7239140,data/aggregated/user/country/india/state/odisha/2020/2.json
+odisha,Odisha,2020,3,2020-07-01,7888711,data/aggregated/user/country/india/state/odisha/2020/3.json
+odisha,Odisha,2020,4,2020-10-01,8592754,data/aggregated/user/country/india/state/odisha/2020/4.json
+odisha,Odisha,2021,1,2021-01-01,9201367,data/aggregated/user/country/india/state/odisha/2021/1.json
+odisha,Odisha,2021,2,2021-04-01,9843480,data/aggregated/user/country/india/state/odisha/2021/2.json
+odisha,Odisha,2021,3,2021-07-01,10591026,data/aggregated/user/country/india/state/odisha/2021/3.json
+odisha,Odisha,2021,4,2021-10-01,11358268,data/aggregated/user/country/india/state/odisha/2021/4.json
+odisha,Odisha,2022,1,2022-01-01,12011836,data/aggregated/user/country/india/state/odisha/2022/1.json
+odisha,Odisha,2022,2,2022-04-01,12652044,data/aggregated/user/country/india/state/odisha/2022/2.json
+odisha,Odisha,2022,3,2022-07-01,13324247,data/aggregated/user/country/india/state/odisha/2022/3.json
+odisha,Odisha,2022,4,2022-10-01,13990026,data/aggregated/user/country/india/state/odisha/2022/4.json
+odisha,Odisha,2023,1,2023-01-01,14605734,data/aggregated/user/country/india/state/odisha/2023/1.json
+odisha,Odisha,2023,2,2023-04-01,15180768,data/aggregated/user/country/india/state/odisha/2023/2.json
+odisha,Odisha,2023,3,2023-07-01,15773057,data/aggregated/user/country/india/state/odisha/2023/3.json
+odisha,Odisha,2023,4,2023-10-01,16349232,data/aggregated/user/country/india/state/odisha/2023/4.json
+odisha,Odisha,2024,1,2024-01-01,17002272,data/aggregated/user/country/india/state/odisha/2024/1.json
+odisha,Odisha,2024,2,2024-04-01,17662149,data/aggregated/user/country/india/state/odisha/2024/2.json
+odisha,Odisha,2024,3,2024-07-01,18360257,data/aggregated/user/country/india/state/odisha/2024/3.json
+odisha,Odisha,2024,4,2024-10-01,19085969,data/aggregated/user/country/india/state/odisha/2024/4.json
+odisha,Odisha,2025,1,2025-01-01,19731478,data/aggregated/user/country/india/state/odisha/2025/1.json
+odisha,Odisha,2025,2,2025-04-01,20349791,data/aggregated/user/country/india/state/odisha/2025/2.json
+odisha,Odisha,2025,3,2025-07-01,20979927,data/aggregated/user/country/india/state/odisha/2025/3.json
+odisha,Odisha,2025,4,2025-10-01,21533027,data/aggregated/user/country/india/state/odisha/2025/4.json
+odisha,Odisha,2026,1,2026-01-01,22049893,data/aggregated/user/country/india/state/odisha/2026/1.json
+odisha,Odisha,2026,2,2026-04-01,22586814,data/aggregated/user/country/india/state/odisha/2026/2.json
+puducherry,Puducherry,2018,1,2018-01-01,47701,data/aggregated/user/country/india/state/puducherry/2018/1.json
+puducherry,Puducherry,2018,2,2018-04-01,63878,data/aggregated/user/country/india/state/puducherry/2018/2.json
+puducherry,Puducherry,2018,3,2018-07-01,79099,data/aggregated/user/country/india/state/puducherry/2018/3.json
+puducherry,Puducherry,2018,4,2018-10-01,106491,data/aggregated/user/country/india/state/puducherry/2018/4.json
+puducherry,Puducherry,2019,1,2019-01-01,129946,data/aggregated/user/country/india/state/puducherry/2019/1.json
+puducherry,Puducherry,2019,2,2019-04-01,152917,data/aggregated/user/country/india/state/puducherry/2019/2.json
+puducherry,Puducherry,2019,3,2019-07-01,173965,data/aggregated/user/country/india/state/puducherry/2019/3.json
+puducherry,Puducherry,2019,4,2019-10-01,199364,data/aggregated/user/country/india/state/puducherry/2019/4.json
+puducherry,Puducherry,2020,1,2020-01-01,225275,data/aggregated/user/country/india/state/puducherry/2020/1.json
+puducherry,Puducherry,2020,2,2020-04-01,249567,data/aggregated/user/country/india/state/puducherry/2020/2.json
+puducherry,Puducherry,2020,3,2020-07-01,278348,data/aggregated/user/country/india/state/puducherry/2020/3.json
+puducherry,Puducherry,2020,4,2020-10-01,312159,data/aggregated/user/country/india/state/puducherry/2020/4.json
+puducherry,Puducherry,2021,1,2021-01-01,338921,data/aggregated/user/country/india/state/puducherry/2021/1.json
+puducherry,Puducherry,2021,2,2021-04-01,362487,data/aggregated/user/country/india/state/puducherry/2021/2.json
+puducherry,Puducherry,2021,3,2021-07-01,386770,data/aggregated/user/country/india/state/puducherry/2021/3.json
+puducherry,Puducherry,2021,4,2021-10-01,411329,data/aggregated/user/country/india/state/puducherry/2021/4.json
+puducherry,Puducherry,2022,1,2022-01-01,433835,data/aggregated/user/country/india/state/puducherry/2022/1.json
+puducherry,Puducherry,2022,2,2022-04-01,453527,data/aggregated/user/country/india/state/puducherry/2022/2.json
+puducherry,Puducherry,2022,3,2022-07-01,473286,data/aggregated/user/country/india/state/puducherry/2022/3.json
+puducherry,Puducherry,2022,4,2022-10-01,493378,data/aggregated/user/country/india/state/puducherry/2022/4.json
+puducherry,Puducherry,2023,1,2023-01-01,511080,data/aggregated/user/country/india/state/puducherry/2023/1.json
+puducherry,Puducherry,2023,2,2023-04-01,527197,data/aggregated/user/country/india/state/puducherry/2023/2.json
+puducherry,Puducherry,2023,3,2023-07-01,544090,data/aggregated/user/country/india/state/puducherry/2023/3.json
+puducherry,Puducherry,2023,4,2023-10-01,561059,data/aggregated/user/country/india/state/puducherry/2023/4.json
+puducherry,Puducherry,2024,1,2024-01-01,578039,data/aggregated/user/country/india/state/puducherry/2024/1.json
+puducherry,Puducherry,2024,2,2024-04-01,594818,data/aggregated/user/country/india/state/puducherry/2024/2.json
+puducherry,Puducherry,2024,3,2024-07-01,612094,data/aggregated/user/country/india/state/puducherry/2024/3.json
+puducherry,Puducherry,2024,4,2024-10-01,629389,data/aggregated/user/country/india/state/puducherry/2024/4.json
+puducherry,Puducherry,2025,1,2025-01-01,645855,data/aggregated/user/country/india/state/puducherry/2025/1.json
+puducherry,Puducherry,2025,2,2025-04-01,661400,data/aggregated/user/country/india/state/puducherry/2025/2.json
+puducherry,Puducherry,2025,3,2025-07-01,677573,data/aggregated/user/country/india/state/puducherry/2025/3.json
+puducherry,Puducherry,2025,4,2025-10-01,693418,data/aggregated/user/country/india/state/puducherry/2025/4.json
+puducherry,Puducherry,2026,1,2026-01-01,707787,data/aggregated/user/country/india/state/puducherry/2026/1.json
+puducherry,Puducherry,2026,2,2026-04-01,723563,data/aggregated/user/country/india/state/puducherry/2026/2.json
+punjab,Punjab,2018,1,2018-01-01,902434,data/aggregated/user/country/india/state/punjab/2018/1.json
+punjab,Punjab,2018,2,2018-04-01,1225027,data/aggregated/user/country/india/state/punjab/2018/2.json
+punjab,Punjab,2018,3,2018-07-01,1542608,data/aggregated/user/country/india/state/punjab/2018/3.json
+punjab,Punjab,2018,4,2018-10-01,1950642,data/aggregated/user/country/india/state/punjab/2018/4.json
+punjab,Punjab,2019,1,2019-01-01,2322582,data/aggregated/user/country/india/state/punjab/2019/1.json
+punjab,Punjab,2019,2,2019-04-01,2699641,data/aggregated/user/country/india/state/punjab/2019/2.json
+punjab,Punjab,2019,3,2019-07-01,3084133,data/aggregated/user/country/india/state/punjab/2019/3.json
+punjab,Punjab,2019,4,2019-10-01,3442072,data/aggregated/user/country/india/state/punjab/2019/4.json
+punjab,Punjab,2020,1,2020-01-01,3875890,data/aggregated/user/country/india/state/punjab/2020/1.json
+punjab,Punjab,2020,2,2020-04-01,4373346,data/aggregated/user/country/india/state/punjab/2020/2.json
+punjab,Punjab,2020,3,2020-07-01,4858229,data/aggregated/user/country/india/state/punjab/2020/3.json
+punjab,Punjab,2020,4,2020-10-01,5310103,data/aggregated/user/country/india/state/punjab/2020/4.json
+punjab,Punjab,2021,1,2021-01-01,5679863,data/aggregated/user/country/india/state/punjab/2021/1.json
+punjab,Punjab,2021,2,2021-04-01,6043827,data/aggregated/user/country/india/state/punjab/2021/2.json
+punjab,Punjab,2021,3,2021-07-01,6430939,data/aggregated/user/country/india/state/punjab/2021/3.json
+punjab,Punjab,2021,4,2021-10-01,6814717,data/aggregated/user/country/india/state/punjab/2021/4.json
+punjab,Punjab,2022,1,2022-01-01,7199914,data/aggregated/user/country/india/state/punjab/2022/1.json
+punjab,Punjab,2022,2,2022-04-01,7570961,data/aggregated/user/country/india/state/punjab/2022/2.json
+punjab,Punjab,2022,3,2022-07-01,7964871,data/aggregated/user/country/india/state/punjab/2022/3.json
+punjab,Punjab,2022,4,2022-10-01,8329482,data/aggregated/user/country/india/state/punjab/2022/4.json
+punjab,Punjab,2023,1,2023-01-01,8680448,data/aggregated/user/country/india/state/punjab/2023/1.json
+punjab,Punjab,2023,2,2023-04-01,9022142,data/aggregated/user/country/india/state/punjab/2023/2.json
+punjab,Punjab,2023,3,2023-07-01,9396198,data/aggregated/user/country/india/state/punjab/2023/3.json
+punjab,Punjab,2023,4,2023-10-01,9790268,data/aggregated/user/country/india/state/punjab/2023/4.json
+punjab,Punjab,2024,1,2024-01-01,10263130,data/aggregated/user/country/india/state/punjab/2024/1.json
+punjab,Punjab,2024,2,2024-04-01,10766796,data/aggregated/user/country/india/state/punjab/2024/2.json
+punjab,Punjab,2024,3,2024-07-01,11264065,data/aggregated/user/country/india/state/punjab/2024/3.json
+punjab,Punjab,2024,4,2024-10-01,11622811,data/aggregated/user/country/india/state/punjab/2024/4.json
+punjab,Punjab,2025,1,2025-01-01,11997032,data/aggregated/user/country/india/state/punjab/2025/1.json
+punjab,Punjab,2025,2,2025-04-01,12360971,data/aggregated/user/country/india/state/punjab/2025/2.json
+punjab,Punjab,2025,3,2025-07-01,12758339,data/aggregated/user/country/india/state/punjab/2025/3.json
+punjab,Punjab,2025,4,2025-10-01,13172691,data/aggregated/user/country/india/state/punjab/2025/4.json
+punjab,Punjab,2026,1,2026-01-01,13581016,data/aggregated/user/country/india/state/punjab/2026/1.json
+punjab,Punjab,2026,2,2026-04-01,14095349,data/aggregated/user/country/india/state/punjab/2026/2.json
+rajasthan,Rajasthan,2018,1,2018-01-01,3184469,data/aggregated/user/country/india/state/rajasthan/2018/1.json
+rajasthan,Rajasthan,2018,2,2018-04-01,4262966,data/aggregated/user/country/india/state/rajasthan/2018/2.json
+rajasthan,Rajasthan,2018,3,2018-07-01,5199376,data/aggregated/user/country/india/state/rajasthan/2018/3.json
+rajasthan,Rajasthan,2018,4,2018-10-01,6407477,data/aggregated/user/country/india/state/rajasthan/2018/4.json
+rajasthan,Rajasthan,2019,1,2019-01-01,7779148,data/aggregated/user/country/india/state/rajasthan/2019/1.json
+rajasthan,Rajasthan,2019,2,2019-04-01,8846756,data/aggregated/user/country/india/state/rajasthan/2019/2.json
+rajasthan,Rajasthan,2019,3,2019-07-01,9930100,data/aggregated/user/country/india/state/rajasthan/2019/3.json
+rajasthan,Rajasthan,2019,4,2019-10-01,11033683,data/aggregated/user/country/india/state/rajasthan/2019/4.json
+rajasthan,Rajasthan,2020,1,2020-01-01,12268753,data/aggregated/user/country/india/state/rajasthan/2020/1.json
+rajasthan,Rajasthan,2020,2,2020-04-01,13697342,data/aggregated/user/country/india/state/rajasthan/2020/2.json
+rajasthan,Rajasthan,2020,3,2020-07-01,15099115,data/aggregated/user/country/india/state/rajasthan/2020/3.json
+rajasthan,Rajasthan,2020,4,2020-10-01,16423105,data/aggregated/user/country/india/state/rajasthan/2020/4.json
+rajasthan,Rajasthan,2021,1,2021-01-01,17806048,data/aggregated/user/country/india/state/rajasthan/2021/1.json
+rajasthan,Rajasthan,2021,2,2021-04-01,19130821,data/aggregated/user/country/india/state/rajasthan/2021/2.json
+rajasthan,Rajasthan,2021,3,2021-07-01,20647987,data/aggregated/user/country/india/state/rajasthan/2021/3.json
+rajasthan,Rajasthan,2021,4,2021-10-01,22032956,data/aggregated/user/country/india/state/rajasthan/2021/4.json
+rajasthan,Rajasthan,2022,1,2022-01-01,23412998,data/aggregated/user/country/india/state/rajasthan/2022/1.json
+rajasthan,Rajasthan,2022,2,2022-04-01,24647652,data/aggregated/user/country/india/state/rajasthan/2022/2.json
+rajasthan,Rajasthan,2022,3,2022-07-01,25962683,data/aggregated/user/country/india/state/rajasthan/2022/3.json
+rajasthan,Rajasthan,2022,4,2022-10-01,27182742,data/aggregated/user/country/india/state/rajasthan/2022/4.json
+rajasthan,Rajasthan,2023,1,2023-01-01,28357153,data/aggregated/user/country/india/state/rajasthan/2023/1.json
+rajasthan,Rajasthan,2023,2,2023-04-01,29493668,data/aggregated/user/country/india/state/rajasthan/2023/2.json
+rajasthan,Rajasthan,2023,3,2023-07-01,30792255,data/aggregated/user/country/india/state/rajasthan/2023/3.json
+rajasthan,Rajasthan,2023,4,2023-10-01,32021284,data/aggregated/user/country/india/state/rajasthan/2023/4.json
+rajasthan,Rajasthan,2024,1,2024-01-01,33414280,data/aggregated/user/country/india/state/rajasthan/2024/1.json
+rajasthan,Rajasthan,2024,2,2024-04-01,34754315,data/aggregated/user/country/india/state/rajasthan/2024/2.json
+rajasthan,Rajasthan,2024,3,2024-07-01,35974844,data/aggregated/user/country/india/state/rajasthan/2024/3.json
+rajasthan,Rajasthan,2024,4,2024-10-01,37075516,data/aggregated/user/country/india/state/rajasthan/2024/4.json
+rajasthan,Rajasthan,2025,1,2025-01-01,38208545,data/aggregated/user/country/india/state/rajasthan/2025/1.json
+rajasthan,Rajasthan,2025,2,2025-04-01,39315591,data/aggregated/user/country/india/state/rajasthan/2025/2.json
+rajasthan,Rajasthan,2025,3,2025-07-01,40494453,data/aggregated/user/country/india/state/rajasthan/2025/3.json
+rajasthan,Rajasthan,2025,4,2025-10-01,41560104,data/aggregated/user/country/india/state/rajasthan/2025/4.json
+rajasthan,Rajasthan,2026,1,2026-01-01,42603158,data/aggregated/user/country/india/state/rajasthan/2026/1.json
+rajasthan,Rajasthan,2026,2,2026-04-01,43692290,data/aggregated/user/country/india/state/rajasthan/2026/2.json
+sikkim,Sikkim,2018,1,2018-01-01,23332,data/aggregated/user/country/india/state/sikkim/2018/1.json
+sikkim,Sikkim,2018,2,2018-04-01,32306,data/aggregated/user/country/india/state/sikkim/2018/2.json
+sikkim,Sikkim,2018,3,2018-07-01,41742,data/aggregated/user/country/india/state/sikkim/2018/3.json
+sikkim,Sikkim,2018,4,2018-10-01,53799,data/aggregated/user/country/india/state/sikkim/2018/4.json
+sikkim,Sikkim,2019,1,2019-01-01,64728,data/aggregated/user/country/india/state/sikkim/2019/1.json
+sikkim,Sikkim,2019,2,2019-04-01,76521,data/aggregated/user/country/india/state/sikkim/2019/2.json
+sikkim,Sikkim,2019,3,2019-07-01,88720,data/aggregated/user/country/india/state/sikkim/2019/3.json
+sikkim,Sikkim,2019,4,2019-10-01,100028,data/aggregated/user/country/india/state/sikkim/2019/4.json
+sikkim,Sikkim,2020,1,2020-01-01,112394,data/aggregated/user/country/india/state/sikkim/2020/1.json
+sikkim,Sikkim,2020,2,2020-04-01,127647,data/aggregated/user/country/india/state/sikkim/2020/2.json
+sikkim,Sikkim,2020,3,2020-07-01,143462,data/aggregated/user/country/india/state/sikkim/2020/3.json
+sikkim,Sikkim,2020,4,2020-10-01,157981,data/aggregated/user/country/india/state/sikkim/2020/4.json
+sikkim,Sikkim,2021,1,2021-01-01,169708,data/aggregated/user/country/india/state/sikkim/2021/1.json
+sikkim,Sikkim,2021,2,2021-04-01,181725,data/aggregated/user/country/india/state/sikkim/2021/2.json
+sikkim,Sikkim,2021,3,2021-07-01,193942,data/aggregated/user/country/india/state/sikkim/2021/3.json
+sikkim,Sikkim,2021,4,2021-10-01,206238,data/aggregated/user/country/india/state/sikkim/2021/4.json
+sikkim,Sikkim,2022,1,2022-01-01,217994,data/aggregated/user/country/india/state/sikkim/2022/1.json
+sikkim,Sikkim,2022,2,2022-04-01,229640,data/aggregated/user/country/india/state/sikkim/2022/2.json
+sikkim,Sikkim,2022,3,2022-07-01,241620,data/aggregated/user/country/india/state/sikkim/2022/3.json
+sikkim,Sikkim,2022,4,2022-10-01,252358,data/aggregated/user/country/india/state/sikkim/2022/4.json
+sikkim,Sikkim,2023,1,2023-01-01,262655,data/aggregated/user/country/india/state/sikkim/2023/1.json
+sikkim,Sikkim,2023,2,2023-04-01,272768,data/aggregated/user/country/india/state/sikkim/2023/2.json
+sikkim,Sikkim,2023,3,2023-07-01,282679,data/aggregated/user/country/india/state/sikkim/2023/3.json
+sikkim,Sikkim,2023,4,2023-10-01,292795,data/aggregated/user/country/india/state/sikkim/2023/4.json
+sikkim,Sikkim,2024,1,2024-01-01,304915,data/aggregated/user/country/india/state/sikkim/2024/1.json
+sikkim,Sikkim,2024,2,2024-04-01,319071,data/aggregated/user/country/india/state/sikkim/2024/2.json
+sikkim,Sikkim,2024,3,2024-07-01,333732,data/aggregated/user/country/india/state/sikkim/2024/3.json
+sikkim,Sikkim,2024,4,2024-10-01,345323,data/aggregated/user/country/india/state/sikkim/2024/4.json
+sikkim,Sikkim,2025,1,2025-01-01,357215,data/aggregated/user/country/india/state/sikkim/2025/1.json
+sikkim,Sikkim,2025,2,2025-04-01,368764,data/aggregated/user/country/india/state/sikkim/2025/2.json
+sikkim,Sikkim,2025,3,2025-07-01,379914,data/aggregated/user/country/india/state/sikkim/2025/3.json
+sikkim,Sikkim,2025,4,2025-10-01,391051,data/aggregated/user/country/india/state/sikkim/2025/4.json
+sikkim,Sikkim,2026,1,2026-01-01,402651,data/aggregated/user/country/india/state/sikkim/2026/1.json
+sikkim,Sikkim,2026,2,2026-04-01,407103,data/aggregated/user/country/india/state/sikkim/2026/2.json
+tamil-nadu,Tamil Nadu,2018,1,2018-01-01,2155558,data/aggregated/user/country/india/state/tamil-nadu/2018/1.json
+tamil-nadu,Tamil Nadu,2018,2,2018-04-01,3061794,data/aggregated/user/country/india/state/tamil-nadu/2018/2.json
+tamil-nadu,Tamil Nadu,2018,3,2018-07-01,3937412,data/aggregated/user/country/india/state/tamil-nadu/2018/3.json
+tamil-nadu,Tamil Nadu,2018,4,2018-10-01,5262463,data/aggregated/user/country/india/state/tamil-nadu/2018/4.json
+tamil-nadu,Tamil Nadu,2019,1,2019-01-01,6377974,data/aggregated/user/country/india/state/tamil-nadu/2019/1.json
+tamil-nadu,Tamil Nadu,2019,2,2019-04-01,7498284,data/aggregated/user/country/india/state/tamil-nadu/2019/2.json
+tamil-nadu,Tamil Nadu,2019,3,2019-07-01,8534286,data/aggregated/user/country/india/state/tamil-nadu/2019/3.json
+tamil-nadu,Tamil Nadu,2019,4,2019-10-01,9717126,data/aggregated/user/country/india/state/tamil-nadu/2019/4.json
+tamil-nadu,Tamil Nadu,2020,1,2020-01-01,10970688,data/aggregated/user/country/india/state/tamil-nadu/2020/1.json
+tamil-nadu,Tamil Nadu,2020,2,2020-04-01,12255108,data/aggregated/user/country/india/state/tamil-nadu/2020/2.json
+tamil-nadu,Tamil Nadu,2020,3,2020-07-01,13765652,data/aggregated/user/country/india/state/tamil-nadu/2020/3.json
+tamil-nadu,Tamil Nadu,2020,4,2020-10-01,15495864,data/aggregated/user/country/india/state/tamil-nadu/2020/4.json
+tamil-nadu,Tamil Nadu,2021,1,2021-01-01,16872782,data/aggregated/user/country/india/state/tamil-nadu/2021/1.json
+tamil-nadu,Tamil Nadu,2021,2,2021-04-01,18151670,data/aggregated/user/country/india/state/tamil-nadu/2021/2.json
+tamil-nadu,Tamil Nadu,2021,3,2021-07-01,19501393,data/aggregated/user/country/india/state/tamil-nadu/2021/3.json
+tamil-nadu,Tamil Nadu,2021,4,2021-10-01,20870525,data/aggregated/user/country/india/state/tamil-nadu/2021/4.json
+tamil-nadu,Tamil Nadu,2022,1,2022-01-01,22131653,data/aggregated/user/country/india/state/tamil-nadu/2022/1.json
+tamil-nadu,Tamil Nadu,2022,2,2022-04-01,23307037,data/aggregated/user/country/india/state/tamil-nadu/2022/2.json
+tamil-nadu,Tamil Nadu,2022,3,2022-07-01,24513100,data/aggregated/user/country/india/state/tamil-nadu/2022/3.json
+tamil-nadu,Tamil Nadu,2022,4,2022-10-01,25708338,data/aggregated/user/country/india/state/tamil-nadu/2022/4.json
+tamil-nadu,Tamil Nadu,2023,1,2023-01-01,26767037,data/aggregated/user/country/india/state/tamil-nadu/2023/1.json
+tamil-nadu,Tamil Nadu,2023,2,2023-04-01,27769575,data/aggregated/user/country/india/state/tamil-nadu/2023/2.json
+tamil-nadu,Tamil Nadu,2023,3,2023-07-01,28891897,data/aggregated/user/country/india/state/tamil-nadu/2023/3.json
+tamil-nadu,Tamil Nadu,2023,4,2023-10-01,30002865,data/aggregated/user/country/india/state/tamil-nadu/2023/4.json
+tamil-nadu,Tamil Nadu,2024,1,2024-01-01,31080814,data/aggregated/user/country/india/state/tamil-nadu/2024/1.json
+tamil-nadu,Tamil Nadu,2024,2,2024-04-01,32173286,data/aggregated/user/country/india/state/tamil-nadu/2024/2.json
+tamil-nadu,Tamil Nadu,2024,3,2024-07-01,33289377,data/aggregated/user/country/india/state/tamil-nadu/2024/3.json
+tamil-nadu,Tamil Nadu,2024,4,2024-10-01,34331442,data/aggregated/user/country/india/state/tamil-nadu/2024/4.json
+tamil-nadu,Tamil Nadu,2025,1,2025-01-01,35340007,data/aggregated/user/country/india/state/tamil-nadu/2025/1.json
+tamil-nadu,Tamil Nadu,2025,2,2025-04-01,36318119,data/aggregated/user/country/india/state/tamil-nadu/2025/2.json
+tamil-nadu,Tamil Nadu,2025,3,2025-07-01,37334630,data/aggregated/user/country/india/state/tamil-nadu/2025/3.json
+tamil-nadu,Tamil Nadu,2025,4,2025-10-01,38313127,data/aggregated/user/country/india/state/tamil-nadu/2025/4.json
+tamil-nadu,Tamil Nadu,2026,1,2026-01-01,39201469,data/aggregated/user/country/india/state/tamil-nadu/2026/1.json
+tamil-nadu,Tamil Nadu,2026,2,2026-04-01,40264046,data/aggregated/user/country/india/state/tamil-nadu/2026/2.json
+telangana,Telangana,2018,1,2018-01-01,3449556,data/aggregated/user/country/india/state/telangana/2018/1.json
+telangana,Telangana,2018,2,2018-04-01,4414688,data/aggregated/user/country/india/state/telangana/2018/2.json
+telangana,Telangana,2018,3,2018-07-01,5290796,data/aggregated/user/country/india/state/telangana/2018/3.json
+telangana,Telangana,2018,4,2018-10-01,6687832,data/aggregated/user/country/india/state/telangana/2018/4.json
+telangana,Telangana,2019,1,2019-01-01,8100506,data/aggregated/user/country/india/state/telangana/2019/1.json
+telangana,Telangana,2019,2,2019-04-01,9164840,data/aggregated/user/country/india/state/telangana/2019/2.json
+telangana,Telangana,2019,3,2019-07-01,10225604,data/aggregated/user/country/india/state/telangana/2019/3.json
+telangana,Telangana,2019,4,2019-10-01,11330987,data/aggregated/user/country/india/state/telangana/2019/4.json
+telangana,Telangana,2020,1,2020-01-01,12385312,data/aggregated/user/country/india/state/telangana/2020/1.json
+telangana,Telangana,2020,2,2020-04-01,13431777,data/aggregated/user/country/india/state/telangana/2020/2.json
+telangana,Telangana,2020,3,2020-07-01,14605692,data/aggregated/user/country/india/state/telangana/2020/3.json
+telangana,Telangana,2020,4,2020-10-01,15891633,data/aggregated/user/country/india/state/telangana/2020/4.json
+telangana,Telangana,2021,1,2021-01-01,17082180,data/aggregated/user/country/india/state/telangana/2021/1.json
+telangana,Telangana,2021,2,2021-04-01,18184140,data/aggregated/user/country/india/state/telangana/2021/2.json
+telangana,Telangana,2021,3,2021-07-01,19355996,data/aggregated/user/country/india/state/telangana/2021/3.json
+telangana,Telangana,2021,4,2021-10-01,20513162,data/aggregated/user/country/india/state/telangana/2021/4.json
+telangana,Telangana,2022,1,2022-01-01,21608530,data/aggregated/user/country/india/state/telangana/2022/1.json
+telangana,Telangana,2022,2,2022-04-01,22613597,data/aggregated/user/country/india/state/telangana/2022/2.json
+telangana,Telangana,2022,3,2022-07-01,23635593,data/aggregated/user/country/india/state/telangana/2022/3.json
+telangana,Telangana,2022,4,2022-10-01,24652313,data/aggregated/user/country/india/state/telangana/2022/4.json
+telangana,Telangana,2023,1,2023-01-01,25533334,data/aggregated/user/country/india/state/telangana/2023/1.json
+telangana,Telangana,2023,2,2023-04-01,26347321,data/aggregated/user/country/india/state/telangana/2023/2.json
+telangana,Telangana,2023,3,2023-07-01,27152426,data/aggregated/user/country/india/state/telangana/2023/3.json
+telangana,Telangana,2023,4,2023-10-01,27926155,data/aggregated/user/country/india/state/telangana/2023/4.json
+telangana,Telangana,2024,1,2024-01-01,28813177,data/aggregated/user/country/india/state/telangana/2024/1.json
+telangana,Telangana,2024,2,2024-04-01,29668981,data/aggregated/user/country/india/state/telangana/2024/2.json
+telangana,Telangana,2024,3,2024-07-01,30496407,data/aggregated/user/country/india/state/telangana/2024/3.json
+telangana,Telangana,2024,4,2024-10-01,31420121,data/aggregated/user/country/india/state/telangana/2024/4.json
+telangana,Telangana,2025,1,2025-01-01,32290034,data/aggregated/user/country/india/state/telangana/2025/1.json
+telangana,Telangana,2025,2,2025-04-01,33161493,data/aggregated/user/country/india/state/telangana/2025/2.json
+telangana,Telangana,2025,3,2025-07-01,34013239,data/aggregated/user/country/india/state/telangana/2025/3.json
+telangana,Telangana,2025,4,2025-10-01,34807525,data/aggregated/user/country/india/state/telangana/2025/4.json
+telangana,Telangana,2026,1,2026-01-01,35513627,data/aggregated/user/country/india/state/telangana/2026/1.json
+telangana,Telangana,2026,2,2026-04-01,36479877,data/aggregated/user/country/india/state/telangana/2026/2.json
+tripura,Tripura,2018,1,2018-01-01,55908,data/aggregated/user/country/india/state/tripura/2018/1.json
+tripura,Tripura,2018,2,2018-04-01,84393,data/aggregated/user/country/india/state/tripura/2018/2.json
+tripura,Tripura,2018,3,2018-07-01,116340,data/aggregated/user/country/india/state/tripura/2018/3.json
+tripura,Tripura,2018,4,2018-10-01,155407,data/aggregated/user/country/india/state/tripura/2018/4.json
+tripura,Tripura,2019,1,2019-01-01,187484,data/aggregated/user/country/india/state/tripura/2019/1.json
+tripura,Tripura,2019,2,2019-04-01,222378,data/aggregated/user/country/india/state/tripura/2019/2.json
+tripura,Tripura,2019,3,2019-07-01,254600,data/aggregated/user/country/india/state/tripura/2019/3.json
+tripura,Tripura,2019,4,2019-10-01,283407,data/aggregated/user/country/india/state/tripura/2019/4.json
+tripura,Tripura,2020,1,2020-01-01,314602,data/aggregated/user/country/india/state/tripura/2020/1.json
+tripura,Tripura,2020,2,2020-04-01,351939,data/aggregated/user/country/india/state/tripura/2020/2.json
+tripura,Tripura,2020,3,2020-07-01,395067,data/aggregated/user/country/india/state/tripura/2020/3.json
+tripura,Tripura,2020,4,2020-10-01,431153,data/aggregated/user/country/india/state/tripura/2020/4.json
+tripura,Tripura,2021,1,2021-01-01,458876,data/aggregated/user/country/india/state/tripura/2021/1.json
+tripura,Tripura,2021,2,2021-04-01,485926,data/aggregated/user/country/india/state/tripura/2021/2.json
+tripura,Tripura,2021,3,2021-07-01,514890,data/aggregated/user/country/india/state/tripura/2021/3.json
+tripura,Tripura,2021,4,2021-10-01,544397,data/aggregated/user/country/india/state/tripura/2021/4.json
+tripura,Tripura,2022,1,2022-01-01,573074,data/aggregated/user/country/india/state/tripura/2022/1.json
+tripura,Tripura,2022,2,2022-04-01,603260,data/aggregated/user/country/india/state/tripura/2022/2.json
+tripura,Tripura,2022,3,2022-07-01,636726,data/aggregated/user/country/india/state/tripura/2022/3.json
+tripura,Tripura,2022,4,2022-10-01,668667,data/aggregated/user/country/india/state/tripura/2022/4.json
+tripura,Tripura,2023,1,2023-01-01,699295,data/aggregated/user/country/india/state/tripura/2023/1.json
+tripura,Tripura,2023,2,2023-04-01,731619,data/aggregated/user/country/india/state/tripura/2023/2.json
+tripura,Tripura,2023,3,2023-07-01,768145,data/aggregated/user/country/india/state/tripura/2023/3.json
+tripura,Tripura,2023,4,2023-10-01,809084,data/aggregated/user/country/india/state/tripura/2023/4.json
+tripura,Tripura,2024,1,2024-01-01,858086,data/aggregated/user/country/india/state/tripura/2024/1.json
+tripura,Tripura,2024,2,2024-04-01,910150,data/aggregated/user/country/india/state/tripura/2024/2.json
+tripura,Tripura,2024,3,2024-07-01,958718,data/aggregated/user/country/india/state/tripura/2024/3.json
+tripura,Tripura,2024,4,2024-10-01,995320,data/aggregated/user/country/india/state/tripura/2024/4.json
+tripura,Tripura,2025,1,2025-01-01,1032353,data/aggregated/user/country/india/state/tripura/2025/1.json
+tripura,Tripura,2025,2,2025-04-01,1069043,data/aggregated/user/country/india/state/tripura/2025/2.json
+tripura,Tripura,2025,3,2025-07-01,1109299,data/aggregated/user/country/india/state/tripura/2025/3.json
+tripura,Tripura,2025,4,2025-10-01,1151875,data/aggregated/user/country/india/state/tripura/2025/4.json
+tripura,Tripura,2026,1,2026-01-01,1191907,data/aggregated/user/country/india/state/tripura/2026/1.json
+tripura,Tripura,2026,2,2026-04-01,1242083,data/aggregated/user/country/india/state/tripura/2026/2.json
+uttar-pradesh,Uttar Pradesh,2018,1,2018-01-01,4921602,data/aggregated/user/country/india/state/uttar-pradesh/2018/1.json
+uttar-pradesh,Uttar Pradesh,2018,2,2018-04-01,6777728,data/aggregated/user/country/india/state/uttar-pradesh/2018/2.json
+uttar-pradesh,Uttar Pradesh,2018,3,2018-07-01,8443146,data/aggregated/user/country/india/state/uttar-pradesh/2018/3.json
+uttar-pradesh,Uttar Pradesh,2018,4,2018-10-01,10830097,data/aggregated/user/country/india/state/uttar-pradesh/2018/4.json
+uttar-pradesh,Uttar Pradesh,2019,1,2019-01-01,13103108,data/aggregated/user/country/india/state/uttar-pradesh/2019/1.json
+uttar-pradesh,Uttar Pradesh,2019,2,2019-04-01,15042257,data/aggregated/user/country/india/state/uttar-pradesh/2019/2.json
+uttar-pradesh,Uttar Pradesh,2019,3,2019-07-01,16953678,data/aggregated/user/country/india/state/uttar-pradesh/2019/3.json
+uttar-pradesh,Uttar Pradesh,2019,4,2019-10-01,18919521,data/aggregated/user/country/india/state/uttar-pradesh/2019/4.json
+uttar-pradesh,Uttar Pradesh,2020,1,2020-01-01,21194763,data/aggregated/user/country/india/state/uttar-pradesh/2020/1.json
+uttar-pradesh,Uttar Pradesh,2020,2,2020-04-01,23606047,data/aggregated/user/country/india/state/uttar-pradesh/2020/2.json
+uttar-pradesh,Uttar Pradesh,2020,3,2020-07-01,26045233,data/aggregated/user/country/india/state/uttar-pradesh/2020/3.json
+uttar-pradesh,Uttar Pradesh,2020,4,2020-10-01,28545839,data/aggregated/user/country/india/state/uttar-pradesh/2020/4.json
+uttar-pradesh,Uttar Pradesh,2021,1,2021-01-01,30976739,data/aggregated/user/country/india/state/uttar-pradesh/2021/1.json
+uttar-pradesh,Uttar Pradesh,2021,2,2021-04-01,33211904,data/aggregated/user/country/india/state/uttar-pradesh/2021/2.json
+uttar-pradesh,Uttar Pradesh,2021,3,2021-07-01,35903262,data/aggregated/user/country/india/state/uttar-pradesh/2021/3.json
+uttar-pradesh,Uttar Pradesh,2021,4,2021-10-01,38739893,data/aggregated/user/country/india/state/uttar-pradesh/2021/4.json
+uttar-pradesh,Uttar Pradesh,2022,1,2022-01-01,41701425,data/aggregated/user/country/india/state/uttar-pradesh/2022/1.json
+uttar-pradesh,Uttar Pradesh,2022,2,2022-04-01,44364283,data/aggregated/user/country/india/state/uttar-pradesh/2022/2.json
+uttar-pradesh,Uttar Pradesh,2022,3,2022-07-01,47337748,data/aggregated/user/country/india/state/uttar-pradesh/2022/3.json
+uttar-pradesh,Uttar Pradesh,2022,4,2022-10-01,50213564,data/aggregated/user/country/india/state/uttar-pradesh/2022/4.json
+uttar-pradesh,Uttar Pradesh,2023,1,2023-01-01,53046420,data/aggregated/user/country/india/state/uttar-pradesh/2023/1.json
+uttar-pradesh,Uttar Pradesh,2023,2,2023-04-01,55590099,data/aggregated/user/country/india/state/uttar-pradesh/2023/2.json
+uttar-pradesh,Uttar Pradesh,2023,3,2023-07-01,58422771,data/aggregated/user/country/india/state/uttar-pradesh/2023/3.json
+uttar-pradesh,Uttar Pradesh,2023,4,2023-10-01,61516010,data/aggregated/user/country/india/state/uttar-pradesh/2023/4.json
+uttar-pradesh,Uttar Pradesh,2024,1,2024-01-01,64960422,data/aggregated/user/country/india/state/uttar-pradesh/2024/1.json
+uttar-pradesh,Uttar Pradesh,2024,2,2024-04-01,68189228,data/aggregated/user/country/india/state/uttar-pradesh/2024/2.json
+uttar-pradesh,Uttar Pradesh,2024,3,2024-07-01,71327157,data/aggregated/user/country/india/state/uttar-pradesh/2024/3.json
+uttar-pradesh,Uttar Pradesh,2024,4,2024-10-01,74136023,data/aggregated/user/country/india/state/uttar-pradesh/2024/4.json
+uttar-pradesh,Uttar Pradesh,2025,1,2025-01-01,77043398,data/aggregated/user/country/india/state/uttar-pradesh/2025/1.json
+uttar-pradesh,Uttar Pradesh,2025,2,2025-04-01,79721010,data/aggregated/user/country/india/state/uttar-pradesh/2025/2.json
+uttar-pradesh,Uttar Pradesh,2025,3,2025-07-01,82795120,data/aggregated/user/country/india/state/uttar-pradesh/2025/3.json
+uttar-pradesh,Uttar Pradesh,2025,4,2025-10-01,85800260,data/aggregated/user/country/india/state/uttar-pradesh/2025/4.json
+uttar-pradesh,Uttar Pradesh,2026,1,2026-01-01,88629936,data/aggregated/user/country/india/state/uttar-pradesh/2026/1.json
+uttar-pradesh,Uttar Pradesh,2026,2,2026-04-01,90563992,data/aggregated/user/country/india/state/uttar-pradesh/2026/2.json
+uttarakhand,Uttarakhand,2018,1,2018-01-01,499946,data/aggregated/user/country/india/state/uttarakhand/2018/1.json
+uttarakhand,Uttarakhand,2018,2,2018-04-01,673206,data/aggregated/user/country/india/state/uttarakhand/2018/2.json
+uttarakhand,Uttarakhand,2018,3,2018-07-01,835826,data/aggregated/user/country/india/state/uttarakhand/2018/3.json
+uttarakhand,Uttarakhand,2018,4,2018-10-01,1050477,data/aggregated/user/country/india/state/uttarakhand/2018/4.json
+uttarakhand,Uttarakhand,2019,1,2019-01-01,1272751,data/aggregated/user/country/india/state/uttarakhand/2019/1.json
+uttarakhand,Uttarakhand,2019,2,2019-04-01,1468181,data/aggregated/user/country/india/state/uttarakhand/2019/2.json
+uttarakhand,Uttarakhand,2019,3,2019-07-01,1653220,data/aggregated/user/country/india/state/uttarakhand/2019/3.json
+uttarakhand,Uttarakhand,2019,4,2019-10-01,1825409,data/aggregated/user/country/india/state/uttarakhand/2019/4.json
+uttarakhand,Uttarakhand,2020,1,2020-01-01,2023901,data/aggregated/user/country/india/state/uttarakhand/2020/1.json
+uttarakhand,Uttarakhand,2020,2,2020-04-01,2234769,data/aggregated/user/country/india/state/uttarakhand/2020/2.json
+uttarakhand,Uttarakhand,2020,3,2020-07-01,2456247,data/aggregated/user/country/india/state/uttarakhand/2020/3.json
+uttarakhand,Uttarakhand,2020,4,2020-10-01,2685323,data/aggregated/user/country/india/state/uttarakhand/2020/4.json
+uttarakhand,Uttarakhand,2021,1,2021-01-01,2888932,data/aggregated/user/country/india/state/uttarakhand/2021/1.json
+uttarakhand,Uttarakhand,2021,2,2021-04-01,3083983,data/aggregated/user/country/india/state/uttarakhand/2021/2.json
+uttarakhand,Uttarakhand,2021,3,2021-07-01,3295762,data/aggregated/user/country/india/state/uttarakhand/2021/3.json
+uttarakhand,Uttarakhand,2021,4,2021-10-01,3503291,data/aggregated/user/country/india/state/uttarakhand/2021/4.json
+uttarakhand,Uttarakhand,2022,1,2022-01-01,3709608,data/aggregated/user/country/india/state/uttarakhand/2022/1.json
+uttarakhand,Uttarakhand,2022,2,2022-04-01,3904801,data/aggregated/user/country/india/state/uttarakhand/2022/2.json
+uttarakhand,Uttarakhand,2022,3,2022-07-01,4107474,data/aggregated/user/country/india/state/uttarakhand/2022/3.json
+uttarakhand,Uttarakhand,2022,4,2022-10-01,4296902,data/aggregated/user/country/india/state/uttarakhand/2022/4.json
+uttarakhand,Uttarakhand,2023,1,2023-01-01,4480029,data/aggregated/user/country/india/state/uttarakhand/2023/1.json
+uttarakhand,Uttarakhand,2023,2,2023-04-01,4650851,data/aggregated/user/country/india/state/uttarakhand/2023/2.json
+uttarakhand,Uttarakhand,2023,3,2023-07-01,4823928,data/aggregated/user/country/india/state/uttarakhand/2023/3.json
+uttarakhand,Uttarakhand,2023,4,2023-10-01,4999454,data/aggregated/user/country/india/state/uttarakhand/2023/4.json
+uttarakhand,Uttarakhand,2024,1,2024-01-01,5206546,data/aggregated/user/country/india/state/uttarakhand/2024/1.json
+uttarakhand,Uttarakhand,2024,2,2024-04-01,5419938,data/aggregated/user/country/india/state/uttarakhand/2024/2.json
+uttarakhand,Uttarakhand,2024,3,2024-07-01,5624430,data/aggregated/user/country/india/state/uttarakhand/2024/3.json
+uttarakhand,Uttarakhand,2024,4,2024-10-01,5801849,data/aggregated/user/country/india/state/uttarakhand/2024/4.json
+uttarakhand,Uttarakhand,2025,1,2025-01-01,5979871,data/aggregated/user/country/india/state/uttarakhand/2025/1.json
+uttarakhand,Uttarakhand,2025,2,2025-04-01,6152816,data/aggregated/user/country/india/state/uttarakhand/2025/2.json
+uttarakhand,Uttarakhand,2025,3,2025-07-01,6335256,data/aggregated/user/country/india/state/uttarakhand/2025/3.json
+uttarakhand,Uttarakhand,2025,4,2025-10-01,6515385,data/aggregated/user/country/india/state/uttarakhand/2025/4.json
+uttarakhand,Uttarakhand,2026,1,2026-01-01,6690656,data/aggregated/user/country/india/state/uttarakhand/2026/1.json
+uttarakhand,Uttarakhand,2026,2,2026-04-01,6755122,data/aggregated/user/country/india/state/uttarakhand/2026/2.json
+west-bengal,West Bengal,2018,1,2018-01-01,2576622,data/aggregated/user/country/india/state/west-bengal/2018/1.json
+west-bengal,West Bengal,2018,2,2018-04-01,3795442,data/aggregated/user/country/india/state/west-bengal/2018/2.json
+west-bengal,West Bengal,2018,3,2018-07-01,4790914,data/aggregated/user/country/india/state/west-bengal/2018/3.json
+west-bengal,West Bengal,2018,4,2018-10-01,6251947,data/aggregated/user/country/india/state/west-bengal/2018/4.json
+west-bengal,West Bengal,2019,1,2019-01-01,7438601,data/aggregated/user/country/india/state/west-bengal/2019/1.json
+west-bengal,West Bengal,2019,2,2019-04-01,8602074,data/aggregated/user/country/india/state/west-bengal/2019/2.json
+west-bengal,West Bengal,2019,3,2019-07-01,9692554,data/aggregated/user/country/india/state/west-bengal/2019/3.json
+west-bengal,West Bengal,2019,4,2019-10-01,10931174,data/aggregated/user/country/india/state/west-bengal/2019/4.json
+west-bengal,West Bengal,2020,1,2020-01-01,12052575,data/aggregated/user/country/india/state/west-bengal/2020/1.json
+west-bengal,West Bengal,2020,2,2020-04-01,13339774,data/aggregated/user/country/india/state/west-bengal/2020/2.json
+west-bengal,West Bengal,2020,3,2020-07-01,14612656,data/aggregated/user/country/india/state/west-bengal/2020/3.json
+west-bengal,West Bengal,2020,4,2020-10-01,15870777,data/aggregated/user/country/india/state/west-bengal/2020/4.json
+west-bengal,West Bengal,2021,1,2021-01-01,16981214,data/aggregated/user/country/india/state/west-bengal/2021/1.json
+west-bengal,West Bengal,2021,2,2021-04-01,18090085,data/aggregated/user/country/india/state/west-bengal/2021/2.json
+west-bengal,West Bengal,2021,3,2021-07-01,19374188,data/aggregated/user/country/india/state/west-bengal/2021/3.json
+west-bengal,West Bengal,2021,4,2021-10-01,20723757,data/aggregated/user/country/india/state/west-bengal/2021/4.json
+west-bengal,West Bengal,2022,1,2022-01-01,21954680,data/aggregated/user/country/india/state/west-bengal/2022/1.json
+west-bengal,West Bengal,2022,2,2022-04-01,23181627,data/aggregated/user/country/india/state/west-bengal/2022/2.json
+west-bengal,West Bengal,2022,3,2022-07-01,24486749,data/aggregated/user/country/india/state/west-bengal/2022/3.json
+west-bengal,West Bengal,2022,4,2022-10-01,25739668,data/aggregated/user/country/india/state/west-bengal/2022/4.json
+west-bengal,West Bengal,2023,1,2023-01-01,26980199,data/aggregated/user/country/india/state/west-bengal/2023/1.json
+west-bengal,West Bengal,2023,2,2023-04-01,28151830,data/aggregated/user/country/india/state/west-bengal/2023/2.json
+west-bengal,West Bengal,2023,3,2023-07-01,29423200,data/aggregated/user/country/india/state/west-bengal/2023/3.json
+west-bengal,West Bengal,2023,4,2023-10-01,30766242,data/aggregated/user/country/india/state/west-bengal/2023/4.json
+west-bengal,West Bengal,2024,1,2024-01-01,32233492,data/aggregated/user/country/india/state/west-bengal/2024/1.json
+west-bengal,West Bengal,2024,2,2024-04-01,33696097,data/aggregated/user/country/india/state/west-bengal/2024/2.json
+west-bengal,West Bengal,2024,3,2024-07-01,35120561,data/aggregated/user/country/india/state/west-bengal/2024/3.json
+west-bengal,West Bengal,2024,4,2024-10-01,36468735,data/aggregated/user/country/india/state/west-bengal/2024/4.json
+west-bengal,West Bengal,2025,1,2025-01-01,37781664,data/aggregated/user/country/india/state/west-bengal/2025/1.json
+west-bengal,West Bengal,2025,2,2025-04-01,39021346,data/aggregated/user/country/india/state/west-bengal/2025/2.json
+west-bengal,West Bengal,2025,3,2025-07-01,40328474,data/aggregated/user/country/india/state/west-bengal/2025/3.json
+west-bengal,West Bengal,2025,4,2025-10-01,41514118,data/aggregated/user/country/india/state/west-bengal/2025/4.json
+west-bengal,West Bengal,2026,1,2026-01-01,42771072,data/aggregated/user/country/india/state/west-bengal/2026/1.json
+west-bengal,West Bengal,2026,2,2026-04-01,43272502,data/aggregated/user/country/india/state/west-bengal/2026/2.json

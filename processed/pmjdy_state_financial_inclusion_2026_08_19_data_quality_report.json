@@ -1,0 +1,17 @@
+{
+  "source": "PMJDY Statewise account opening Report",
+  "source_url": "https://pmjdy.gov.in/account-statistics-state.aspx/scheme",
+  "raw_file": "data/raw/pmjdy/pmjdy_statewise_accounts_2026_08_19.html",
+  "raw_file_sha256": "50c9a67908ed2b5d0ee00f2940e608e1802f6aea1cab1e391a5cd7bdbca39ea5",
+  "as_of_date": "2026-08-19",
+  "rows_written": 36,
+  "geography_match_to_phonepe": "passed for all 36 PhonePe state/UT geographies",
+  "state_totals_reconcile_to_source_total": "passed",
+  "name_mappings": {
+    "Andaman And Nicobar Islands": "Andaman & Nicobar Islands",
+    "Jammu And Kashmir": "Jammu & Kashmir",
+    "The Dadra And Nagar Haveli And Daman And Diu": "Dadra & Nagar Haveli and Daman & Diu"
+  },
+  "time_alignment": "PMJDY is a 19 August 2026 snapshot. It is compared only with PhonePe 2026 Q2 (April-June 2026) as near-in-time descriptive context, not as a same-day series.",
+  "interpretation_warning": "PMJDY beneficiary counts are a state-level financial-inclusion context measure. They are not verified unique people, active bank-account users, active debit-card users, or active UPI users; the data are not a direct measure of bank branches or ATM access."
+}

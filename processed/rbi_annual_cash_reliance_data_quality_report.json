@@ -1,0 +1,16 @@
+{
+  "source": "RBI Table 41: Average Monetary Aggregates",
+  "source_url": "https://systemhealth.rbi.org.in/Scripts/PublicationsView.aspx_id%3D22515%281%29.html",
+  "raw_file": "data/raw/rbi/cash_reliance/rbi_table41_average_monetary_aggregates_fy2023_24.html",
+  "raw_file_sha256": "404af548bf92a95ae6fc6ef6bb6fe6633dbd4bb9ddb7e290ca92d01ee719ce52",
+  "table_date": "2024-09-13",
+  "rows_written": 7,
+  "financial_year_range": {
+    "start": "2017-18",
+    "end": "2023-24"
+  },
+  "units": "INR crore",
+  "time_basis": "annual averages for the financial year, not end-of-year balances",
+  "derivation": "currency_to_demand_deposits_ratio = currency_with_public_crore / demand_deposits_crore",
+  "interpretation_warning": "The ratio offers national monetary context only. It cannot measure cash spending or establish that UPI caused cash use to change."
+}

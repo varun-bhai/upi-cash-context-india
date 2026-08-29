@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>India UPI & Cash Context Dashboard</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap');
+    :root {
+      --ink: #1d2a27;
+      --muted: #66716c;
+      --line: #cfc8b9;
+      --surface: #fbf9f3;
+      --paper: #f1ede3;
+      --navy: #1d4966;
+      --teal: #14716d;
+      --orange: #b8562a;
+      --violet: #67536f;
+      --green: #45694c;
+      --red: #9b3e36;
+      --highlight: #e8dfc9;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif; color: var(--ink); background: var(--paper); }
+    .shell { max-width: 1280px; margin: 0 auto; padding: 22px 28px 58px; }
+    header { display: grid; grid-template-columns: minmax(0, 1fr) 258px; gap: 36px; padding: 20px 0 26px; border-top: 6px solid var(--ink); border-bottom: 1px solid var(--ink); align-items: end; }
+    .eyebrow { color: var(--teal); font-family: "IBM Plex Mono", monospace; font-size: .7rem; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 13px; }
+    h1 { font-family: "Source Serif 4", Georgia, serif; font-size: clamp(2.25rem, 5vw, 4.4rem); font-weight: 600; letter-spacing: -.055em; line-height: .97; margin: 0; max-width: 800px; }
+    .subtitle { color: #485450; font-size: 1rem; margin: 16px 0 0; max-width: 720px; line-height: 1.55; }
+    .question { margin: 16px 0 0; font-family: "Source Serif 4", Georgia, serif; font-size: 1.15rem; line-height: 1.35; max-width: 720px; }
+    .updated { border-left: 1px solid var(--line); color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: .72rem; line-height: 1.65; padding-left: 15px; text-align: left; }
+    .grid { display: grid; gap: 18px; }
+    .kpis { grid-template-columns: 1.15fr repeat(3, minmax(0, 1fr)); gap: 0; margin: 0 0 34px; border-bottom: 1px solid var(--line); }
+    .card { min-height: 126px; padding: 19px 18px 18px 0; border-right: 1px solid var(--line); }
+    .card + .card { padding-left: 18px; }
+    .card:last-child { border-right: 0; }
+    .label { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: .66rem; font-weight: 500; letter-spacing: .055em; text-transform: uppercase; }
+    .metric { font-family: "Source Serif 4", Georgia, serif; font-size: 2.05rem; font-weight: 600; letter-spacing: -.04em; margin: 10px 0 3px; }
+    .detail { color: var(--muted); font-size: .82rem; line-height: 1.45; }
+    .section-title { border-top: 1px solid var(--ink); font-family: "Source Serif 4", Georgia, serif; font-size: 1.55rem; font-weight: 600; letter-spacing: -.025em; margin: 40px 0 10px; padding-top: 13px; }
+    .section-intro { margin: 0 0 16px; color: var(--muted); max-width: 880px; line-height: 1.5; }
+    .twocol { grid-template-columns: minmax(0, 1.35fr) minmax(300px, .85fr); }
+    .chart-panel { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 18px 0; min-width: 0; }
+    .twocol .chart-panel:first-child { padding-right: 24px; border-right: 1px solid var(--line); }
+    .twocol .chart-panel:last-child { padding-left: 24px; }
+    .chart-title { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
+    .chart-title h2 { margin: 0; font-family: "Source Serif 4", Georgia, serif; font-size: 1.22rem; font-weight: 600; letter-spacing: -.015em; }
+    .chart-subtitle { margin: 0 0 14px; color: var(--muted); font-size: .87rem; line-height: 1.4; }
+    .chart { width: 100%; min-height: 300px; position: relative; }
+    .chart svg { width: 100%; height: auto; display: block; overflow: visible; }
+    .legend { display: flex; flex-wrap: wrap; gap: 14px; color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: .69rem; margin-top: 5px; }
+    .key { display: inline-flex; align-items: center; gap: 6px; }
+    .dot { width: 9px; height: 9px; display: inline-block; }
+    .callout { border-left: 2px solid var(--orange); padding: 7px 0 7px 11px; color: var(--muted); font-family: "Source Serif 4", Georgia, serif; font-size: .96rem; line-height: 1.4; margin-top: 9px; }
+    .toolbar { display: flex; justify-content: space-between; gap: 12px; align-items: center; flex-wrap: wrap; margin: 8px 0 12px; }
+    select { border: 0; border-bottom: 1px solid var(--ink); border-radius: 0; padding: 5px 2px; color: var(--ink); background: transparent; font: inherit; font-size: .85rem; }
+    .table-wrap { overflow-x: auto; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+    table { border-collapse: collapse; width: 100%; font-size: .84rem; min-width: 880px; }
+    th { background: var(--highlight); color: #59635f; font-family: "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .025em; font-size: .62rem; text-align: left; white-space: nowrap; }
+    td, th { padding: 11px 12px; border-bottom: 1px solid var(--line); }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    tbody tr:nth-child(even) { background: rgba(232, 223, 201, .25); }
+    tbody tr:hover { background: #e9e1cd; }
+    tr:last-child td { border-bottom: 0; }
+    .tag { display: inline-block; max-width: 270px; line-height: 1.28; color: var(--navy); font-size: .76rem; }
+    .method-panel { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 16px 0 18px; margin-top: 22px; }
+    .method-panel strong { font-family: "Source Serif 4", Georgia, serif; font-size: 1.2rem; }
+    .method-panel ul { columns: 2; column-gap: 42px; margin: 10px 0 0; padding-left: 20px; color: var(--muted); line-height: 1.55; }
+    .method-panel li { break-inside: avoid; margin-bottom: 8px; }
+    .tooltip { position: fixed; pointer-events: none; padding: 8px 10px; background: var(--ink); color: #fffdf8; font-family: "IBM Plex Mono", monospace; font-size: .7rem; line-height: 1.45; opacity: 0; transition: opacity .12s; z-index: 4; max-width: 255px; }
+    .axis { fill: var(--muted); font-size: 11px; }
+    .axis-title { fill: var(--muted); font-size: 11px; font-weight: 700; }
+    .gridline { stroke: #e8eef3; stroke-width: 1; }
+    .frame { fill: none; stroke: var(--line); }
+    @media (max-width: 850px) { .shell { padding: 18px 18px 44px; } .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .card:nth-child(2) { border-right: 0; } .card:nth-child(n+3) { border-top: 1px solid var(--line); } .twocol { grid-template-columns: 1fr; } .twocol .chart-panel:first-child { padding-right: 0; border-right: 0; } .twocol .chart-panel:last-child { padding-left: 0; } header { grid-template-columns: 1fr; } .updated { border-left: 0; border-top: 1px solid var(--line); padding: 12px 0 0; } .method-panel ul { columns: 1; } }
+    @media (max-width: 520px) { .shell { padding: 14px 13px 38px; } .kpis { grid-template-columns: 1fr; } .card { border-right: 0; border-bottom: 1px solid var(--line); } .card + .card { padding-left: 0; } .card:last-child { border-bottom: 0; } .card:nth-child(n+3) { border-top: 0; } .metric { font-size: 1.9rem; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <p class="eyebrow">Payments fieldbook · India · public-data analysis</p>
+        <h1>UPI, cash, and the everyday-payment shift</h1>
+        <p class="subtitle">A working view of national payment patterns and state-level PhonePe activity. Built to separate what the data shows from what it cannot prove.</p>
+        <p class="question">Central question: as digital payments become more routine, what changes—and what does not—in India’s relationship with cash?</p>
+      </div>
+      <div class="updated">DATA WINDOW<br />PhonePe state data: 2018 Q1–2026 Q2<br />National payment context: 2020 Q3–2025 Q1<br />Cash/deposit context: FY 2017–18–FY 2023–24</div>
+    </header>
+
+    <section class="grid kpis" id="kpis" aria-label="Key findings"></section>
+
+    <h2 class="section-title">01 · National payment and cash-access context</h2>
+    <p class="section-intro">Both lines start at 100 in 2020 Q3. This shows each series’ relative change, not their absolute scale.</p>
+    <section class="grid twocol">
+      <article class="chart-panel">
+        <div class="chart-title"><h2>Speed of digital payments versus cash access</h2></div>
+        <p class="chart-subtitle">Quarterly volume index, first available quarter = 100</p>
+        <div class="chart" id="national-chart"></div>
+        <div class="legend"><span class="key"><i class="dot" style="background:var(--teal)"></i>All-UPI transaction volume</span><span class="key"><i class="dot" style="background:var(--orange)"></i>NFS ATM withdrawal volume</span></div>
+      </article>
+      <article class="chart-panel">
+        <div class="chart-title"><h2>Cash stock relative to demand deposits</h2></div>
+        <p class="chart-subtitle">Annual RBI monetary-context ratio</p>
+        <div class="chart" id="cash-chart"></div>
+        <p class="callout">Currency with the public rose in rupee terms; demand deposits rose faster, so this ratio fell after its FY 2020–21 high.</p>
+      </article>
+    </section>
+
+    <h2 class="section-title">02 · Merchant-payment mix</h2>
+    <p class="section-intro">PhonePe’s categories are shown separately from national all-UPI P2M because their definitions are related, but not identical.</p>
+    <section class="chart-panel">
+      <div class="chart-title"><h2>The merchantisation of digital payments</h2></div>
+      <p class="chart-subtitle">Quarterly transaction-volume shares; national all-UPI P2M is available from 2022 Q1 to 2026 Q1</p>
+      <div class="chart" id="mix-chart"></div>
+      <div class="legend"><span class="key"><i class="dot" style="background:var(--teal)"></i>PhonePe Retail</span><span class="key"><i class="dot" style="background:var(--navy)"></i>PhonePe P2P</span><span class="key"><i class="dot" style="background:var(--violet)"></i>PhonePe Utility</span><span class="key"><i class="dot" style="background:var(--orange)"></i>All-UPI P2M</span></div>
+    </section>
+
+    <h2 class="section-title">03 · State market texture</h2>
+    <p class="section-intro">Each bubble is a state/UT. Larger bubbles have higher latest-quarter PhonePe transaction value. Use the filter to focus on one business question.</p>
+    <section class="chart-panel">
+      <div class="toolbar"><div class="chart-title"><h2>Which markets are large, growing, or worth investigating?</h2></div><label>View <select id="signal-filter" aria-label="Filter state business signals"></select></label></div>
+      <div class="chart" id="state-chart"></div>
+      <div class="legend" id="state-legend"></div>
+    </section>
+
+    <div class="toolbar"><h2 class="section-title" style="margin-bottom:0">State investigation table</h2><label>Order by <select id="state-sort" aria-label="Sort state table"><option value="scale">Latest transaction volume</option><option value="growth">Rolling four-quarter growth</option><option value="intensity">Transactions per resident</option></select></label></div>
+    <div class="table-wrap"><table><thead><tr><th>State / UT</th><th>Latest transactions</th><th>YoY growth</th><th>Rolling growth</th><th>Users / 100 residents</th><th>Transactions / registered user</th><th>Retail share</th><th>Business question</th></tr></thead><tbody id="state-table"></tbody></table></div>
+
+    <aside class="method-panel">
+      <strong>Definition &amp; caveat ledger</strong>
+      <ul>
+        <li>PhonePe state data are a detailed app-level proxy, not all-UPI state totals.</li>
+        <li>NFS ATM withdrawals are a national cash-access proxy, not total cash use or total ATM activity.</li>
+        <li>The cash-to-demand-deposit ratio is an annual monetary-context measure, not cash spending and not proof that UPI caused a change.</li>
+        <li>Business labels are questions for investigation using public aggregates—not spending or product decisions.</li>
+      </ul>
+    </aside>
+  </main>
+  <div class="tooltip" id="tooltip" role="tooltip"></div>
+  <script src="dashboard-data.js"></script>
+  <script>
+    (() => {
+      const D = window.UPI_DASHBOARD_DATA;
+      const quarterly = D['national_quarterly_payments_context'];
+      const cash = D['national_annual_cash_reliance'];
+      const mix = D['national_payment_mix_quarterly'];
+      const states = D['state_scale_growth_business_signals'].map(r => Object.fromEntries(Object.entries(r).map(([k,v]) => [k, k === 'state_name' || k === 'state_slug' || k === 'latest_quarter_start_date' || k === 'business_question_to_investigate' ? v : (v === '' ? null : Number(v))])));
+      const tip = document.getElementById('tooltip');
+      const colors = { teal:'#007c7a', navy:'#163a5f', orange:'#e07a2f', violet:'#7250a6', green:'#3e7c59', red:'#b6484e', muted:'#627d98' };
+      const fmt = new Intl.NumberFormat('en-IN', { maximumFractionDigits: 1 });
+      const pct = v => `${v >= 0 ? '+' : ''}${fmt.format(v)}%`;
+      const svg = (tag, attrs={}) => { const e = document.createElementNS('http://www.w3.org/2000/svg', tag); Object.entries(attrs).forEach(([k,v]) => e.setAttribute(k,v)); return e; };
+      const showTip = (event, html) => { tip.innerHTML = html; tip.style.left = `${event.clientX + 14}px`; tip.style.top = `${event.clientY + 14}px`; tip.style.opacity = 1; };
+      const hideTip = () => tip.style.opacity = 0;
+      const quarterLabel = r => `${r.year} ${r.quarter}`;
+      function kpi() {
+        const last = quarterly.at(-1);
+        const latestFourQuarters = quarterly.slice(-4), previousFourQuarters = quarterly.slice(-8, -4);
+        const sum = (rows, field) => rows.reduce((total, row) => total + Number(row[field]), 0);
+        const upiGrowth = (sum(latestFourQuarters, 'all_upi_transactions_bn') / sum(previousFourQuarters, 'all_upi_transactions_bn') - 1) * 100;
+        const nfsGrowth = (sum(latestFourQuarters, 'nfs_atm_withdrawals_bn') / sum(previousFourQuarters, 'nfs_atm_withdrawals_bn') - 1) * 100;
+        const cashStart = cash.find(r => r.financial_year === '2021-22'), cashEnd = cash.find(r => r.financial_year === '2023-24');
+        const cashChange = (Number(cashEnd.currency_to_demand_deposits_ratio) / Number(cashStart.currency_to_demand_deposits_ratio) - 1) * 100;
+        const mixStart = mix.find(r => r.quarter_start_date === '2022-01-01'), mixEnd = mix.find(r => r.quarter_start_date === '2026-01-01');
+        const retailChange = Number(mixEnd.phonepe_retail_share_pct) - Number(mixStart.phonepe_retail_share_pct);
+        document.getElementById('kpis').innerHTML = [
+          ['All-UPI rolling growth', pct(upiGrowth), `Four quarters ending ${quarterLabel(last)}`],
+          ['NFS ATM withdrawal growth', pct(nfsGrowth), 'Same national four-quarter comparison'],
+          ['Cash / demand deposits', `${Number(cashEnd.currency_to_demand_deposits_ratio).toFixed(3)}`, `${pct(cashChange)} from FY 2021–22`],
+          ['PhonePe Retail share', `${Number(mixEnd.phonepe_retail_share_pct).toFixed(1)}%`, `${retailChange.toFixed(1)} percentage-point rise from 2022 Q1`]
+        ].map(([l,m,d]) => `<article class="card"><div class="label">${l}</div><div class="metric">${m}</div><div class="detail">${d}</div></article>`).join('');
+      }
+      function lineChart(containerId, rows, specs, yLabel, labeler) {
+        const el = document.getElementById(containerId), W = Math.max(340, el.clientWidth || 600), H = 300, m = {l:58,r:18,t:18,b:42};
+        const values = rows.flatMap(r => specs.map(s => r[s.key] === '' || r[s.key] == null ? null : Number(r[s.key])).filter(Number.isFinite));
+        const min = Math.min(...values), max = Math.max(...values), pad = (max-min || 1) * .12, lo = Math.max(0, min-pad), hi=max+pad;
+        const x = i => m.l + i * (W-m.l-m.r) / Math.max(1,rows.length-1), y = v => H-m.b-(v-lo)*(H-m.t-m.b)/(hi-lo);
+        const root = svg('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':yLabel});
+        root.append(svg('rect',{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,class:'frame'}));
+        for(let i=0;i<5;i++){ const v=lo+(hi-lo)*i/4, yy=y(v); root.append(svg('line',{x1:m.l,y1:yy,x2:W-m.r,y2:yy,class:'gridline'})); const tx=svg('text',{x:m.l-7,y:yy+4,'text-anchor':'end',class:'axis'}); tx.textContent=labeler(v); root.append(tx); }
+        const yTitle=svg('text',{x:14,y:H/2,transform:`rotate(-90 14 ${H/2})`,class:'axis-title','text-anchor':'middle'}); yTitle.textContent=yLabel; root.append(yTitle);
+        [0, Math.floor((rows.length-1)/2), rows.length-1].filter((v,i,a)=>a.indexOf(v)===i).forEach(i=>{const tx=svg('text',{x:x(i),y:H-16,'text-anchor':'middle',class:'axis'});tx.textContent=rows[i].label;root.append(tx);});
+        specs.forEach(s=>{ let started=false, d=''; rows.forEach((r,i)=>{const value=r[s.key] === '' || r[s.key] == null ? null : Number(r[s.key]); if(!Number.isFinite(value)){started=false;return;} d += `${started?'L':'M'}${x(i)},${y(value)} `; started=true;}); const path=svg('path',{d,fill:'none',stroke:colors[s.color], 'stroke-width':3});root.append(path); });
+        const hit=svg('rect',{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,fill:'transparent'}); hit.addEventListener('mousemove',e=>{const p=root.createSVGPoint();p.x=e.clientX;p.y=e.clientY;const local=p.matrixTransform(root.getScreenCTM().inverse());const i=Math.max(0,Math.min(rows.length-1,Math.round((local.x-m.l)/(W-m.l-m.r)*(rows.length-1))));showTip(e,`<strong>${rows[i].label}</strong><br>${specs.map(s=>{const value=rows[i][s.key] === '' || rows[i][s.key] == null ? null : Number(rows[i][s.key]); return `${s.name}: ${Number.isFinite(value) ? labeler(value) : 'Not available'}`;}).join('<br>')}`)});hit.addEventListener('mouseleave',hideTip);root.append(hit);el.replaceChildren(root);
+      }
+      function renderNational() { lineChart('national-chart', quarterly.map(r=>({...r,label:quarterLabel(r)})), [{key:'all_upi_volume_index_first_quarter_100',name:'All-UPI',color:'teal'},{key:'nfs_atm_volume_index_first_quarter_100',name:'NFS ATM withdrawals',color:'orange'}], 'Index (first quarter = 100)', v=>fmt.format(v)); lineChart('cash-chart', cash.map(r=>({...r,label:`FY ${r.financial_year}`})), [{key:'currency_to_demand_deposits_ratio',name:'Cash / demand deposits',color:'violet'}], 'Ratio', v=>v.toFixed(2)); }
+      function renderMix() { lineChart('mix-chart', mix.map(r=>({...r,label:quarterLabel(r)})), [{key:'phonepe_retail_share_pct',name:'PhonePe Retail',color:'teal'},{key:'phonepe_p2p_share_pct',name:'PhonePe P2P',color:'navy'},{key:'phonepe_utility_share_pct',name:'PhonePe Utility',color:'violet'},{key:'all_upi_p2m_share_pct',name:'All-UPI P2M',color:'orange'}], 'Transaction share (%)', v=>`${fmt.format(v)}%`); }
+      const signalColors = {'Investigate both activation and merchant acceptance':'red','Investigate activation of existing registered users':'orange','Investigate merchant acceptance/onboarding':'violet','Protect high-use core market experience':'green','Monitor; validate with local and product data':'muted'};
+      function renderStateChart() {
+        const filter=document.getElementById('signal-filter').value; const rows=filter==='All states / UTs'?states:states.filter(r=>r.business_question_to_investigate===filter); const el=document.getElementById('state-chart'), W=Math.max(340,el.clientWidth||800),H=420,m={l:68,r:22,t:18,b:52};
+        const xs=rows.map(r=>r.rolling_4q_transaction_growth_pct), ys=rows.map(r=>Math.log10(r.latest_rolling_4q_transactions_mn)); const xmin=Math.min(...xs)-2,xmax=Math.max(...xs)+2,ymin=Math.min(...ys)-.15,ymax=Math.max(...ys)+.15;
+        const x=v=>m.l+(v-xmin)*(W-m.l-m.r)/(xmax-xmin),y=v=>H-m.b-(Math.log10(v)-ymin)*(H-m.t-m.b)/(ymax-ymin), radius=v=>5+Math.sqrt(v)*3.5;
+        const root=svg('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'State scale versus rolling growth'}); root.append(svg('rect',{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,class:'frame'}));
+        for(let i=0;i<5;i++){const vx=xmin+(xmax-xmin)*i/4,xx=x(vx);root.append(svg('line',{x1:xx,y1:m.t,x2:xx,y2:H-m.b,class:'gridline'}));const tx=svg('text',{x:xx,y:H-25,'text-anchor':'middle',class:'axis'});tx.textContent=`${vx.toFixed(0)}%`;root.append(tx);}
+        [1,10,100,1000,10000].filter(v=>Math.log10(v)>=ymin&&Math.log10(v)<=ymax).forEach(v=>{const yy=y(v);root.append(svg('line',{x1:m.l,y1:yy,x2:W-m.r,y2:yy,class:'gridline'}));const tx=svg('text',{x:m.l-7,y:yy+4,'text-anchor':'end',class:'axis'});tx.textContent=`${fmt.format(v)}m`;root.append(tx);});
+        const xt=svg('text',{x:(m.l+W-m.r)/2,y:H-5,'text-anchor':'middle',class:'axis-title'});xt.textContent='Rolling four-quarter transaction growth';root.append(xt); const yt=svg('text',{x:14,y:H/2,transform:`rotate(-90 14 ${H/2})`,class:'axis-title','text-anchor':'middle'});yt.textContent='Rolling four-quarter transactions (log scale)';root.append(yt);
+        rows.forEach(r=>{const c=svg('circle',{cx:x(r.rolling_4q_transaction_growth_pct),cy:y(r.latest_rolling_4q_transactions_mn),r:radius(r.latest_quarter_transaction_value_inr_trillion),fill:colors[signalColors[r.business_question_to_investigate]],'fill-opacity':.77,stroke:'#fff','stroke-width':1.3});c.addEventListener('mousemove',e=>showTip(e,`<strong>${r.state_name}</strong><br>${fmt.format(r.latest_rolling_4q_transactions_mn)}m rolling transactions<br>${pct(r.rolling_4q_transaction_growth_pct)} rolling growth<br>₹${r.latest_quarter_transaction_value_inr_trillion.toFixed(2)}T latest-quarter value`));c.addEventListener('mouseleave',hideTip);root.append(c);}); el.replaceChildren(root);
+        document.getElementById('state-legend').innerHTML=[...new Set(states.map(r=>r.business_question_to_investigate))].map(s=>`<span class="key"><i class="dot" style="background:${colors[signalColors[s]]}"></i>${s}</span>`).join(''); renderTable(rows);
+      }
+      function renderTable(rows) { const sort=document.getElementById('state-sort').value; const key={scale:'latest_quarter_transactions_mn',growth:'rolling_4q_transaction_growth_pct',intensity:'transactions_per_resident'}[sort]; const sorted=[...rows].sort((a,b)=>b[key]-a[key]); document.getElementById('state-table').innerHTML=sorted.map(r=>`<tr><td><strong>${r.state_name}</strong></td><td class="num">${fmt.format(r.latest_quarter_transactions_mn)}m</td><td class="num">${pct(r.transaction_count_yoy_pct)}</td><td class="num">${pct(r.rolling_4q_transaction_growth_pct)}</td><td class="num">${fmt.format(r.registered_users_per_100_residents)}</td><td class="num">${fmt.format(r.transactions_per_registered_user)}</td><td class="num">${fmt.format(r.retail_share_pct)}%</td><td><span class="tag">${r.business_question_to_investigate}</span></td></tr>`).join(''); }
+      function initControls() { const filter=document.getElementById('signal-filter'); const signals=['All states / UTs',...new Set(states.map(r=>r.business_question_to_investigate))]; filter.innerHTML=signals.map(s=>`<option>${s}</option>`).join(''); filter.addEventListener('change',renderStateChart); document.getElementById('state-sort').addEventListener('change',()=>renderTable(filter.value==='All states / UTs'?states:states.filter(r=>r.business_question_to_investigate===filter.value))); }
+      kpi(); initControls(); renderNational(); renderMix(); renderStateChart(); window.addEventListener('resize',()=>{renderNational();renderMix();renderStateChart();});
+    })();
+  </script>
+</body>
+</html>

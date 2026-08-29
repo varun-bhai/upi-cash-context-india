@@ -1,0 +1,45 @@
+{
+  "purpose": "Reconcile national monthly UPI totals from the NPCI app snapshot and the RBI-derived India Data Portal series.",
+  "comparison_window": {
+    "first_month": "2022-01-01",
+    "last_month": "2025-07-01",
+    "months": 42
+  },
+  "unit_note": "RBI-derived volumes are reported in lakh and are divided by 10 here to express millions; both values are in crore rupees.",
+  "volume_ratio_summary_app_total_divided_by_rbi_total": {
+    "minimum": "0.98156",
+    "maximum": "1.019736",
+    "mean": "1.004021"
+  },
+  "value_ratio_summary_app_total_divided_by_rbi_total": {
+    "minimum": "0.171414",
+    "maximum": "1.018472",
+    "mean": "0.946497"
+  },
+  "interpretation": [
+    "App-level transaction volumes closely match the RBI-derived national UPI series throughout the overlapping period.",
+    "Values closely match from April 2022 onward, but January--March 2022 have a large unexplained mismatch.",
+    "The cleanest use is therefore: use the app table for app shares, and use the RBI-derived table for national payment totals. Never overwrite one source with the other."
+  ],
+  "material_warnings": [
+    {
+      "month": "2022-01-01",
+      "issue": "App-level value total differs materially from the RBI-derived national UPI value.",
+      "decision": "Use the app source only for app shares in this month; do not use it as a national value cross-check."
+    },
+    {
+      "month": "2022-02-01",
+      "issue": "App-level value total differs materially from the RBI-derived national UPI value.",
+      "decision": "Use the app source only for app shares in this month; do not use it as a national value cross-check."
+    },
+    {
+      "month": "2022-03-01",
+      "issue": "App-level value total differs materially from the RBI-derived national UPI value.",
+      "decision": "Use the app source only for app shares in this month; do not use it as a national value cross-check."
+    }
+  ],
+  "sources": {
+    "app_source": "Official NPCI UPI Ecosystem Statistics, accessed through a locally validated public reference snapshot.",
+    "national_source": "RBI Daily Digital Payments data, accessed through the India Data Portal CKAN API and aggregated locally."
+  }
+}

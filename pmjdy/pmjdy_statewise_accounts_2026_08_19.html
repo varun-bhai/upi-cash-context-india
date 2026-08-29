@@ -1,0 +1,2146 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Pradhan Mantri Jan-Dhan Yojana | Department of Financial Services | Ministry of Finance
+</title><link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" /><link rel="icon" href="../images/favicon.ico" type="image/x-icon" /><link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- Custom Theme files -->
+    <link rel="stylesheet" href="../css/menu.css" /><link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Custom Theme files -->
+
+    <script src="js/3.3.1.jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Custom Theme files -->
+    <meta name="keywords" content="Pradhan mantri jan dhan yojana, bank account, zero balance account, bank account on zero balance, zero blance rural account,
+            accounts in pmjdy, pmjdy accounts, pmjdy zero balance accounts, 
+            saving accounts, zero balance saving account, account in bank, bank account, pm bank account," />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--webfont-->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <!-- start menu -->
+    
+    
+    <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion           
+                width: 'auto', //auto or any width like 600px
+                fit: true   // 100% fit in a container
+            });
+        });
+    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158714568-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158714568-1');
+</script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+            });
+        });
+    </script>
+    <!---- start-smoth-scrolling---->
+    <style>
+        .header-top
+        {
+            background: url("mypics/header-img.png") center no-repeat;
+        }
+    </style>
+
+    <!---- <script type="text/javascript" src="Scripts/jquery.min.js"></script>---->
+
+    
+    
+    
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        #acntop {
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+            height: auto;
+            color: #000;
+            cursor: pointer;
+            margin: 5px;
+            background-color: #c2d1dc;
+        }
+
+        .acntop {
+            display: none;
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            overflow: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: transparent;
+        }
+
+        #hhld {
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+            height: auto;
+            color: #000;
+            cursor: pointer;
+            margin: 5px;
+            background-color: #c2d1dc;
+        }
+
+        .hhld {
+            display: none;
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            overflow: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: transparent;
+        }
+
+        #hhldd {
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+            height: auto;
+            color: #000;
+            cursor: pointer;
+            margin: 5px;
+            background-color: #c2d1dc;
+        }
+
+        .hhldd {
+            display: none;
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            overflow: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: transparent;
+        }
+
+        /*#kod {
+        width:100%; padding:5px; text-align:center; height:auto; color:#000; cursor:pointer; margin:5px; background-color:#c2d1dc
+        
+        }
+          .kod {
+              display:none;
+        width:100%; height:auto; max-height:300px; overflow:auto; padding-top:10px; padding-bottom:10px; background-color:transparent;        
+        }*/
+        .pnl {
+            height: auto;
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+    function ReportExcel() {
+        var state = $('#ddlstate').val();
+        $.ajax({
+            url: "/account-statistics-state.aspx/bind_statewise_account_gridtoEXcel",
+            type: "POST",
+            data: JSON.stringify({ 'statecode': state }),
+            dataType: "json",
+            traditional: true,
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                var tblhtml = "<table border='1'><thead><tr style='background:#e4effb'><th width='250px' style='text-align:center'>StateName</th><th width='150px' style='text-align:center'>Number of Beneficiaries at rural/semiurban centre bank branches</th><th width='150px' style='text-align:center'>Number of Beneficiaries at urban metro centre bank branches</th><th width='150px' style='text-align:center'>Number of Total Beneficiaries</th><th width='150px' style='text-align:center'>Deposits in Accounts(In Crore)</th><th width='150px' style='text-align:center'>Number of Rupay Debit Cards issued to beneficiaries</th></tr></thead>";
+                tblhtml = tblhtml + "<tbody>";
+                for (index = 0; index < data.length; index++) {
+                    tblhtml = tblhtml + "<tr><td>" + data[index].StateName + "</td><td>" + data[index].No_Of_Beneficiaries_at_rural_semiurban_centre_bank_branches + "</td><td>" + data[index].No_Of_Beneficiaries_at_urban_metro_centre_bank_branches + "</td><td>" + data[index].No_Of_Total_Beneficiaries + "</td><td>" + data[index].No_Of_Balance_in_beneficiary_accounts_In_Crore + "</td><td>" + data[index].No_Of_Rupay_Debit_Cards_issued_to_beneficiaries + "</td></tr>";
+                }
+                tblhtml = tblhtml + "</tbody></table>";
+                console.log(tblhtml);
+
+                var ua = window.navigator.userAgent;
+                var msie = ua.indexOf("MSIE");
+                if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))      // If Internet Explorer
+                {
+                    txtArea1.document.open("txt/html", "replace");
+                    txtArea1.document.write(tblhtml);
+                    txtArea1.document.close();
+                    txtArea1.focus();
+                    sa = txtArea1.document.execCommand("SaveAs", false, "Statewise account opening Report.xls");
+
+
+                }
+                else                 //other browser not tested on IE 11
+                    sa = window.open('data:application/vnd.ms-excel,' + encodeURIComponent(tblhtml));
+
+                return (sa);
+            },
+            error: function () {
+                alert("Something went wrong !!!");
+            }
+        });
+    }
+        </script>
+</head>
+<body style="background-color: #eec6ab" id="zoomcontent">
+    <form method="post" action="./scheme" id="form1">
+<input type="hidden" name="ToolkitScriptManager1_HiddenField" id="ToolkitScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LZmXrBxktovpBmwqfeyAcuAbJejpM7gFReQ3yq-7TaghVaPSICQnJgBEESBxhkFd1-Ie3uOvmYVmNzXQqnmZIG1sibNA0ZaI9QLt21hP5zpe0&amp;t=3f0ccc7f" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1AD50384" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="uy5EqV78rrSuOW/GXj4PzhGLLCv6uqkE6b8tQPdh2uwQ3Ani/TGNcdhLp/ulcBlbbP7H+bOArB2DuHIDD1RJlNvxWrEkd0r3St9su3yP4gn3B3L8GBrmCv4m4eda9t0P9ctLV6FAE1PL+EcYue9Pd6FgtloKN0U/aEzSuNHQ2tImuq2bJfzPGGw5sorQhhXqJMLxqhVDGH6ZWqQ00tQugZydLFKhHoWlNOTXOUdqoPybF1wWC0L3X1hE5Zd/CIH865qDaHNL/C8em2VtA5EkFIGkfTZBUXw7yrs+4Eg6PZ+0h1QI0iSSTnGmbHAh4ozTJODsDpRCMfwvdQEz4GDQNs405ug7lM3oCyH2RV7fwIfY8txL6jUOsXnEwb2RxcFEW5P6g4CtlGoVKL5vR+mfON6gIpW4Yp7f8PI0TU05LgLoHf37vaz6+UQk30SFhvCtwZ5P/3AknZR/iEaJF25TJRaO6A+HqbWYnnO7dO/xnM8BNUQ7U1t1bTHgBMS8oejHmo9rwpWUZKquPaJZgQX8/M9q4jF6nuXk8ih9KAsqWMSnOGaqqGWA1mILfigZjBE9BeN2Uhxz4T2eEgZ71oojPrY+jzbQv7c92jb1X6Y+jRjR9+mXay1rv6CNVYzToE56yTWBT29L4ysdRiYxK/iEb5Aiwt4dP+6JpEieu7On/KaCUX1/zXlXzgpURBqVx7OcBIh5gVepl5RBLhT30/5CLUy94zV0StErkB86W3+hj8qQt6vUo3qsp5wChPu318w/oC+6LHRhontTd8wrzV8kQTpFA9BUx2UX8Ziy84bVSGRJFaCYT64823UNBZNTVXvrdSubDqomdAPUtFwn8OE2pCtHG27/kynIJTZnXyyL7FyxQ1D01OQhvgvKh/yZhBXSe8/tuOkQYRql623HsBVtzDlY6dhNOJT9KvLp2WNJ0fWIaOW3RWMC+4RhmLe7Dp1dg93IdayUQeBo9+k4w0TfZubBsxe8Uc3jQ84qpSdOyj48UeF1r9PxhUgCkqYCBpkT" />
+        <div>
+            
+            
+            <div class="container" style="background-color: #FFF">
+                <div class="header-top" id="HD" style="background-color: transparent; margin-bottom: 0px;">
+                    <div class="container" style="background-color: transparent; width: 100%">
+                        <div class="pmjdylogo">
+                            <a href="home">
+                                <img style="width: 100%; height: 100%" src="mypics/pmjdylogo.png" /></a>
+                        </div>
+                        <div class="dfslogo">
+                            <a href="https://financialservices.gov.in/" target="_blank" style="width: 100%; height: 100%">
+                                <img style="width: 100%; height: 100%" src="mypics/dfslg.png" /></a>
+
+                        </div>
+                        <div class="banner1" style="background-color: transparent">
+                            Pradhan Mantri Jan Dhan Yojana
+                  <br />
+                            (PMJDY)
+                        </div>
+
+  <div class="social" id="ssl">
+                            <div title="View In Small Font" class="decrease" style="float: left; margin: 5px; color: #000; padding-top: 4px; font-size: 8px; cursor: pointer">A</div>
+                            <div title="View In Normal Font" class="reset" style="float: left; color: #000; margin: 5px; padding-top: 2px; font-size: 10px; cursor: pointer">A</div>
+                            <div title="View In Large Font" class="increase" style="float: left; margin: 5px; color: #000; font-size: 12px; cursor: pointer">A</div>                            <a href="hi-home">HINDI</a>
+                            
+                            <div class="input-group">
+                                <div class="input-group" style="width: 115px;">
+                                    <input name="ctl00$txtGoogleSearch" type="text" maxlength="200" id="txtGoogleSearch" class="form-control" placeholder="Search" />
+                                    <span class="input-group-btn">
+                                        <input type="submit" name="ctl00$btngsearch" value="Q" id="btngsearch" class="btn btn-warning" />
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="main-content" style="margin-top: 10px;">
+
+                    
+                    <div class="bootstrap_container">
+                        <nav class="navbar navbar-default w3_megamenu" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                                <a href="home" class="navbar-brand"><i class="fa fa-home"></i></a>
+                            </div>
+                            <div id="defaultmenu" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">ABOUT<b class="caret"></b></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="about">PMJDY</a></li>
+                                            <li><a href="scheme">SCHEME DETAILS</a></li>
+                                            
+                                            
+                                           
+                                            <li><a href="whoiswho">WHO'S WHO</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="account">PROGRESS-REPORT</a></li>
+                                    
+
+                                    
+
+
+
+                                    <li><a href="literacy">FINANCIAL LITERACY</a></li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">WRITE TO US<b class="caret"></b></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="https://pmjdy.gov.in/PMJDYGrievance/user_feedback.aspx" target="_blank">USER FEEDBACK</a></li>
+                                            <li><a href="https://pmjdy.gov.in/PMJDYGrievance/SecurePages/User_Login.aspx" target="_blank">BANK-LOGIN</a></li>
+                                            <li><a href="https://pmjdy.gov.in/pmjdymis/login.html" target="_blank">SLBC-LOGIN</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contactUs">CONTACT US</a></li>
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+
+
+                    <!-- AddThis Smart Layers END -->
+
+
+                    <div class="main-banner">
+
+                        
+    <div class="boxout">
+        
+
+        <h3>Select State:-  
+     
+                                    <select name="ctl00$ContentPlaceHolder1$ddlstate" id="ContentPlaceHolder1_ddlstate" class="dropdown ">
+	<option selected="selected" value="0">--ALL--</option>
+	<option value="35">Andaman &amp; Nicobar Islands</option>
+	<option value="28">Andhra Pradesh</option>
+	<option value="12">Arunachal Pradesh</option>
+	<option value="18">Assam</option>
+	<option value="10">Bihar</option>
+	<option value="04">Chandigarh</option>
+	<option value="22">Chhattisgarh</option>
+	<option value="26">Dadra &amp; Nagar Haveli</option>
+	<option value="25">Daman &amp; Diu</option>
+	<option value="07">Delhi</option>
+	<option value="30">Goa</option>
+	<option value="24">Gujarat</option>
+	<option value="06">Haryana</option>
+	<option value="02">Himachal Pradesh</option>
+	<option value="01">Jammu &amp; Kashmir</option>
+	<option value="20">Jharkhand</option>
+	<option value="29">Karnataka</option>
+	<option value="32">Kerala</option>
+	<option value="37">Ladakh</option>
+	<option value="31">Lakshadweep</option>
+	<option value="23">Madhya Pradesh</option>
+	<option value="27">Maharashtra</option>
+	<option value="14">Manipur</option>
+	<option value="17">Meghalaya</option>
+	<option value="15">Mizoram</option>
+	<option value="13">Nagaland</option>
+	<option value="21">Odisha</option>
+	<option value="34">Puducherry</option>
+	<option value="03">Punjab</option>
+	<option value="08">Rajasthan</option>
+	<option value="11">Sikkim</option>
+	<option value="33">Tamil Nadu</option>
+	<option value="36">Telangana</option>
+	<option value="16">Tripura</option>
+	<option value="09">Uttar Pradesh</option>
+	<option value="05">Uttarakhand</option>
+	<option value="19">West Bengal</option>
+
+</select>
+
+        </h3>
+
+        <p id="ContentPlaceHolder1_conta" style="text-align: center;">
+            
+            <h1 id="acntop"><span id="ContentPlaceHolder1_lblbanknamedisplay">Statewise account opening Report as on 19/08/2026</span></h1>
+            <div class="acntop">
+                <div style="width: 200px; height: 50px; float: left; margin-bottom: 0px;">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnStatewise" value="Export to Excel" id="ContentPlaceHolder1_btnStatewise" class="btn " />
+                </div>
+                 <div>
+	<table class="footable" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_gridstateacnt">
+		<tr>
+			<th scope="col">S.No</th><th scope="col">State Name</th><th scope="col">Beneficiaries at rural/semi-urban centre bank branches</th><th scope="col">Beneficiaries at urban/metro centre bank branches</th><th scope="col">Total Beneficiaries</th><th scope="col">Balance in beneficiary accounts (in crore)</th><th scope="col">No. of RuPay cards issued to beneficiaries</th>
+		</tr><tr>
+			<td>
+                                1
+                            </td><td>Andaman And Nicobar Islands</td><td>47,493</td><td>18,320</td><td>65,813</td><td>57.48</td><td>40,013</td>
+		</tr><tr>
+			<td>
+                                2
+                            </td><td>Andhra Pradesh</td><td>12,604,118</td><td>4,707,132</td><td>17,311,250</td><td>6,948.44</td><td>11,334,187</td>
+		</tr><tr>
+			<td>
+                                3
+                            </td><td>Arunachal Pradesh</td><td>460,684</td><td>11,654</td><td>472,338</td><td>278.84</td><td>319,851</td>
+		</tr><tr>
+			<td>
+                                4
+                            </td><td>Assam</td><td>23,412,382</td><td>2,668,814</td><td>26,081,196</td><td>7,504.08</td><td>16,566,489</td>
+		</tr><tr>
+			<td>
+                                5
+                            </td><td>Bihar</td><td>61,241,472</td><td>9,005,388</td><td>70,246,860</td><td>31,373.75</td><td>50,516,798</td>
+		</tr><tr>
+			<td>
+                                6
+                            </td><td>Chandigarh</td><td>51,112</td><td>295,168</td><td>346,280</td><td>222.24</td><td>226,266</td>
+		</tr><tr>
+			<td>
+                                7
+                            </td><td>Chhattisgarh</td><td>15,543,325</td><td>3,314,965</td><td>18,858,290</td><td>9,321.06</td><td>11,626,172</td>
+		</tr><tr>
+			<td>
+                                8
+                            </td><td>Delhi</td><td>656,622</td><td>6,494,907</td><td>7,151,529</td><td>4,028.16</td><td>5,611,940</td>
+		</tr><tr>
+			<td>
+                                9
+                            </td><td>Goa</td><td>202,646</td><td>35,306</td><td>237,952</td><td>245.00</td><td>171,350</td>
+		</tr><tr>
+			<td>
+                                10
+                            </td><td>Gujarat</td><td>13,684,078</td><td>6,443,000</td><td>20,127,078</td><td>12,788.31</td><td>15,422,628</td>
+		</tr><tr>
+			<td>
+                                11
+                            </td><td>Haryana</td><td>6,500,991</td><td>4,774,082</td><td>11,275,073</td><td>8,236.66</td><td>7,848,054</td>
+		</tr><tr>
+			<td>
+                                12
+                            </td><td>Himachal Pradesh</td><td>1,881,155</td><td>135,522</td><td>2,016,677</td><td>1,565.27</td><td>1,321,934</td>
+		</tr><tr>
+			<td>
+                                13
+                            </td><td>Jammu And Kashmir</td><td>2,067,527</td><td>421,026</td><td>2,488,553</td><td>1,855.16</td><td>1,666,240</td>
+		</tr><tr>
+			<td>
+                                14
+                            </td><td>Jharkhand</td><td>18,667,841</td><td>2,059,607</td><td>20,727,448</td><td>12,544.84</td><td>14,170,231</td>
+		</tr><tr>
+			<td>
+                                15
+                            </td><td>Karnataka</td><td>15,319,127</td><td>6,718,078</td><td>22,037,205</td><td>14,246.03</td><td>13,799,300</td>
+		</tr><tr>
+			<td>
+                                16
+                            </td><td>Kerala</td><td>5,778,858</td><td>1,881,571</td><td>7,660,429</td><td>4,294.66</td><td>4,189,868</td>
+		</tr><tr>
+			<td>
+                                17
+                            </td><td>Ladakh</td><td>18,391</td><td>3,997</td><td>22,388</td><td>26.70</td><td>15,313</td>
+		</tr><tr>
+			<td>
+                                18
+                            </td><td>Lakshadweep</td><td>8,978</td><td>1,868</td><td>10,846</td><td>19.93</td><td>7,460</td>
+		</tr><tr>
+			<td>
+                                19
+                            </td><td>Madhya Pradesh</td><td>37,180,886</td><td>10,484,850</td><td>47,665,736</td><td>20,368.14</td><td>35,590,267</td>
+		</tr><tr>
+			<td>
+                                20
+                            </td><td>Maharashtra</td><td>26,982,503</td><td>11,566,760</td><td>38,549,263</td><td>21,500.33</td><td>27,602,082</td>
+		</tr><tr>
+			<td>
+                                21
+                            </td><td>Manipur</td><td>836,045</td><td>257,589</td><td>1,093,634</td><td>312.02</td><td>730,305</td>
+		</tr><tr>
+			<td>
+                                22
+                            </td><td>Meghalaya</td><td>858,950</td><td>62,910</td><td>921,860</td><td>505.44</td><td>575,430</td>
+		</tr><tr>
+			<td>
+                                23
+                            </td><td>Mizoram</td><td>270,917</td><td>178,090</td><td>449,007</td><td>254.56</td><td>225,661</td>
+		</tr><tr>
+			<td>
+                                24
+                            </td><td>Nagaland</td><td>312,849</td><td>98,425</td><td>411,274</td><td>151.67</td><td>314,519</td>
+		</tr><tr>
+			<td>
+                                25
+                            </td><td>Odisha</td><td>21,408,172</td><td>2,827,869</td><td>24,236,041</td><td>13,393.36</td><td>17,816,728</td>
+		</tr><tr>
+			<td>
+                                26
+                            </td><td>Puducherry</td><td>163,746</td><td>132,962</td><td>296,708</td><td>153.51</td><td>192,679</td>
+		</tr><tr>
+			<td>
+                                27
+                            </td><td>Punjab</td><td>6,370,819</td><td>3,802,881</td><td>10,173,700</td><td>5,361.13</td><td>7,370,076</td>
+		</tr><tr>
+			<td>
+                                28
+                            </td><td>Rajasthan</td><td>29,663,731</td><td>9,129,861</td><td>38,793,592</td><td>25,526.27</td><td>29,016,047</td>
+		</tr><tr>
+			<td>
+                                29
+                            </td><td>Sikkim</td><td>75,825</td><td>34,794</td><td>110,619</td><td>60.57</td><td>75,051</td>
+		</tr><tr>
+			<td>
+                                30
+                            </td><td>Tamil Nadu</td><td>12,072,668</td><td>7,283,108</td><td>19,355,776</td><td>8,058.43</td><td>14,174,103</td>
+		</tr><tr>
+			<td>
+                                31
+                            </td><td>Telangana</td><td>9,722,991</td><td>3,734,677</td><td>13,457,668</td><td>6,205.49</td><td>9,320,997</td>
+		</tr><tr>
+			<td>
+                                32
+                            </td><td>The Dadra And Nagar Haveli And Daman And Diu</td><td>235,358</td><td>12,982</td><td>248,340</td><td>197.03</td><td>180,460</td>
+		</tr><tr>
+			<td>
+                                33
+                            </td><td>Tripura</td><td>1,045,361</td><td>129,758</td><td>1,175,119</td><td>709.87</td><td>655,447</td>
+		</tr><tr>
+			<td>
+                                34
+                            </td><td>Uttar Pradesh</td><td>83,054,051</td><td>22,237,093</td><td>105,291,144</td><td>67,802.73</td><td>73,073,718</td>
+		</tr><tr>
+			<td>
+                                35
+                            </td><td>Uttarakhand</td><td>2,970,807</td><td>1,178,738</td><td>4,149,545</td><td>3,152.13</td><td>2,838,542</td>
+		</tr><tr>
+			<td>
+                                36
+                            </td><td>West Bengal</td><td>48,143,092</td><td>9,273,964</td><td>57,417,056</td><td>27,244.51</td><td>38,265,734</td>
+		</tr><tr>
+			<td>
+                                37
+                            </td><td>Total</td><td>459,515,571</td><td>131,417,716</td><td>590,933,287</td><td>316,513.80</td><td>412,871,940</td>
+		</tr>
+	</table>
+</div>
+                
+            </div>
+            <h1 id="hhld">Statewise House Hold Report </h1>
+            <div class="hhld">
+                <div style="width: 200px; height: 50px; float: left; margin-bottom: 0px;">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnStatewiseHouseHold" value="Export to Excel" id="ContentPlaceHolder1_btnStatewiseHouseHold" class="btn " />
+                </div>
+                <div>
+	<table class="footable" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdhhstate">
+		<thead>
+			<tr>
+				<th data-class="expand" scope="col">State Name</th><th data-hide="phone,tablet" scope="col">Alloted Wards-SSAs</th><th data-hide="phone,tablet" scope="col">Wards-SSAs Survey Done</th><th data-hide="phone,tablet" scope="col">Wards-SSAs Survey Pending</th><th data-hide="phone,tablet" scope="col">Total HouseHold</th><th data-hide="phone,tablet" scope="col">Covered HouseHolds</th><th data-hide="phone,tablet" scope="col">HouseHold Coverage %</th>
+			</tr>
+		</thead><tbody>
+			<tr>
+				<td>ANDAMAN &amp; NICOBAR</td><td>51</td><td>51</td><td>0</td><td>67287</td><td>67287</td><td>100.00%</td>
+			</tr><tr>
+				<td>Andhra Pradesh</td><td>11592</td><td>11592</td><td>0</td><td>11855426</td><td>11855366</td><td>100.00%</td>
+			</tr><tr>
+				<td>Arunachal Pradesh</td><td>236</td><td>236</td><td>0</td><td>197861</td><td>197861</td><td>100.00%</td>
+			</tr><tr>
+				<td>Assam</td><td>4925</td><td>4925</td><td>0</td><td>5013404</td><td>5011228</td><td>99.96%</td>
+			</tr><tr>
+				<td>Bihar</td><td>14640</td><td>14640</td><td>0</td><td>17281831</td><td>17281831</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chandigarh</td><td>136</td><td>136</td><td>0</td><td>193876</td><td>193876</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chhattisgarh</td><td>6197</td><td>6138</td><td>59</td><td>5189795</td><td>5188545</td><td>99.98%</td>
+			</tr><tr>
+				<td>DADRA &amp; NAGAR HAVELI</td><td>35</td><td>35</td><td>0</td><td>59908</td><td>59908</td><td>100.00%</td>
+			</tr><tr>
+				<td>DAMAN &amp; DIU</td><td>24</td><td>24</td><td>0</td><td>22528</td><td>22528</td><td>100.00%</td>
+			</tr><tr>
+				<td>DELHI</td><td>266</td><td>266</td><td>0</td><td>2696322</td><td>2696322</td><td>100.00%</td>
+			</tr><tr>
+				<td>Goa</td><td>396</td><td>396</td><td>0</td><td>331457</td><td>331457</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gujarat</td><td>9831</td><td>9831</td><td>0</td><td>11709247</td><td>11709247</td><td>100.00%</td>
+			</tr><tr>
+				<td>Haryana</td><td>4870</td><td>4870</td><td>0</td><td>4596617</td><td>4596617</td><td>100.00%</td>
+			</tr><tr>
+				<td>Himachal Pradesh</td><td>2489</td><td>2489</td><td>0</td><td>1298191</td><td>1298191</td><td>100.00%</td>
+			</tr><tr>
+				<td>JAMMU &amp; KASHMIR</td><td>604</td><td>604</td><td>0</td><td>357340</td><td>356295</td><td>99.71%</td>
+			</tr><tr>
+				<td>Jharkhand</td><td>5147</td><td>5147</td><td>0</td><td>5438679</td><td>5438679</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karnataka</td><td>11645</td><td>11645</td><td>0</td><td>11178005</td><td>11175204</td><td>99.97%</td>
+			</tr><tr>
+				<td>Kerala</td><td>5582</td><td>5582</td><td>0</td><td>4585375</td><td>4585375</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lakshadweep</td><td>29</td><td>29</td><td>0</td><td>10189</td><td>10189</td><td>100.00%</td>
+			</tr><tr>
+				<td>Madhya Pradesh</td><td>18410</td><td>18410</td><td>0</td><td>14739932</td><td>14739932</td><td>100.00%</td>
+			</tr><tr>
+				<td>Maharashtra</td><td>17722</td><td>17718</td><td>4</td><td>16374622</td><td>16374030</td><td>100.00%</td>
+			</tr><tr>
+				<td>Manipur</td><td>576</td><td>576</td><td>0</td><td>514604</td><td>513359</td><td>99.76%</td>
+			</tr><tr>
+				<td>Meghalaya</td><td>539</td><td>539</td><td>0</td><td>477182</td><td>477182</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mizoram</td><td>228</td><td>228</td><td>0</td><td>181946</td><td>181806</td><td>99.92%</td>
+			</tr><tr>
+				<td>Nagaland</td><td>413</td><td>413</td><td>0</td><td>334034</td><td>333762</td><td>99.92%</td>
+			</tr><tr>
+				<td>ORISSA</td><td>7962</td><td>7962</td><td>0</td><td>7432140</td><td>7420665</td><td>99.85%</td>
+			</tr><tr>
+				<td>PUDUCHERRY</td><td>177</td><td>177</td><td>0</td><td>252105</td><td>252105</td><td>100.00%</td>
+			</tr><tr>
+				<td>Punjab</td><td>6743</td><td>6743</td><td>0</td><td>4746147</td><td>4746147</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rajasthan</td><td>14169</td><td>14169</td><td>0</td><td>11463959</td><td>11462956</td><td>99.99%</td>
+			</tr><tr>
+				<td>Sikkim</td><td>175</td><td>175</td><td>0</td><td>131086</td><td>131086</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tamil Nadu</td><td>19987</td><td>19987</td><td>0</td><td>14353828</td><td>14353794</td><td>100.00%</td>
+			</tr><tr>
+				<td>Telangana</td><td>6193</td><td>6193</td><td>0</td><td>5223218</td><td>5223218</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tripura</td><td>767</td><td>767</td><td>0</td><td>755041</td><td>755041</td><td>100.00%</td>
+			</tr><tr>
+				<td>Uttar Pradesh</td><td>37424</td><td>37424</td><td>0</td><td>31159992</td><td>31159148</td><td>100.00%</td>
+			</tr><tr>
+				<td>Uttarakhand</td><td>2769</td><td>2769</td><td>0</td><td>1136431</td><td>1136431</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Bengal</td><td>13248</td><td>13248</td><td>0</td><td>19261587</td><td>19261587</td><td>100.00%</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+            </div>
+            <h1 id="hhldd">DistrictWise House Hold Report </h1>
+            <div class="hhldd">
+                <div style="width: 200px; height: 50px; float: left; margin-bottom: 0px;">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnDistrict" value="Export to Excel" id="ContentPlaceHolder1_btnDistrict" class="btn " />
+                </div>
+                <div>
+	<table class="footable" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_grdhhdistrict">
+		<thead>
+			<tr>
+				<th data-class="expand" scope="col">DISTRICT NAME</th><th data-hide="expand" scope="col">ALLOTED WARDs-SSAs</th><th data-hide="phone,tablet" scope="col">WARDs-SSAs SURVEY_DONE</th><th data-hide="phone,tablet" scope="col">HOUSEHOLD COVERAGE-%</th>
+			</tr>
+		</thead><tbody>
+			<tr>
+				<td>Adilabad</td><td>563</td><td>563</td><td>100.00%</td>
+			</tr><tr>
+				<td>Agar Malwa</td><td>146</td><td>146</td><td>100.00%</td>
+			</tr><tr>
+				<td>Agra</td><td>668</td><td>668</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ahmadabad</td><td>359</td><td>359</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ahmadnagar</td><td>587</td><td>587</td><td>100.00%</td>
+			</tr><tr>
+				<td>Aizawl</td><td>89</td><td>89</td><td>99.80%</td>
+			</tr><tr>
+				<td>Ajmer</td><td>488</td><td>488</td><td>100.00%</td>
+			</tr><tr>
+				<td>Akola</td><td>405</td><td>405</td><td>100.00%</td>
+			</tr><tr>
+				<td>Alappuzha</td><td>438</td><td>438</td><td>100.00%</td>
+			</tr><tr>
+				<td>Aligarh</td><td>670</td><td>670</td><td>100.00%</td>
+			</tr><tr>
+				<td>Alipurduar</td><td>225</td><td>225</td><td>100.00%</td>
+			</tr><tr>
+				<td>Alirajpur</td><td>133</td><td>133</td><td>100.00%</td>
+			</tr><tr>
+				<td>Allahabad </td><td>630</td><td>630</td><td>100.00%</td>
+			</tr><tr>
+				<td>ALMORA</td><td>233</td><td>233</td><td>100.00%</td>
+			</tr><tr>
+				<td>Alwar</td><td>645</td><td>645</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ambala</td><td>234</td><td>234</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ambedkar Nagar</td><td>408</td><td>408</td><td>100.00%</td>
+			</tr><tr>
+				<td>Amethi</td><td>422</td><td>422</td><td>100.00%</td>
+			</tr><tr>
+				<td>Amravati</td><td>732</td><td>732</td><td>100.00%</td>
+			</tr><tr>
+				<td>Amreli</td><td>331</td><td>331</td><td>100.00%</td>
+			</tr><tr>
+				<td>Amritsar </td><td>459</td><td>459</td><td>100.00%</td>
+			</tr><tr>
+				<td>Anand  </td><td>385</td><td>385</td><td>100.00%</td>
+			</tr><tr>
+				<td>Anantapur</td><td>974</td><td>974</td><td>100.00%</td>
+			</tr><tr>
+				<td>Anantnag</td><td>42</td><td>42</td><td>100.00%</td>
+			</tr><tr>
+				<td>Anjaw</td><td>4</td><td>4</td><td>100.00%</td>
+			</tr><tr>
+				<td>Anugul  </td><td>241</td><td>241</td><td>100.00%</td>
+			</tr><tr>
+				<td>Anuppur</td><td>180</td><td>180</td><td>100.00%</td>
+			</tr><tr>
+				<td>Araria</td><td>463</td><td>463</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ariyalur  </td><td>271</td><td>271</td><td>100.00%</td>
+			</tr><tr>
+				<td>Arvalli</td><td>261</td><td>261</td><td>100.00%</td>
+			</tr><tr>
+				<td>Arwal</td><td>151</td><td>151</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ashoknagar</td><td>201</td><td>201</td><td>100.00%</td>
+			</tr><tr>
+				<td>Auraiya</td><td>232</td><td>232</td><td>100.00%</td>
+			</tr><tr>
+				<td>Aurangabad</td><td>374</td><td>374</td><td>100.00%</td>
+			</tr><tr>
+				<td>Aurangabad</td><td>582</td><td>582</td><td>99.89%</td>
+			</tr><tr>
+				<td>Azamgarh</td><td>816</td><td>816</td><td>100.00%</td>
+			</tr><tr>
+				<td>Badgam</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bagalkot </td><td>429</td><td>429</td><td>99.98%</td>
+			</tr><tr>
+				<td>Bageshwar</td><td>118</td><td>118</td><td>100.00%</td>
+			</tr><tr>
+				<td>Baghpat</td><td>309</td><td>309</td><td>99.96%</td>
+			</tr><tr>
+				<td>Bahraich</td><td>561</td><td>561</td><td>100.00%</td>
+			</tr><tr>
+				<td>Baksa</td><td>149</td><td>149</td><td>100.00%</td>
+			</tr><tr>
+				<td>Balaghat</td><td>478</td><td>478</td><td>100.00%</td>
+			</tr><tr>
+				<td>Balangir</td><td>307</td><td>307</td><td>100.00%</td>
+			</tr><tr>
+				<td>Baleshwar</td><td>385</td><td>385</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ballia</td><td>492</td><td>492</td><td>100.00%</td>
+			</tr><tr>
+				<td>Balod</td><td>246</td><td>246</td><td>100.00%</td>
+			</tr><tr>
+				<td>Baloda Bazar</td><td>316</td><td>316</td><td>100.00%</td>
+			</tr><tr>
+				<td>Balrampur</td><td>199</td><td>199</td><td>100.00%</td>
+			</tr><tr>
+				<td>Balrampur</td><td>266</td><td>266</td><td>100.00%</td>
+			</tr><tr>
+				<td>Banas Kantha</td><td>577</td><td>577</td><td>100.00%</td>
+			</tr><tr>
+				<td>Banda</td><td>378</td><td>378</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bandipore</td><td>12</td><td>12</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bangalore</td><td>350</td><td>350</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bangalore Rural</td><td>295</td><td>295</td><td>100.00%</td>
+			</tr><tr>
+				<td>Banka</td><td>513</td><td>513</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bankura </td><td>603</td><td>603</td><td>100.00%</td>
+			</tr><tr>
+				<td>Banswara </td><td>350</td><td>350</td><td>99.96%</td>
+			</tr><tr>
+				<td>Bara Banki</td><td>536</td><td>536</td><td>99.99%</td>
+			</tr><tr>
+				<td>Baramula</td><td>16</td><td>16</td><td>100.00%</td>
+			</tr><tr>
+				<td>Baran </td><td>352</td><td>352</td><td>100.00%</td>
+			</tr><tr>
+				<td>Barddhaman </td><td>1131</td><td>1131</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bareilly</td><td>871</td><td>871</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bargarh</td><td>283</td><td>283</td><td>100.00%</td>
+			</tr><tr>
+				<td>Barmer </td><td>446</td><td>446</td><td>100.00%</td>
+			</tr><tr>
+				<td>Barnala</td><td>158</td><td>158</td><td>100.00%</td>
+			</tr><tr>
+				<td>Barpeta</td><td>247</td><td>247</td><td>100.00%</td>
+			</tr><tr>
+				<td>Barwani </td><td>378</td><td>378</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bastar</td><td>167</td><td>167</td><td>100.00%</td>
+			</tr><tr>
+				<td>Basti</td><td>727</td><td>727</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bathinda</td><td>351</td><td>351</td><td>100.00%</td>
+			</tr><tr>
+				<td>Baudh</td><td>84</td><td>84</td><td>100.00%</td>
+			</tr><tr>
+				<td>Begusarai</td><td>478</td><td>478</td><td>100.00%</td>
+			</tr><tr>
+				<td>Belgaum</td><td>830</td><td>830</td><td>99.95%</td>
+			</tr><tr>
+				<td>Bellary</td><td>487</td><td>487</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bemetara</td><td>222</td><td>222</td><td>100.00%</td>
+			</tr><tr>
+				<td>Betul</td><td>433</td><td>433</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhadrak</td><td>255</td><td>255</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhagalpur</td><td>495</td><td>495</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhandara</td><td>322</td><td>322</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bharatpur </td><td>601</td><td>601</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bharuch</td><td>306</td><td>306</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhavnagar</td><td>442</td><td>442</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhilwara</td><td>538</td><td>538</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhind</td><td>388</td><td>388</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhiwani</td><td>248</td><td>248</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhojpur</td><td>408</td><td>408</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bhopal</td><td>229</td><td>229</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bid</td><td>395</td><td>395</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bidar</td><td>276</td><td>276</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bijapur</td><td>395</td><td>395</td><td>99.98%</td>
+			</tr><tr>
+				<td>Bijapur</td><td>84</td><td>68</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bijnor</td><td>1291</td><td>1291</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bikaner</td><td>365</td><td>365</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bilaspur</td><td>403</td><td>403</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bilaspur</td><td>145</td><td>145</td><td>100.00%</td>
+			</tr><tr>
+				<td>Birbhum</td><td>623</td><td>623</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bishnupur</td><td>78</td><td>78</td><td>100.00%</td>
+			</tr><tr>
+				<td>Boatad</td><td>137</td><td>137</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bokaro</td><td>250</td><td>250</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bongaigaon</td><td>133</td><td>133</td><td>100.00%</td>
+			</tr><tr>
+				<td>Budaun</td><td>626</td><td>626</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bulandshahr </td><td>655</td><td>655</td><td>100.00%</td>
+			</tr><tr>
+				<td>Buldana</td><td>707</td><td>707</td><td>100.00%</td>
+			</tr><tr>
+				<td>Bundi </td><td>312</td><td>312</td><td>100.00%</td>
+			</tr><tr>
+				<td>Burhanpur</td><td>164</td><td>164</td><td>100.00%</td>
+			</tr><tr>
+				<td>Buxar</td><td>294</td><td>294</td><td>100.00%</td>
+			</tr><tr>
+				<td>Cachar</td><td>279</td><td>279</td><td>99.62%</td>
+			</tr><tr>
+				<td>Central</td><td>25</td><td>25</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chamarajanagar</td><td>234</td><td>234</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chamba</td><td>172</td><td>172</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chamoli</td><td>183</td><td>183</td><td>100.00%</td>
+			</tr><tr>
+				<td>Champawat</td><td>118</td><td>118</td><td>100.00%</td>
+			</tr><tr>
+				<td>Champhai</td><td>23</td><td>23</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chandauli</td><td>185</td><td>185</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chandel</td><td>28</td><td>28</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chandigarh</td><td>136</td><td>136</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chandrapur</td><td>505</td><td>505</td><td>100.00%</td>
+			</tr><tr>
+				<td>Changlang</td><td>16</td><td>16</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chatra</td><td>164</td><td>164</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chennai</td><td>112</td><td>112</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chhatarpur</td><td>535</td><td>535</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chhindwara</td><td>769</td><td>769</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chhotaudepur</td><td>249</td><td>249</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chikkaballapura</td><td>340</td><td>340</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chikmagalur</td><td>396</td><td>396</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chirang</td><td>119</td><td>119</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chitradurga</td><td>441</td><td>441</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chitrakoot</td><td>183</td><td>183</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chittaurgarh </td><td>425</td><td>425</td><td>100.00%</td>
+			</tr><tr>
+				<td>Chittoor</td><td>1332</td><td>1332</td><td>100.00%</td>
+			</tr><tr>
+				<td>Churachandpur</td><td>45</td><td>45</td><td>97.43%</td>
+			</tr><tr>
+				<td>Churu </td><td>545</td><td>545</td><td>100.00%</td>
+			</tr><tr>
+				<td>Coimbatore</td><td>909</td><td>909</td><td>100.00%</td>
+			</tr><tr>
+				<td>Cuddalore</td><td>1028</td><td>1028</td><td>100.00%</td>
+			</tr><tr>
+				<td>Cuttack</td><td>446</td><td>446</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dadra &amp; Nagar Haveli</td><td>35</td><td>35</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dakshin Bastar Dantewada</td><td>131</td><td>112</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dakshin Dinajpur</td><td>316</td><td>316</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dakshina Kannada</td><td>383</td><td>383</td><td>100.00%</td>
+			</tr><tr>
+				<td>Daman</td><td>17</td><td>17</td><td>100.00%</td>
+			</tr><tr>
+				<td>Damoh</td><td>528</td><td>528</td><td>100.00%</td>
+			</tr><tr>
+				<td>Darbhanga</td><td>517</td><td>517</td><td>100.00%</td>
+			</tr><tr>
+				<td>Darjiling </td><td>353</td><td>353</td><td>100.00%</td>
+			</tr><tr>
+				<td>Darrang</td><td>136</td><td>136</td><td>100.00%</td>
+			</tr><tr>
+				<td>Datia</td><td>288</td><td>288</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dausa </td><td>303</td><td>303</td><td>100.00%</td>
+			</tr><tr>
+				<td>Davanagere</td><td>346</td><td>346</td><td>100.00%</td>
+			</tr><tr>
+				<td>Debagarh</td><td>82</td><td>82</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dehradun</td><td>161</td><td>161</td><td>100.00%</td>
+			</tr><tr>
+				<td>Deoghar</td><td>241</td><td>241</td><td>100.00%</td>
+			</tr><tr>
+				<td>Deoria</td><td>491</td><td>491</td><td>100.00%</td>
+			</tr><tr>
+				<td>Devbhoomi Dawarka</td><td>172</td><td>172</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dewas</td><td>414</td><td>414</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhalai</td><td>80</td><td>80</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhamtari </td><td>216</td><td>216</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhanbad</td><td>305</td><td>305</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhar</td><td>494</td><td>494</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dharmapuri</td><td>356</td><td>356</td><td>99.99%</td>
+			</tr><tr>
+				<td>Dharwad</td><td>224</td><td>224</td><td>99.67%</td>
+			</tr><tr>
+				<td>Dhaulpur</td><td>245</td><td>245</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhemaji</td><td>96</td><td>96</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhenkanal</td><td>265</td><td>265</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhubri</td><td>251</td><td>251</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dhule</td><td>303</td><td>303</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dibang Valley</td><td>1</td><td>1</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dibrugarh</td><td>206</td><td>206</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dima Hasao</td><td>50</td><td>50</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dimapur </td><td>70</td><td>70</td><td>99.60%</td>
+			</tr><tr>
+				<td>Dindigul</td><td>685</td><td>685</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dindori </td><td>175</td><td>175</td><td>100.00%</td>
+			</tr><tr>
+				<td>Diu</td><td>7</td><td>7</td><td>100.00%</td>
+			</tr><tr>
+				<td>Doda</td><td>24</td><td>24</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dohad  </td><td>276</td><td>276</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dumka</td><td>254</td><td>254</td><td>100.00%</td>
+			</tr><tr>
+				<td>Dungarpur </td><td>293</td><td>293</td><td>100.00%</td>
+			</tr><tr>
+				<td>Durg</td><td>330</td><td>330</td><td>99.59%</td>
+			</tr><tr>
+				<td>East</td><td>26</td><td>26</td><td>100.00%</td>
+			</tr><tr>
+				<td>East District</td><td>69</td><td>69</td><td>100.00%</td>
+			</tr><tr>
+				<td>East Garo Hills</td><td>54</td><td>54</td><td>100.00%</td>
+			</tr><tr>
+				<td>East Godavari</td><td>1016</td><td>1016</td><td>100.00%</td>
+			</tr><tr>
+				<td>East Jaintia Hills</td><td>11</td><td>11</td><td>100.00%</td>
+			</tr><tr>
+				<td>East Kameng</td><td>13</td><td>13</td><td>100.00%</td>
+			</tr><tr>
+				<td>East Khasi Hills</td><td>152</td><td>152</td><td>100.00%</td>
+			</tr><tr>
+				<td>East Nimar</td><td>331</td><td>331</td><td>100.00%</td>
+			</tr><tr>
+				<td>East Siang</td><td>32</td><td>32</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ernakulam</td><td>628</td><td>628</td><td>100.00%</td>
+			</tr><tr>
+				<td>Erode</td><td>1000</td><td>1000</td><td>100.00%</td>
+			</tr><tr>
+				<td>Etah</td><td>431</td><td>431</td><td>100.00%</td>
+			</tr><tr>
+				<td>Etawah</td><td>281</td><td>281</td><td>100.00%</td>
+			</tr><tr>
+				<td>Faizabad</td><td>597</td><td>597</td><td>100.00%</td>
+			</tr><tr>
+				<td>Faridabad</td><td>96</td><td>96</td><td>100.00%</td>
+			</tr><tr>
+				<td>Faridkot</td><td>147</td><td>147</td><td>100.00%</td>
+			</tr><tr>
+				<td>Farrukhabad</td><td>441</td><td>441</td><td>100.00%</td>
+			</tr><tr>
+				<td>Fatehabad</td><td>364</td><td>364</td><td>100.00%</td>
+			</tr><tr>
+				<td>Fatehgarh Sahib</td><td>185</td><td>185</td><td>100.00%</td>
+			</tr><tr>
+				<td>Fatehpur</td><td>469</td><td>469</td><td>100.00%</td>
+			</tr><tr>
+				<td>Fazilka</td><td>235</td><td>235</td><td>100.00%</td>
+			</tr><tr>
+				<td>Firozabad</td><td>412</td><td>412</td><td>100.00%</td>
+			</tr><tr>
+				<td>Firozpur</td><td>281</td><td>281</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gadag</td><td>320</td><td>320</td><td>99.80%</td>
+			</tr><tr>
+				<td>Gadchiroli</td><td>239</td><td>239</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gajapati</td><td>139</td><td>139</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ganderbal</td><td>11</td><td>11</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gandhinagar</td><td>283</td><td>283</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ganganagar </td><td>494</td><td>494</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ganjam</td><td>739</td><td>739</td><td>100.00%</td>
+			</tr><tr>
+				<td>Garhwa </td><td>187</td><td>187</td><td>100.00%</td>
+			</tr><tr>
+				<td>Garhwal</td><td>324</td><td>324</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gariyaband</td><td>151</td><td>151</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gautam Buddha Nagar</td><td>392</td><td>392</td><td>99.97%</td>
+			</tr><tr>
+				<td>Gaya</td><td>430</td><td>430</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ghaziabad</td><td>359</td><td>359</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ghazipur</td><td>397</td><td>397</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gir Somnath</td><td>192</td><td>192</td><td>100.00%</td>
+			</tr><tr>
+				<td>Giridih</td><td>312</td><td>312</td><td>100.00%</td>
+			</tr><tr>
+				<td>Goalpara</td><td>211</td><td>211</td><td>100.00%</td>
+			</tr><tr>
+				<td>Godda</td><td>216</td><td>216</td><td>100.00%</td>
+			</tr><tr>
+				<td>Golaghat</td><td>181</td><td>181</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gomati</td><td>80</td><td>80</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gonda</td><td>437</td><td>437</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gondiya</td><td>322</td><td>322</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gopalganj</td><td>487</td><td>487</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gorakhpur</td><td>1251</td><td>1251</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gulbarga</td><td>472</td><td>472</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gumla</td><td>171</td><td>171</td><td>100.00%</td>
+			</tr><tr>
+				<td>Guna</td><td>260</td><td>260</td><td>100.00%</td>
+			</tr><tr>
+				<td>Guntur</td><td>1246</td><td>1246</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gurdaspur</td><td>478</td><td>478</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gurgaon</td><td>183</td><td>183</td><td>100.00%</td>
+			</tr><tr>
+				<td>Gwalior</td><td>423</td><td>423</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hailakandi</td><td>126</td><td>126</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hamirpur</td><td>286</td><td>286</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hamirpur</td><td>234</td><td>234</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hanumangarh </td><td>427</td><td>427</td><td>100.00%</td>
+			</tr><tr>
+				<td>Haora </td><td>554</td><td>554</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hapur</td><td>285</td><td>285</td><td>100.00%</td>
+			</tr><tr>
+				<td>Harda </td><td>262</td><td>262</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hardoi</td><td>693</td><td>693</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hardwar</td><td>213</td><td>213</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hassan</td><td>476</td><td>476</td><td>100.00%</td>
+			</tr><tr>
+				<td>Haveri</td><td>385</td><td>385</td><td>99.83%</td>
+			</tr><tr>
+				<td>Hazaribagh</td><td>250</td><td>250</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hingoli</td><td>125</td><td>125</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hisar</td><td>401</td><td>401</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hoshangabad</td><td>504</td><td>504</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hoshiarpur</td><td>535</td><td>535</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hugli </td><td>919</td><td>919</td><td>100.00%</td>
+			</tr><tr>
+				<td>Hyderabad</td><td>115</td><td>115</td><td>100.00%</td>
+			</tr><tr>
+				<td>Idukki </td><td>204</td><td>204</td><td>100.00%</td>
+			</tr><tr>
+				<td>Imphal East</td><td>74</td><td>74</td><td>100.00%</td>
+			</tr><tr>
+				<td>Imphal West</td><td>120</td><td>120</td><td>100.00%</td>
+			</tr><tr>
+				<td>Indore</td><td>444</td><td>444</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jabalpur</td><td>432</td><td>432</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jagatsinghapur </td><td>243</td><td>243</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jaintia Hills</td><td>57</td><td>57</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jaipur </td><td>786</td><td>786</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jaisalmer</td><td>272</td><td>272</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jajapur  </td><td>306</td><td>306</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jalandhar</td><td>537</td><td>537</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jalaun </td><td>325</td><td>325</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jalgaon</td><td>903</td><td>903</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jalna</td><td>407</td><td>407</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jalor</td><td>347</td><td>347</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jalpaiguri </td><td>373</td><td>373</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jammu</td><td>83</td><td>83</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jamnagar</td><td>202</td><td>202</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jamtara</td><td>129</td><td>129</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jamui</td><td>304</td><td>304</td><td>100.00%</td>
+			</tr><tr>
+				<td>Janjgir - Champa</td><td>486</td><td>486</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jashpur </td><td>181</td><td>181</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jaunpur</td><td>1187</td><td>1187</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jehanabad </td><td>165</td><td>165</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jhabua</td><td>163</td><td>163</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jhajjar</td><td>205</td><td>205</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jhalawar</td><td>374</td><td>374</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jhansi</td><td>269</td><td>269</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jharsuguda</td><td>109</td><td>109</td><td>100.00%</td>
+			</tr><tr>
+				<td>JHUNJHUNU</td><td>532</td><td>532</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jind</td><td>258</td><td>258</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jodhpur</td><td>469</td><td>469</td><td>99.97%</td>
+			</tr><tr>
+				<td>Jodhpur</td><td>469</td><td>469</td><td>99.97%</td>
+			</tr><tr>
+				<td>Jorhat</td><td>187</td><td>187</td><td>99.89%</td>
+			</tr><tr>
+				<td>Junagadh</td><td>280</td><td>280</td><td>100.00%</td>
+			</tr><tr>
+				<td>Jyotiba Phule Nagar</td><td>622</td><td>622</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kabeerdham</td><td>206</td><td>206</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kachchh</td><td>439</td><td>439</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kaimur (Bhabua)</td><td>224</td><td>224</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kaithal</td><td>274</td><td>274</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kalahandi</td><td>289</td><td>289</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kamrup</td><td>310</td><td>310</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kamrup Metropolitan</td><td>138</td><td>138</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kancheepuram</td><td>1047</td><td>1047</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kandhamal</td><td>177</td><td>177</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kangra</td><td>499</td><td>499</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kannauj</td><td>324</td><td>324</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kanniyakumari</td><td>173</td><td>173</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kannur</td><td>365</td><td>365</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kanpur Dehat</td><td>421</td><td>421</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kanpur Nagar</td><td>482</td><td>482</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kanshiram Nagar</td><td>323</td><td>323</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kapurthala </td><td>238</td><td>238</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karaikal</td><td>21</td><td>21</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karauli </td><td>329</td><td>329</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karbi Anglong</td><td>164</td><td>164</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kargil</td><td>11</td><td>11</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karimganj</td><td>179</td><td>179</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karimnagar</td><td>802</td><td>802</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karnal</td><td>349</td><td>349</td><td>100.00%</td>
+			</tr><tr>
+				<td>Karur </td><td>400</td><td>400</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kasaragod</td><td>192</td><td>192</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kathua</td><td>55</td><td>55</td><td>100.00%</td>
+			</tr><tr>
+				<td>Katihar</td><td>485</td><td>485</td><td>100.00%</td>
+			</tr><tr>
+				<td>Katni </td><td>284</td><td>284</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kaushambi</td><td>375</td><td>375</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kendrapara </td><td>260</td><td>260</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kendujhar</td><td>339</td><td>339</td><td>100.00%</td>
+			</tr><tr>
+				<td>Khagaria</td><td>220</td><td>220</td><td>100.00%</td>
+			</tr><tr>
+				<td>Khammam</td><td>606</td><td>606</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kheda</td><td>492</td><td>492</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kheri</td><td>668</td><td>668</td><td>100.00%</td>
+			</tr><tr>
+				<td>Khordha </td><td>315</td><td>315</td><td>100.00%</td>
+			</tr><tr>
+				<td>Khowai</td><td>88</td><td>88</td><td>100.00%</td>
+			</tr><tr>
+				<td>Khunti</td><td>94</td><td>94</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kinnaur</td><td>112</td><td>112</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kiphire</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kishanganj</td><td>293</td><td>293</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kishtwar</td><td>6</td><td>6</td><td>100.00%</td>
+			</tr><tr>
+				<td>Koch Bihar </td><td>519</td><td>519</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kodagu</td><td>178</td><td>178</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kodarma</td><td>113</td><td>113</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kohima</td><td>65</td><td>65</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kokrajhar</td><td>150</td><td>150</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kolar</td><td>356</td><td>356</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kolasib</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kolhapur</td><td>879</td><td>879</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kolkata</td><td>183</td><td>183</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kollam</td><td>432</td><td>432</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kondagaon</td><td>148</td><td>148</td><td>100.00%</td>
+			</tr><tr>
+				<td>Koppal</td><td>369</td><td>369</td><td>99.86%</td>
+			</tr><tr>
+				<td>Koraput</td><td>301</td><td>301</td><td>100.00%</td>
+			</tr><tr>
+				<td>Korba </td><td>222</td><td>222</td><td>100.00%</td>
+			</tr><tr>
+				<td>Koriya</td><td>218</td><td>218</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kota </td><td>312</td><td>312</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kottayam</td><td>377</td><td>377</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kozhikode</td><td>352</td><td>352</td><td>100.00%</td>
+			</tr><tr>
+				<td>Krishna</td><td>892</td><td>892</td><td>100.00%</td>
+			</tr><tr>
+				<td>Krishnagiri</td><td>659</td><td>659</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kulgam</td><td>49</td><td>49</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kullu</td><td>136</td><td>136</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kupwara</td><td>17</td><td>17</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kurnool</td><td>1018</td><td>1018</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kurukshetra</td><td>275</td><td>275</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kurung Kumey</td><td>9</td><td>9</td><td>100.00%</td>
+			</tr><tr>
+				<td>Kushinagar</td><td>546</td><td>546</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lahul &amp; Spiti</td><td>36</td><td>36</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lakhimpur</td><td>132</td><td>132</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lakhisarai</td><td>204</td><td>204</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lakshadweep</td><td>29</td><td>29</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lalitpur</td><td>193</td><td>193</td><td>100.00%</td>
+			</tr><tr>
+				<td>Latehar</td><td>132</td><td>132</td><td>100.00%</td>
+			</tr><tr>
+				<td>Latur</td><td>439</td><td>439</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lawngtlai</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>Leh(Ladakh)</td><td>15</td><td>15</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lohardaga</td><td>93</td><td>93</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lohit</td><td>9</td><td>9</td><td>100.00%</td>
+			</tr><tr>
+				<td>Longding</td><td>7</td><td>7</td><td>100.00%</td>
+			</tr><tr>
+				<td>Longleng</td><td>16</td><td>16</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lower Dibang Valley</td><td>9</td><td>9</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lower Subansiri</td><td>10</td><td>10</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lucknow</td><td>432</td><td>432</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ludhiana</td><td>590</td><td>590</td><td>100.00%</td>
+			</tr><tr>
+				<td>Lunglei</td><td>39</td><td>39</td><td>100.00%</td>
+			</tr><tr>
+				<td>Madhepura</td><td>345</td><td>345</td><td>100.00%</td>
+			</tr><tr>
+				<td>Madhubani</td><td>598</td><td>598</td><td>100.00%</td>
+			</tr><tr>
+				<td>Madurai</td><td>606</td><td>606</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahamaya Nagar</td><td>275</td><td>275</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahasamund</td><td>277</td><td>277</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahbubnagar</td><td>933</td><td>933</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahe</td><td>7</td><td>7</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahendragarh</td><td>203</td><td>203</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahesana</td><td>432</td><td>432</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahisagar</td><td>209</td><td>209</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahoba</td><td>220</td><td>220</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mahrajganj</td><td>868</td><td>868</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mainpuri</td><td>247</td><td>247</td><td>100.00%</td>
+			</tr><tr>
+				<td>Malappuram</td><td>612</td><td>612</td><td>100.00%</td>
+			</tr><tr>
+				<td>Maldah </td><td>629</td><td>629</td><td>100.00%</td>
+			</tr><tr>
+				<td>Malkangiri  </td><td>132</td><td>132</td><td>87.74%</td>
+			</tr><tr>
+				<td>Mamit</td><td>16</td><td>16</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mandi</td><td>196</td><td>196</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mandla</td><td>268</td><td>268</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mandsaur</td><td>358</td><td>358</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mandya</td><td>444</td><td>444</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mansa</td><td>178</td><td>178</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mathura</td><td>582</td><td>582</td><td>99.83%</td>
+			</tr><tr>
+				<td>Mau</td><td>331</td><td>331</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mayurbhanj</td><td>468</td><td>468</td><td>100.00%</td>
+			</tr><tr>
+				<td>Medak</td><td>685</td><td>685</td><td>100.00%</td>
+			</tr><tr>
+				<td>Meerut</td><td>516</td><td>516</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mewat </td><td>246</td><td>246</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mirzapur</td><td>361</td><td>361</td><td>100.00%</td>
+			</tr><tr>
+				<td>Moga</td><td>251</td><td>251</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mokokchung</td><td>46</td><td>46</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mon</td><td>47</td><td>47</td><td>100.00%</td>
+			</tr><tr>
+				<td>Moradabad</td><td>1100</td><td>1100</td><td>100.00%</td>
+			</tr><tr>
+				<td>Morbi</td><td>186</td><td>186</td><td>100.00%</td>
+			</tr><tr>
+				<td>Morena</td><td>454</td><td>454</td><td>100.00%</td>
+			</tr><tr>
+				<td>Morigaon</td><td>99</td><td>99</td><td>99.43%</td>
+			</tr><tr>
+				<td>Muktsar</td><td>216</td><td>216</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mumbai</td><td>41</td><td>40</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mumbai Suburban</td><td>39</td><td>36</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mungeli</td><td>164</td><td>164</td><td>100.00%</td>
+			</tr><tr>
+				<td>Munger</td><td>203</td><td>203</td><td>100.00%</td>
+			</tr><tr>
+				<td>Murshidabad </td><td>1084</td><td>1084</td><td>100.00%</td>
+			</tr><tr>
+				<td>Muzaffarnagar</td><td>487</td><td>487</td><td>100.00%</td>
+			</tr><tr>
+				<td>Muzaffarpur</td><td>805</td><td>805</td><td>100.00%</td>
+			</tr><tr>
+				<td>Mysore</td><td>434</td><td>434</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nabarangapur </td><td>207</td><td>207</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nadia </td><td>745</td><td>745</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nagaon</td><td>437</td><td>437</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nagapattinam  </td><td>410</td><td>410</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nagaur</td><td>763</td><td>763</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nagpur</td><td>600</td><td>600</td><td>100.00%</td>
+			</tr><tr>
+				<td>Naharlagun</td><td>0</td><td>0</td><td>0.00%</td>
+			</tr><tr>
+				<td>Nainital</td><td>259</td><td>259</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nalanda</td><td>325</td><td>325</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nalbari</td><td>196</td><td>196</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nalgonda</td><td>818</td><td>818</td><td>100.00%</td>
+			</tr><tr>
+				<td>Namakkal   </td><td>500</td><td>500</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nanded</td><td>615</td><td>615</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nandurbar</td><td>354</td><td>354</td><td>100.00%</td>
+			</tr><tr>
+				<td>Narayanpur</td><td>82</td><td>71</td><td>100.00%</td>
+			</tr><tr>
+				<td>Narmada</td><td>173</td><td>173</td><td>100.00%</td>
+			</tr><tr>
+				<td>Narsimhapur</td><td>249</td><td>249</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nashik</td><td>1057</td><td>1057</td><td>100.00%</td>
+			</tr><tr>
+				<td>Navsari  </td><td>276</td><td>276</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nawada</td><td>243</td><td>243</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nayagarh  </td><td>203</td><td>203</td><td>100.00%</td>
+			</tr><tr>
+				<td>Neemuch </td><td>263</td><td>263</td><td>100.00%</td>
+			</tr><tr>
+				<td>New Delhi</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nicobars</td><td>4</td><td>4</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nizamabad</td><td>509</td><td>509</td><td>100.00%</td>
+			</tr><tr>
+				<td>North</td><td>14</td><td>14</td><td>100.00%</td>
+			</tr><tr>
+				<td>North  &amp; Middle Andaman</td><td>17</td><td>17</td><td>100.00%</td>
+			</tr><tr>
+				<td>North  District</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>North East</td><td>18</td><td>18</td><td>100.00%</td>
+			</tr><tr>
+				<td>North Garo Hills</td><td>21</td><td>21</td><td>100.00%</td>
+			</tr><tr>
+				<td>North Goa</td><td>222</td><td>222</td><td>100.00%</td>
+			</tr><tr>
+				<td>North Tripura</td><td>102</td><td>102</td><td>100.00%</td>
+			</tr><tr>
+				<td>North Twenty Four Parganas</td><td>1285</td><td>1285</td><td>100.00%</td>
+			</tr><tr>
+				<td>North West</td><td>40</td><td>40</td><td>100.00%</td>
+			</tr><tr>
+				<td>Nuapada</td><td>166</td><td>166</td><td>100.00%</td>
+			</tr><tr>
+				<td>Osmanabad</td><td>207</td><td>207</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pakur</td><td>139</td><td>139</td><td>100.00%</td>
+			</tr><tr>
+				<td>Palakkad</td><td>459</td><td>459</td><td>100.00%</td>
+			</tr><tr>
+				<td>Palamu</td><td>287</td><td>287</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pali </td><td>504</td><td>504</td><td>100.00%</td>
+			</tr><tr>
+				<td>Palwal </td><td>162</td><td>162</td><td>100.00%</td>
+			</tr><tr>
+				<td>Panch Mahals</td><td>292</td><td>292</td><td>100.00%</td>
+			</tr><tr>
+				<td>Panchkula</td><td>74</td><td>74</td><td>100.00%</td>
+			</tr><tr>
+				<td>Panipat</td><td>153</td><td>153</td><td>100.00%</td>
+			</tr><tr>
+				<td>Panna</td><td>461</td><td>461</td><td>100.00%</td>
+			</tr><tr>
+				<td>Papum Pare</td><td>55</td><td>55</td><td>100.00%</td>
+			</tr><tr>
+				<td>Parbhani</td><td>413</td><td>413</td><td>100.00%</td>
+			</tr><tr>
+				<td>Paschim Medinipur</td><td>1007</td><td>1007</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pashchim Champaran</td><td>504</td><td>504</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pashchimi Singhbhum</td><td>244</td><td>244</td><td>100.00%</td>
+			</tr><tr>
+				<td>Patan  </td><td>347</td><td>347</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pathanamthitta</td><td>269</td><td>269</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pathankot</td><td>160</td><td>160</td><td>100.00%</td>
+			</tr><tr>
+				<td>Patiala</td><td>426</td><td>426</td><td>100.00%</td>
+			</tr><tr>
+				<td>Patna</td><td>482</td><td>482</td><td>100.00%</td>
+			</tr><tr>
+				<td>Perambalur  </td><td>89</td><td>89</td><td>100.00%</td>
+			</tr><tr>
+				<td>Peren</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>Phek</td><td>43</td><td>43</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pilibhit</td><td>439</td><td>439</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pithoragarh</td><td>344</td><td>344</td><td>100.00%</td>
+			</tr><tr>
+				<td>Porbandar </td><td>118</td><td>118</td><td>100.00%</td>
+			</tr><tr>
+				<td>Prakasam</td><td>816</td><td>816</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pratapgarh </td><td>210</td><td>210</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pratapgarh</td><td>363</td><td>363</td><td>100.00%</td>
+			</tr><tr>
+				<td>Puducherry</td><td>144</td><td>144</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pudukkottai</td><td>477</td><td>477</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pulwama</td><td>18</td><td>18</td><td>93.92%</td>
+			</tr><tr>
+				<td>Punch</td><td>14</td><td>14</td><td>100.00%</td>
+			</tr><tr>
+				<td>Pune</td><td>1070</td><td>1070</td><td>100.00%</td>
+			</tr><tr>
+				<td>Purba Champaran</td><td>616</td><td>616</td><td>100.00%</td>
+			</tr><tr>
+				<td>Purba Medinipur</td><td>822</td><td>822</td><td>100.00%</td>
+			</tr><tr>
+				<td>Purbi Singhbhum</td><td>515</td><td>515</td><td>100.00%</td>
+			</tr><tr>
+				<td>Puri</td><td>292</td><td>292</td><td>100.00%</td>
+			</tr><tr>
+				<td>Purnia</td><td>529</td><td>529</td><td>100.00%</td>
+			</tr><tr>
+				<td>Puruliya</td><td>426</td><td>426</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rae Bareli</td><td>448</td><td>448</td><td>100.00%</td>
+			</tr><tr>
+				<td>Raichur</td><td>375</td><td>375</td><td>100.00%</td>
+			</tr><tr>
+				<td>Raigarh</td><td>401</td><td>401</td><td>100.00%</td>
+			</tr><tr>
+				<td>Raigarh</td><td>528</td><td>528</td><td>100.00%</td>
+			</tr><tr>
+				<td>Raipur</td><td>335</td><td>335</td><td>100.00%</td>
+			</tr><tr>
+				<td>Raisen</td><td>448</td><td>448</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rajgarh</td><td>563</td><td>563</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rajkot</td><td>374</td><td>374</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rajnandgaon</td><td>318</td><td>318</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rajouri</td><td>25</td><td>25</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rajsamand</td><td>289</td><td>289</td><td>99.88%</td>
+			</tr><tr>
+				<td>Ramanagara</td><td>268</td><td>268</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ramanathapuram</td><td>512</td><td>512</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ramban</td><td>24</td><td>24</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ramgarh</td><td>133</td><td>133</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rampur</td><td>403</td><td>403</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ranchi</td><td>451</td><td>451</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rangareddy</td><td>442</td><td>442</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ratlam</td><td>473</td><td>473</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ratnagiri</td><td>434</td><td>434</td><td>99.99%</td>
+			</tr><tr>
+				<td>Rayagada  </td><td>215</td><td>215</td><td>100.00%</td>
+			</tr><tr>
+				<td>Reasi</td><td>28</td><td>28</td><td>97.16%</td>
+			</tr><tr>
+				<td>Rewa</td><td>479</td><td>479</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rewari</td><td>207</td><td>207</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ribhoi</td><td>39</td><td>39</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rohtak</td><td>161</td><td>161</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rohtas</td><td>325</td><td>325</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rudraprayag</td><td>125</td><td>125</td><td>100.00%</td>
+			</tr><tr>
+				<td>Rupnagar</td><td>169</td><td>169</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sabar Kantha</td><td>375</td><td>375</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sagar</td><td>567</td><td>567</td><td>100.00%</td>
+			</tr><tr>
+				<td>Saharanpur</td><td>605</td><td>605</td><td>100.00%</td>
+			</tr><tr>
+				<td>Saharsa</td><td>302</td><td>302</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sahibganj</td><td>195</td><td>195</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sahibzada Ajit Singh Nagar</td><td>221</td><td>221</td><td>100.00%</td>
+			</tr><tr>
+				<td>Saiha</td><td>14</td><td>14</td><td>100.00%</td>
+			</tr><tr>
+				<td>Salem</td><td>988</td><td>988</td><td>100.00%</td>
+			</tr><tr>
+				<td>Samastipur</td><td>404</td><td>404</td><td>100.00%</td>
+			</tr><tr>
+				<td>Samba</td><td>42</td><td>42</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sambalpur</td><td>255</td><td>255</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sambhal</td><td>890</td><td>890</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sangli</td><td>508</td><td>508</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sangrur</td><td>463</td><td>463</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sant Kabir Nagar</td><td>359</td><td>359</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sant Ravidas Nagar (Bhadohi)</td><td>369</td><td>369</td><td>100.00%</td>
+			</tr><tr>
+				<td>Saraikela-Kharsawan</td><td>169</td><td>169</td><td>100.00%</td>
+			</tr><tr>
+				<td>Saran</td><td>568</td><td>568</td><td>100.00%</td>
+			</tr><tr>
+				<td>Satara</td><td>618</td><td>618</td><td>100.00%</td>
+			</tr><tr>
+				<td>Satna</td><td>470</td><td>470</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sawai Madhopur </td><td>282</td><td>282</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sehore</td><td>318</td><td>318</td><td>100.00%</td>
+			</tr><tr>
+				<td>Senapati</td><td>65</td><td>65</td><td>100.00%</td>
+			</tr><tr>
+				<td>Seoni</td><td>273</td><td>273</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sepahijala</td><td>106</td><td>106</td><td>100.00%</td>
+			</tr><tr>
+				<td>Serchhip</td><td>7</td><td>7</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shahdara</td><td>19</td><td>19</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shahdol</td><td>248</td><td>248</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shahid Bhagat Singh Nagar </td><td>187</td><td>187</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shahjahanpur</td><td>438</td><td>438</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shajapur</td><td>351</td><td>351</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shamli</td><td>289</td><td>289</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sheikhpura</td><td>88</td><td>88</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sheohar</td><td>109</td><td>109</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sheopur </td><td>259</td><td>259</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shimla</td><td>333</td><td>333</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shimoga</td><td>469</td><td>469</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shivpuri</td><td>307</td><td>307</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shrawasti</td><td>199</td><td>199</td><td>100.00%</td>
+			</tr><tr>
+				<td>Shupiyan</td><td>9</td><td>9</td><td>100.00%</td>
+			</tr><tr>
+				<td>Siddharthnagar</td><td>727</td><td>727</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sidhi</td><td>256</td><td>256</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sikar</td><td>646</td><td>646</td><td>100.00%</td>
+			</tr><tr>
+				<td>Simdega</td><td>103</td><td>103</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sindhudurg</td><td>283</td><td>283</td><td>100.00%</td>
+			</tr><tr>
+				<td>Singrauli</td><td>220</td><td>220</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sirmaur</td><td>198</td><td>198</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sirohi</td><td>267</td><td>267</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sirsa</td><td>311</td><td>311</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sitamarhi</td><td>496</td><td>496</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sitapur</td><td>542</td><td>542</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sivaganga</td><td>565</td><td>565</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sivasagar</td><td>223</td><td>223</td><td>99.97%</td>
+			</tr><tr>
+				<td>Siwan</td><td>458</td><td>458</td><td>100.00%</td>
+			</tr><tr>
+				<td>Solan</td><td>213</td><td>213</td><td>100.00%</td>
+			</tr><tr>
+				<td>Solapur</td><td>678</td><td>678</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sonbhadra</td><td>286</td><td>286</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sonipat</td><td>278</td><td>278</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sonitpur</td><td>242</td><td>242</td><td>100.00%</td>
+			</tr><tr>
+				<td>South</td><td>20</td><td>20</td><td>100.00%</td>
+			</tr><tr>
+				<td>South Andaman</td><td>30</td><td>30</td><td>100.00%</td>
+			</tr><tr>
+				<td>South District</td><td>43</td><td>43</td><td>100.00%</td>
+			</tr><tr>
+				<td>South East Delhi</td><td>24</td><td>24</td><td>100.00%</td>
+			</tr><tr>
+				<td>South Garo Hills</td><td>34</td><td>34</td><td>100.00%</td>
+			</tr><tr>
+				<td>South Goa</td><td>174</td><td>174</td><td>100.00%</td>
+			</tr><tr>
+				<td>South Tripura </td><td>112</td><td>112</td><td>100.00%</td>
+			</tr><tr>
+				<td>South Twenty Four Parganas</td><td>925</td><td>925</td><td>100.00%</td>
+			</tr><tr>
+				<td>South West</td><td>16</td><td>16</td><td>100.00%</td>
+			</tr><tr>
+				<td>South West Garo Hills</td><td>36</td><td>36</td><td>100.00%</td>
+			</tr><tr>
+				<td>South West Khasi Hills</td><td>16</td><td>16</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sri Potti Sriramulu Nellore</td><td>791</td><td>791</td><td>100.00%</td>
+			</tr><tr>
+				<td>Srikakulam</td><td>722</td><td>722</td><td>100.00%</td>
+			</tr><tr>
+				<td>Srinagar</td><td>21</td><td>21</td><td>100.00%</td>
+			</tr><tr>
+				<td>Subarnapur</td><td>112</td><td>112</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sukma</td><td>87</td><td>74</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sultanpur</td><td>297</td><td>297</td><td>100.00%</td>
+			</tr><tr>
+				<td>Sundargarh</td><td>347</td><td>347</td><td>100.00%</td>
+			</tr><tr>
+				<td>Supaul</td><td>325</td><td>325</td><td>100.00%</td>
+			</tr><tr>
+				<td>Surajpur</td><td>196</td><td>196</td><td>100.00%</td>
+			</tr><tr>
+				<td>Surat</td><td>451</td><td>451</td><td>100.00%</td>
+			</tr><tr>
+				<td>Surendranagar</td><td>322</td><td>322</td><td>100.00%</td>
+			</tr><tr>
+				<td>Surguja</td><td>214</td><td>214</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tamenglong </td><td>19</td><td>19</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tapi</td><td>205</td><td>205</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tarn Taran</td><td>278</td><td>278</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tawang</td><td>11</td><td>11</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tehri Garhwal</td><td>229</td><td>229</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thane</td><td>923</td><td>923</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thanjavur</td><td>1080</td><td>1080</td><td>100.00%</td>
+			</tr><tr>
+				<td>The Dangs</td><td>104</td><td>104</td><td>100.00%</td>
+			</tr><tr>
+				<td>The Nilgiris</td><td>169</td><td>169</td><td>100.00%</td>
+			</tr><tr>
+				<td>Theni  </td><td>358</td><td>358</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thiruvallur</td><td>822</td><td>822</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thiruvananthapuram</td><td>591</td><td>591</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thiruvarur</td><td>493</td><td>493</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thoothukkudi</td><td>534</td><td>534</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thoubal</td><td>120</td><td>120</td><td>100.00%</td>
+			</tr><tr>
+				<td>Thrissur</td><td>521</td><td>521</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tikamgarh</td><td>675</td><td>675</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tinsukia</td><td>172</td><td>172</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tirap</td><td>4</td><td>4</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tiruchirappalli</td><td>502</td><td>502</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tirunelveli </td><td>1083</td><td>1083</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tiruppur</td><td>625</td><td>625</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tiruvannamalai</td><td>850</td><td>850</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tonk </td><td>367</td><td>367</td><td>99.83%</td>
+			</tr><tr>
+				<td>Tuensang</td><td>30</td><td>30</td><td>100.00%</td>
+			</tr><tr>
+				<td>Tumkur</td><td>518</td><td>518</td><td>100.00%</td>
+			</tr><tr>
+				<td>Udaipur</td><td>591</td><td>591</td><td>100.00%</td>
+			</tr><tr>
+				<td>Udalguri</td><td>112</td><td>112</td><td>100.00%</td>
+			</tr><tr>
+				<td>Udham Singh Nagar</td><td>332</td><td>332</td><td>100.00%</td>
+			</tr><tr>
+				<td>Udhampur</td><td>62</td><td>62</td><td>100.00%</td>
+			</tr><tr>
+				<td>Udupi</td><td>282</td><td>282</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ujjain</td><td>512</td><td>512</td><td>100.00%</td>
+			</tr><tr>
+				<td>Ukhrul</td><td>27</td><td>27</td><td>100.00%</td>
+			</tr><tr>
+				<td>Umaria</td><td>239</td><td>239</td><td>100.00%</td>
+			</tr><tr>
+				<td>Una</td><td>215</td><td>215</td><td>100.00%</td>
+			</tr><tr>
+				<td>Unakoti</td><td>61</td><td>61</td><td>100.00%</td>
+			</tr><tr>
+				<td>Unnao</td><td>586</td><td>586</td><td>100.00%</td>
+			</tr><tr>
+				<td>Upper Siang</td><td>5</td><td>5</td><td>100.00%</td>
+			</tr><tr>
+				<td>Upper Subansiri</td><td>9</td><td>9</td><td>100.00%</td>
+			</tr><tr>
+				<td>Uttar Bastar Kanker</td><td>197</td><td>197</td><td>100.00%</td>
+			</tr><tr>
+				<td>Uttar Dinajpur</td><td>526</td><td>526</td><td>100.00%</td>
+			</tr><tr>
+				<td>Uttara Kannada</td><td>649</td><td>649</td><td>100.00%</td>
+			</tr><tr>
+				<td>Uttarkashi</td><td>130</td><td>130</td><td>100.00%</td>
+			</tr><tr>
+				<td>Vadodara</td><td>309</td><td>309</td><td>100.00%</td>
+			</tr><tr>
+				<td>Vaishali</td><td>410</td><td>410</td><td>100.00%</td>
+			</tr><tr>
+				<td>Valsad</td><td>275</td><td>275</td><td>100.00%</td>
+			</tr><tr>
+				<td>Varanasi</td><td>882</td><td>882</td><td>100.00%</td>
+			</tr><tr>
+				<td>Vellore</td><td>968</td><td>968</td><td>100.00%</td>
+			</tr><tr>
+				<td>Vidisha</td><td>312</td><td>312</td><td>100.00%</td>
+			</tr><tr>
+				<td>Viluppuram</td><td>1121</td><td>1121</td><td>100.00%</td>
+			</tr><tr>
+				<td>Virudhunagar</td><td>595</td><td>595</td><td>100.00%</td>
+			</tr><tr>
+				<td>Visakhapatnam</td><td>765</td><td>765</td><td>100.00%</td>
+			</tr><tr>
+				<td>Vizianagaram</td><td>562</td><td>562</td><td>99.99%</td>
+			</tr><tr>
+				<td>Warangal</td><td>720</td><td>720</td><td>100.00%</td>
+			</tr><tr>
+				<td>Wardha</td><td>403</td><td>403</td><td>100.00%</td>
+			</tr><tr>
+				<td>Washim</td><td>311</td><td>311</td><td>100.00%</td>
+			</tr><tr>
+				<td>Wayanad</td><td>142</td><td>142</td><td>100.00%</td>
+			</tr><tr>
+				<td>West</td><td>44</td><td>44</td><td>100.00%</td>
+			</tr><tr>
+				<td>West District</td><td>43</td><td>43</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Garo Hills</td><td>58</td><td>58</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Godavari</td><td>799</td><td>799</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Kameng</td><td>19</td><td>19</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Khasi Hills</td><td>61</td><td>61</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Nimar</td><td>351</td><td>351</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Siang</td><td>23</td><td>23</td><td>100.00%</td>
+			</tr><tr>
+				<td>West Tripura </td><td>138</td><td>138</td><td>100.00%</td>
+			</tr><tr>
+				<td>Wokha</td><td>30</td><td>30</td><td>100.00%</td>
+			</tr><tr>
+				<td>Y.S.R.</td><td>659</td><td>659</td><td>100.00%</td>
+			</tr><tr>
+				<td>Yadgir</td><td>224</td><td>224</td><td>100.00%</td>
+			</tr><tr>
+				<td>Yamunanagar</td><td>188</td><td>188</td><td>100.00%</td>
+			</tr><tr>
+				<td>Yanam</td><td>5</td><td>5</td><td>100.00%</td>
+			</tr><tr>
+				<td>Yavatmal</td><td>788</td><td>788</td><td>100.00%</td>
+			</tr><tr>
+				<td>Zunheboto</td><td>26</td><td>26</td><td>100.00%</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+            </div>
+            
+        </p>
+
+        
+    </div>
+    
+
+    <script type="text/javascript">
+        $(function () {
+            $("[id*=btnStatewise]").click(function () {
+                $("[id*=hfGridHtml]").val($("#Grid").html());
+            });
+        });
+    </script>
+
+
+                    </div>
+
+
+
+
+
+
+                    <h3 class="tollfree">
+                        <p>National Toll Free:-</p>
+                        <a href="tel:1800 11 0001">1800 11 0001</a>
+                        <a href="tel:1800 180 1111">1800 180 1111</a>
+
+                    </h3>
+                    <div class="tollfree">
+                        <ul>
+                            <li><a href="terms">Terms of Use</a>  </li>
+                            <li><a href="accessibility">Accessibility Options</a>  </li>
+                            <li><a href="privacy">Privacy Policy</a>  </li>
+                            <li><a href="disclaimer">Disclaimer</a>  </li>
+                            <li><a href="accessibility-statement">Accessibility Statement</a>  </li>
+                            <li><a href="copyright">Copyright Policy</a>  </li>
+                            <li><a href="hyperlink">Hyperlink Policy</a>  </li>
+                            <li><a href="https://pmjdy.gov.in/bank/user_feedback.aspx" target="_blank">Feedback</a></li>
+
+
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <div class="copy-rights text-center" style="margin-top: 0PX;">
+<!--<p style="color:#fff;">Visitor Count : 
+ 
+<a href="#"><img src="https://hitwebcounter.com/counter/counter.php?page=7197050&style=0006&nbdigits=4&type=page&initCount=5000" title="User Stats" Alt="webcounterwebsite"   border="0" style="width:auto; height:20px;"> </a> </p>-->
+                                       <p>@ Content on this website is managed and owned by Mission Office, Deartment of Financial Services, Ministry of Finance, Government of India.</p>
+                    <p>Powered by Mission Office, Department of Financial Services</p>
+                </div>
+
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        /*
+                        var defaults = {
+                            containerID: 'toTop', // fading element id
+                            containerHoverID: 'toTopHover', // fading element hover id
+                            scrollSpeed: 1200,
+                            easingType: 'linear' 
+                        };
+                        */
+
+                        $().UItoTop({ easingType: 'easeOutQuart' });
+
+                    });
+                </script>
+                <a href="#HD" title="GO TO TOP" class="scroll" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+   
+            </div>
+
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ToolkitScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#acntop").click(function () {
+
+                $(".acntop").fadeToggle();
+                $('[id*=gridstateacnt]').footable();
+            });
+
+
+
+            $("#hhld").click(function () {
+                $(".hhld").fadeToggle();
+                $('[id*=grdhhstate]').footable();
+            });
+
+
+            $("#hhldd").click(function () {
+                $(".hhldd").fadeToggle();
+                $('[id*=grdhhdistrict]').footable();
+            });
+
+            //Click event for google search
+            $('#btngsearch').click(function () {
+                var search_text = document.getElementById("txtGoogleSearch").value;
+                window.location.href = 'web-search.aspx?q=' + search_text;
+                return false;
+            }); 0
+
+            // Reset font-size
+            var defaultsize = $('#zoomcontent').css('font-size');
+
+            $(".reset").click(function () {
+                $('#zoomcontent').find('*').css('font-size', defaultsize);
+
+                return false;
+            });
+
+
+            // Increase font-size
+            $(".increase").click(function () {
+                var currentfontsize = $('#zoomcontent').css('font-size');
+
+                var incfontsize = parseFloat(currentfontsize, 10);
+
+                var newsize = incfontsize * 1.01;
+
+                $('#zoomcontent').find('*').css('font-size', newsize);
+
+                return false;
+            });
+
+
+            // Decrease font-size
+            $(".decrease").click(function () {
+                var currentfontsize = $('#zoomcontent').css('font-size');
+
+                var decfontsize = parseFloat(currentfontsize, 10);
+
+                var newsize = decfontsize * 0.8;
+
+                $('#zoomcontent').find('*').css('font-size', newsize);
+
+                return false;
+            });
+        });
+    </script>
+               <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/0.1.0/css/footable.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/0.1.0/js/footable.min.js"></script>
+    <link href="DGrid/grid.css" rel="stylesheet" />
+    <script src="DGrid/first.js"></script>
+</body>
+</html>

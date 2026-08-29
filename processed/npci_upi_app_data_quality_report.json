@@ -1,0 +1,45 @@
+{
+  "source": "Official NPCI UPI Ecosystem Statistics; locally accessed through a public reference snapshot after validation.",
+  "official_source_url": "https://www.npci.org.in/product/ecosystem-statistics/upi",
+  "reference_repository": "https://github.com/luckisalive/npci_upi_analytics",
+  "reference_commit": "5c007daef0b69f30dd8e555c548ba6f3bd85c43f",
+  "rows_written": 3766,
+  "months": 51,
+  "coverage": {
+    "first_month": "2022-01-01",
+    "last_month": "2026-04-01"
+  },
+  "missing_calendar_months_within_range": [
+    "2026-03-01"
+  ],
+  "distinct_app_names": 223,
+  "missing_measure_cells_preserved_as_blank": {
+    "customer_initiated_volume_mn": 1,
+    "customer_initiated_value_crore": 5,
+    "b2c_volume_mn": 117,
+    "b2c_value_crore": 114,
+    "b2b_volume_mn": 116,
+    "b2b_value_crore": 103,
+    "total_volume_mn": 0,
+    "total_value_crore": 6
+  },
+  "official_browser_validation": {
+    "month": "2025-07-01",
+    "apps": {
+      "PhonePe": [
+        8931.24,
+        1220140.68
+      ],
+      "Google Pay": [
+        6922.92,
+        891297.38
+      ],
+      "Paytm": [
+        1366.05,
+        143650.62
+      ]
+    },
+    "result": "matched official NPCI app table"
+  },
+  "interpretation_note": "App rows are national monthly totals. App volume follows NPCI payer-app attribution and is not state-level app usage."
+}
