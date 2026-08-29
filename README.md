@@ -1,3 +1,7 @@
+## Live dashboard
+
+[Open the interactive dashboard](https://varun-bhai.github.io/upi-cash-context-india/dashboard_site/)
+
 # UPI Growth, PhonePe Payment Mix, and Cash-Access Trends in India
 
 ## The project in one sentence
